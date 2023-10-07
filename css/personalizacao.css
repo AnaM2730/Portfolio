@@ -6,28 +6,35 @@
 body{
     background-color: black;
 }
-
+/* BOTÕES */
 .right{
     display: inline-block;
-    margin-left: 1450px;
+    margin-left: 1300px;
     margin-top: 20px;
 }
 
 .right button{ 
     background-color: #D9D9D9;
     font-size: 15px;
+    font-size: 20px;
     border-radius: 25px;
+    width: 150px;
+    height: 45px;
 }
 
 .right-button{
-    display: inline-block;
+    display: inline;
+    margin-left: 30px;
 }
 
 .right-button button{
     margin-left: 5px;
     background-color: #D9D9D9;
     font-size: 15px;
+    height: 45px;
+    width: 150px;
     border-radius: 25px;
+    font-size: 20px;
 }
 
 
@@ -58,9 +65,36 @@ body{
 .right-text p{
     float: right;
     color: white;
-    width: 360px;
-    clear: both;
     font-size: 25px;
-    margin: 20px 0px 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:  750px;
+    text-align: justify;
+    margin: -350px 190px 28px;
+}
 
+
+/* SOBRE MIM */
+
+.center-sobre p{
+    color: white;
+    font-family: 'fonte1';
+    font-size: 100px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-sobre p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:  900px;
+    text-align: justify;
+    margin: -320px 390px 28px;
 }
