@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'fonte1';
+    src: url(../font/KaushanScript-Regular.ttf);
+}
+
 body{
     background-color: black;
 }
@@ -25,6 +30,37 @@ body{
     border-radius: 25px;
 }
 
-.titulo p{
+
+/* CAIXA DE FUNDO */
+.caixa-fundo{
+    background: #D9D9D9;
+    height: 500px;
+    width: 500px;
+    float: left;
+    margin-left: 90px; 
+    z-index: 1;
+    margin-top: 70px;
+}
+.caixa-fundo p{ /* PORTFOLIO */
     color: white;
+    margin-top: -100px;
+    font-size: 150px;
+    font-family: 'fonte1';
+}
+
+.capa img{
+    margin-left: -500px;
+    margin-top: 270px;
+    z-index: 14;
+}
+
+
+.right-text p{
+    float: right;
+    color: white;
+    width: 360px;
+    clear: both;
+    font-size: 25px;
+    margin: 20px 0px 28px;
+
 }
