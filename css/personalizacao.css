@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 @font-face {
     font-family: 'fonte1';
     src: url(../font/KaushanScript-Regular.ttf);
@@ -204,10 +206,174 @@ body{
     font-size: 70px;
 }
   
+/* HR */
+
+hr {
+    margin-top: 170px;
+}
 
 
-/* BTN - SOCIAL */
+/* BTN - SOCIAL / GITHUB*/
+.btn-social {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    /* overflow: hidden; */
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-left: 620px;
+    margin-top: -190px;
+  }
 
+  .btn-social2 {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    /* overflow: hidden; */
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-left: 620px;
+    margin-top: -130px;
+  }
+
+
+  .btn-social3{
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-left: 620px;
+    margin-top: -120px;
+  }
+  
+  .svgContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    backdrop-filter: blur(0px);
+    letter-spacing: 0.8px;
+    border-radius: 10px;
+    transition: all .3s;
+    border: 1px solid rgba(156, 156, 156, 0.466);
+  }
+  .svgContainer2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    backdrop-filter: blur(0px);
+    letter-spacing: 0.8px;
+    border-radius: 10px;
+    transition: all .3s;
+    border: 1px solid rgba(156, 156, 156, 0.466);
+  }
+
+  .svgContainer3 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    backdrop-filter: blur(0px);
+    letter-spacing: 0.8px;
+    border-radius: 10px;
+    transition: all .3s;
+    border: 1px solid rgba(156, 156, 156, 0.466);
+  }
+  
+  .bg-social {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #181818;
+    z-index: -1;
+    border-radius: 10px;
+    pointer-events: none;
+    transition: all .3s;
+  }
+  
+  .btn-social:hover .bg-social {
+    transform: rotate(35deg);
+    transform-origin: bottom;
+  }
+  
+  .btn-social:hover .svgContainer {
+    background-color: rgba(156, 156, 156, 0.466);
+    backdrop-filter: blur(4px);
+  }
+  .bg-social2 {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #181818;
+    z-index: -1;
+    border-radius: 10px;
+    pointer-events: none;
+    transition: all .3s;
+  }
+  
+  .btn-social2:hover .bg-social2 {
+    transform: rotate(35deg);
+    transform-origin: bottom;
+  }
+  
+  .btn-social2:hover .svgContainer2 {
+    background-color: rgba(156, 156, 156, 0.466);
+    backdrop-filter: blur(4px);
+  }
+  
+  .bg-social3 {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #181818;
+    z-index: -1;
+    border-radius: 10px;
+    pointer-events: none;
+    transition: all .3s;
+  }
+  
+  .btn-social3:hover .bg-social3 {
+    transform: rotate(35deg);
+    transform-origin: bottom;
+  }
+  
+  .btn-social3:hover .svgContainer3 {
+    background-color: rgba(156, 156, 156, 0.466);
+    backdrop-filter: blur(4px);
+  }
+
+
+
+  
 /* VOLTAR
  button {
  display: flex;
