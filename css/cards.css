@@ -1,5 +1,8 @@
 /* CARDS */
 
+.cards{
+  margin-bottom: -190px;
+}
 
 .card-proj1{
     position: relative;
@@ -14,7 +17,7 @@
   margin-top: 50px;
   box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   float: left;
-  margin-left: 190px;
+  margin-left: 50px;
 }
 .card-proj1:hover {
     transform: scale(1.1);
@@ -22,7 +25,12 @@
   .card-proj1 {
     transition: transform 0.5s;
   }
-  
+
+  .card-proj1 a{
+  text-decoration: none;
+  z-index: 5;
+  }
+
 .card-proj1 img{
     z-index: 15;
     width: 500px;
@@ -55,7 +63,7 @@
   align-items: center;
   justify-content: center;
   box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
-  margin-right: 190px;
+  margin-right: 110px;
   margin-top: 50px;
   float: right;
 }
@@ -66,6 +74,11 @@
     transition: transform 0.5s;
   }
   
+  .card-proj2 a{
+    text-decoration: none;
+    z-index: 5;
+    }
+
 .card-proj2 img{
     z-index: 15;
     width: 500px;
@@ -84,7 +97,7 @@
   align-items: center;
   justify-content: center;
   box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
-  margin-left: 190px;
+  margin-left: 50px;
   margin-top: 80px;
   float: left;
 }
@@ -95,6 +108,11 @@
     transition: transform 0.5s;
   }
   
+  .card-proj3 a{
+    text-decoration: none;
+    z-index: 5;
+    }
+
 .card-proj3 img{
     z-index: 15;
     width: 500px;
@@ -113,7 +131,7 @@
   align-items: center;
   justify-content: center;
   box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
-  margin-right: 180px;
+  margin-right: 100px;
   margin-top: 80px;
   float: right;
 }
@@ -124,6 +142,11 @@
     transition: transform 0.5s;
   }
   
+  .card-proj4 a{
+    text-decoration: none;
+    z-index: 5;
+    }
+
 .card-proj4 img{
     z-index: 15;
     width: 500px;
@@ -142,7 +165,7 @@
   align-items: center;
   justify-content: center;
   box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
-  margin-left: 190px;
+  margin-left: 50px;
   margin-top: 80px;
   float: left;
 }
@@ -152,7 +175,10 @@
   .card-proj5 {
     transition: transform 0.5s;
   }
-  
+  .card-proj5 a{
+    text-decoration: none;
+    z-index: 5;
+    }
 .card-proj5 img{
     z-index: 15;
     width: 500px;
@@ -171,7 +197,7 @@
   align-items: center;
   justify-content: center;
   box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
-  margin-right: 180px;
+  margin-right: 90px;
   margin-top: 80px;
   float: right;
 }
@@ -181,6 +207,11 @@
   .card-proj6 {
     transition: transform 0.5s;
   }
+
+  .card-proj6 a{
+    text-decoration: none;
+    z-index: 5;
+    }
   
 .card-proj6 img{
     z-index: 15;
@@ -200,7 +231,7 @@
   align-items: center;
   justify-content: center;
   box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
-  margin-left: 190px;
+  margin-left: 50px;
   margin-top: 80px;
   float: left;
 }
@@ -210,6 +241,11 @@
   .card-proj7 {
     transition: transform 0.5s;
   }
+
+  .card-proj7 a{
+    text-decoration: none;
+    z-index: 5;
+    }
   
 .card-proj7 img{
     z-index: 15;
@@ -229,7 +265,7 @@
   align-items: center;
   justify-content: center;
   box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
-  margin-right: 180px;
+  margin-right: 90px;
   margin-top: 80px;
   float: right;
 }
@@ -239,6 +275,11 @@
   .card-proj8 {
     transition: transform 0.5s;
   }
+
+  .card-proj8 a{
+    text-decoration: none;
+    z-index: 5;
+    }
   
 .card-proj8 img{
     z-index: 15;
@@ -258,7 +299,7 @@
   align-items: center;
   justify-content: center;
   box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
-  margin-left: 190px;
+  margin-left: 50px;
   margin-top: 80px;
   float: left;
 }
@@ -268,6 +309,11 @@
   .card-proj9 {
     transition: transform 0.5s;
   }
+  
+  .card-proj9 a{
+    text-decoration: none;
+    z-index: 5;
+    }
   
 .card-proj9 img{
     z-index: 15;
@@ -287,9 +333,9 @@
   align-items: center;
   justify-content: center;
   box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
-  margin-left: 190px;
+  margin-right: 90px;
   margin-top: 80px;
-  float: left;
+  float: right;
 }
 .card-proj10:hover {
     transform: scale(1.1);
@@ -297,7 +343,12 @@
   .card-proj10 {
     transition: transform 0.5s;
   }
-  
+
+  .card-proj10 a{
+    text-decoration: none;
+    z-index: 5;
+    }
+
 .card-proj10 img{
     z-index: 15;
     width: 500px;

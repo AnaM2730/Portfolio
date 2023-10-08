@@ -162,27 +162,7 @@ body{
     margin: -320px 390px 28px;
 }
 
-.center-projetos P{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 100px;
-    font-family: 'fonte1';
-    color: white;
-}
 
-.center-projetos span{
-    font-size: 25px;
-    font-family: 'fonte1';
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    z-index: 1;
-    margin-top: -140px;
-    margin-left: 610px;
-}
 
 
 
