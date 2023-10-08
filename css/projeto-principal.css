@@ -4,9 +4,17 @@
     font-family: 'fonte1';
     src: url(../font/KaushanScript-Regular.ttf);
 }
+
+@font-face {
+    font-family: 'fonte2';
+    src: url(../font/Judson-Regular.ttf);
+}
+
 body{
-    background-color: 
-    black;
+    margin: 0;
+    background-color: var(--color-white);
+    color: white;
+    overflow: hidden;
 }
 
 /* BOTÕES */
@@ -109,13 +117,13 @@ body{
     justify-content: center;
     font-size: 180px;
     font-family: 'fonte1';
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .center-projetos span{
     font-size: 25px;
     font-family: 'fonte1';
-    color: white;
+    color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -123,4 +131,12 @@ body{
     z-index: 1;
     margin-top: -490px;
     margin-left: 1020px;
+}
+
+/* TEXTOS - CARD */
+.text-project1 p{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family: 'fonte2';
+    margin-bottom: -214px;
 }
