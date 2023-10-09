@@ -12,7 +12,7 @@
 
 body{
     margin: 0;
-    background-color: var(--color-white);
+    background-color: white;
     color: white;
     overflow: hidden;
 }
@@ -134,9 +134,15 @@ body{
 }
 
 /* TEXTOS - CARD */
-.text-project1 p{
-    font-size: 25px;
+.text-project1 {
     color: rgb(0, 0, 0);
     font-family: 'fonte2';
-    margin-bottom: -214px;
+    background-color: black;
+    z-index: 15;
+    margin-bottom: -50px;
+}
+
+.cards{
+    display: block;
+    justify-content:  center;
 }
