@@ -5,16 +5,24 @@
     src: url(../font/KaushanScript-Regular.ttf);
 }
 
-body{
-    background-color: black;
+*{
+  margin: 0;
+  padding: 0;
 }
+
+body{
+    background-color: rgb(177, 0, 0);
+}
+
+
+
 /* BOTÕES */
 
-.right button:hover {
+.contato:hover {
     color: black;
    }
 
-.right button:after {
+.contato:after {
     content: "";
     background: white;
     position: absolute;
@@ -27,19 +35,19 @@ body{
     transition: all 0.5s;
    }
    
-   .right button:hover:after {
+   .contato ul li:hover:after {
     transform: skewX(-45deg) scale(1, 1);
     transition: all 0.5s;
     transition: all 0.5s;
    }
    
-.right{
+.contato{
     display: inline-block;
     margin-left: 1300px;
     margin-top: 20px;
 }
 
-.right button{ 
+.contato ul li{ 
     width: 6.5em;
     height: 2.3em;
     margin: 0.5em;
@@ -56,7 +64,7 @@ body{
 }
 
 /* BOTAO 2 */
-.right-button button:after {
+.menu ul li:after {
     content: "";
     background: white;
     position: absolute;
@@ -69,37 +77,43 @@ body{
     transition: all 0.5s;
    }
    
-   .right-button button:hover:after {
+   .menu li:hover:after {
     transform: skewX(-45deg) scale(1, 1);
     transition: all 0.5s;
     transition: all 0.5s;
    }
 
-.right-button  button:hover {
+.menu ul li:hover {
     color: black;
    }
 
-.right-button{
-    display: inline;
-    margin-left: 30px;
+
+/* DROPDOWN */
+
+.menu{
+  display: flex;
+  width: 10px;
+  margin: 2%;
 }
 
-.right-button button{
-    width: 6.5em;
-    height: 2.3em;
-    margin: 0.5em;
-    background: rgb(113, 113, 113);
-    color: white;
-    border: none;
-    border-radius: 0.625em;
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-}
+.menu ul{
+  list-style: none;
+  margin: 2%;
+  margin-left: 840px;
+} 
 
+.menu ul li{
+  background: rgb(113, 113, 113);
+  color: white;
+  border: none;
+  border-radius: 0.625em;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  line-height: 30px;
+  text-align: center;
+  position: relative;
+}
 
 /* CAIXA DE FUNDO */
 .caixa-fundo{
