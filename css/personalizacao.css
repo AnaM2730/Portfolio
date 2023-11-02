@@ -116,6 +116,10 @@ nav li{
     transition: all 0.5s;
    } 
 
+.dropdown-menu a:hover{
+  color: white;
+}
+
    /* CONTATO */
    .talk:after {
     content: "";
