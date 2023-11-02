@@ -34,7 +34,8 @@ nav li a{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 20px;
   text-decoration: none;
-  padding: 15px;
+  padding: 5px; 
+  font-size: 20px;
 }
 
 nav li{
@@ -48,15 +49,19 @@ nav li{
     font-weight: bold;
     cursor: pointer;
     position: relative;
-    z-index: 1;    
+    width: 130px;
+    z-index: 1;  
+    
   }
+  
    .talk{     
     background: #D9D9D9;
     font-weight: bold;
     cursor: pointer;
     position: relative;
     z-index: 1;    
-    width: 130px;
+    width: 140px;
+    height: 60px;
 }  
 
  .contato{
@@ -68,7 +73,6 @@ nav li{
   background: rgb(113, 113, 113);
   border: none;
   border-radius: 0.625em;
-  font-size: 20px;
   font-weight: bold;
   cursor: pointer;
   position: relative;
