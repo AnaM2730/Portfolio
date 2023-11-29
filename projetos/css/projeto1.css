@@ -6,3 +6,32 @@
     box-sizing: border-box;
  }
 
+.slide{
+    height: 100vh;
+    width: 100vw;
+}
+
+.slide:nth-child(1){
+    background-color: lightblue;
+}
+
+.slide:nth-child(2){
+    background-color: lightgrey;
+}
+
+.wrapper{
+    display: flex;
+    width: 200vw;
+    transform: rotate(90deg) translateY(-100vh); /* rolagem horizontal */
+    transform-origin: top left;
+}
+
+.container{
+    height: 100vw;
+    width: 100vh;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    position: absolute;
+    overflow-x: hidden;
+    overflow-y: scroll; /* rolagem horizontal */
+}
