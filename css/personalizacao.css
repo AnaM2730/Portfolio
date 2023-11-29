@@ -95,48 +95,9 @@ nav li{
   display: block;
 }
 
-
-
-.dropdown:after {
-    content: "";
-    background: white;
-    position: absolute;
-    z-index: -1;
-    left: -5%;
-    right: -5%;
-    top: 0;
-    bottom: 0;
-    transform: skewX(-45deg) scale(0, 1);
-    transition: all 0.5s;
-   }
-   
-   .dropdown:hover:after {
-    transform: skewX(-45deg) scale(1, 1);
-    transition: all 0.5s;
-    transition: all 0.5s;
-   } 
-
-   /* CONTATO */
-   .talk:after {
-    content: "";
-    background: white;
-    position: absolute;
-    z-index: -1;
-    left: -20%;
-    right: -20%;
-    top: 0;
-    bottom: 0;
-    transform: skewX(-45deg) scale(0, 1);
-    transition: all 0.5s;
-   }
-   
-   .talk:hover:after {
-    transform: skewX(-45deg) scale(1, 1);
-    transition: all 0.5s;
-    transition: all 0.5s;
-   } 
-
-
+.dropdown-menu a:hover{
+  background-color: white;
+}
 
 
 /* CAIXA DE FUNDO */

@@ -17,97 +17,90 @@ body{
 }
 
 /* BOTÕES */
+/* BOTÕES */
 
-.right button:hover {
-    color: black;
-   }
-
-.right button:after {
-    content: "";
-    background: white;
-    position: absolute;
-    z-index: -1;
-    left: -20%;
-    right: -20%;
-    top: 0;
-    bottom: 0;
-    transform: skewX(-45deg) scale(0, 1);
-    transition: all 0.5s;
-   }
-   
-   .right button:hover:after {
-    transform: skewX(-45deg) scale(1, 1);
-    transition: all 0.5s;
-    transition: all 0.5s;
-   }
-   
-.right{
+nav{
+    background-color: rgb(255, 255, 255);
+    padding-top: 60px;
+    margin-left: 70%;
+  }
+  
+  nav li{
     display: inline-block;
-    margin-left: 920px;
-    margin-top: 20px;
-}
-
-.right button{ 
-    width: 5.5em;
-    height: 2.3em;
-    margin: 0.5em;
-    background: rgb(113, 113, 113);
-    color: white;
-    border: none;
-    border-radius: 65em;
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-}
-
-/* BOTAO 2 */
-.right-button button:after {
-    content: "";
-    background: white;
-    position: absolute;
-    z-index: -1;
-    left: -20%;
-    right: -20%;
-    top: 0;
-    bottom: 0;
-    transform: skewX(-45deg) scale(0, 1);
-    transition: all 0.5s;
-   }
-   
-   .right-button button:hover:after {
-    transform: skewX(-45deg) scale(1, 1);
-    transition: all 0.5s;
-    transition: all 0.5s;
-   }
-
-.right-button  button:hover {
+  }
+  
+  nav li a{
+    display: inline-block;
     color: black;
-   }
-
-.right-button{
-    display: inline;
-    margin-left: 30px;
-}
-
-.right-button button{
-    width: 5.5em;
-    height: 2.3em;
-    margin: 0.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px;
+  }
+  
+  nav li{
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    
+  }
+  
+    .dropdown{     
+      background: #D9D9D9;
+      font-weight: bold;
+      cursor: pointer;
+      position: relative;
+      z-index: 1;    
+    }
+     .talk{     
+      background: #D9D9D9;
+      font-weight: bold;
+      cursor: pointer;
+      position: relative;
+      z-index: 1;    
+  }  
+  
+   .contato{
+    padding-inline-end: 12px;
+    font-weight: bold;
+  } 
+  
+  .dropdown-menu ul li{
     background: rgb(113, 113, 113);
-    color: white;
     border: none;
-    border-radius: 65em;
+    border-radius: 0.625em;
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
     position: relative;
     z-index: 1;
     overflow: hidden;
-}
- 
+  }
+  
+  .dropdown-menu{
+    position: absolute;
+    border: none;
+    display: none;
+    box-shadow: 0 0 2px white;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu a{
+    display: block;
+    color: rgb(0, 0, 0);
+    background-color: #D9D9D9;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .dropdown:hover .dropdown-menu{
+    display: block;
+  }
+  
+  .dropdown-menu a:hover{
+    background-color: white;
+  }
+
+
 .center-projetos P{
     margin-bottom: 390px;
     margin-top: 50px;
