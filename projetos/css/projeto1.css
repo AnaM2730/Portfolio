@@ -43,8 +43,35 @@
 }
  
 ::-webkit-scrollbar{
-    color: red;
+    width: 1em;
+    height: 1em;
 }
+
+::-webkit-scrollbar-track{
+    background: hsl(0, 0%, 0%);
+    border-radius: 100vw;
+    margin-block: .5em;
+}
+
+::-webkit-scrollbar-thumb{
+    background: hsl(0, 0%, 68%);
+    border-radius: 100vw;
+    border: .25em hsl(37 9% 2% / 1);
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: hsl(0, 0%, 88%);
+}
+
+/* SUPORTE EM OUTROS NAVEGADORES */
+@supports (scrollbar-color: white black){
+    *{
+        scrollbar-color:  hsl(0, 0%, 68%) hsl(0, 0%, 0%);
+    }
+}
+
+
+
 
 .camada2{
     background-image: url(../../img/annabella-proj1.png);
