@@ -101,6 +101,12 @@ span{
     margin-left: 140px;
 }
 
+.modelo{
+    margin-left: 10px;
+    padding: 1em;
+    color: white;
+}
+
  h1{
     font-size: 90px;
     color: white;
@@ -121,8 +127,3 @@ h2{
     letter-spacing: 4px;
 }
 
-.slide .link{
-    color: white;
-    margin-top: 90px;
-    z-index: -1;
-}
