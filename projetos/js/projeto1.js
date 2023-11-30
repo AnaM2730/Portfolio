@@ -7,3 +7,5 @@ cont.onscroll = function (){
   layer[0].style.left = X/4 + 'px';
   layer[1].style.left = X/8 + 'px';
 }
+
+

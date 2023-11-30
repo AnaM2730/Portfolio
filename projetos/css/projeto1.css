@@ -30,6 +30,7 @@
     overflow-x: hidden;
     overflow-y: scroll; /* rolagem horizontal */
     scroll-behavior: smooth;
+    background: black;
 }
 
 .camada{
@@ -67,6 +68,7 @@
 @supports (scrollbar-color: white black){
     *{
         scrollbar-color:  hsl(0, 0%, 68%) hsl(0, 0%, 0%);
+        scrollbar-width: auto;
     }
 }
 
@@ -96,6 +98,8 @@ a{
 
 span{
     font-weight: bold;
+    margin-left: 140px;
+    margin-top: 90px;
 }
 
  h1{
