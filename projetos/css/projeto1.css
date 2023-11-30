@@ -43,7 +43,7 @@
 }
  
 ::-webkit-scrollbar{
-    display: none;
+    color: red;
 }
 
 .camada2{
