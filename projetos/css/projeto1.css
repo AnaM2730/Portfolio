@@ -126,3 +126,8 @@ h2{
     letter-spacing: 4px;
 }
 
+.link{
+    color: white;
+    margin-left: 180px;
+    font-weight: bold;
+}
