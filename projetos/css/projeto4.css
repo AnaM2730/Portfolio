@@ -99,22 +99,36 @@
     width: 90%;
     margin-left: 1550px;
     margin-top: -40%;
-    z-index: 3;
+
 }
 
 
 .camada4{
-    background-image: url(../../img/midiaSocial-proj4.png);
+    background-image: url(../../img/notificações.png);
     text-align: center;
     padding-top: 40%;
     border-radius: 10px;
 }
 
 .camada4{
-    width: 90%;
-    margin-left: 1550px;
+    width: 75%;
+    margin-left: 220%;
     margin-top: -40%;
-    z-index: 3;
+
+}
+
+.camada5{
+    background-image: url(../../img/modif-cores.png);
+    text-align: center;
+    padding-top: 40%;
+    border-radius: 10px;
+}
+
+.camada5{
+    width: 110%;
+    margin-left: 320%;
+    margin-top: -40%;
+
 }
 
 a{
