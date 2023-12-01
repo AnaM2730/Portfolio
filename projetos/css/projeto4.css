@@ -76,7 +76,7 @@
 
 
 .camada2{
-    background-image: url(../../img/mario-proj3.png);
+    background-image: url(../../img/midiaSocial-proj4.png);
     text-align: center;
     padding-top: 40%;
     border-radius: 10px;
@@ -89,13 +89,28 @@
 }
 
 .camada3{
-    background-image: url(../../img/mario-proj3.png);
+    background-image: url(../../img/midiaSocial-proj4.png);
     text-align: center;
     padding-top: 40%;
     border-radius: 10px;
 }
 
 .camada3{
+    width: 90%;
+    margin-left: 1550px;
+    margin-top: -40%;
+    z-index: 3;
+}
+
+
+.camada4{
+    background-image: url(../../img/midiaSocial-proj4.png);
+    text-align: center;
+    padding-top: 40%;
+    border-radius: 10px;
+}
+
+.camada4{
     width: 90%;
     margin-left: 1550px;
     margin-top: -40%;
