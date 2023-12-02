@@ -97,7 +97,7 @@
 
 .camada3{
     width: 90%;
-    margin-left: 1550px;
+    margin-left: 120%;
     margin-top: -40%;
 
 }
@@ -117,9 +117,14 @@
 
 }
 
-.camada4 p{
-    color: red;
-    margin-left: 680px;
+.text{
+    color: rgb(255, 255, 255);
+    margin-left: 108%;
+    margin-top: -550px;
+    font-size: 1.5em;
+    font-weight: bold;
+    word-break: keep-all;
+    
 }
 
 .camada5{
@@ -132,7 +137,7 @@
 .camada5{
     width: 110%;
     margin-left: 320%;
-    margin-top: -41%;
+    margin-top: -13%;
 
 }
 
