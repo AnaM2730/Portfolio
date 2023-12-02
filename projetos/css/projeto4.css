@@ -112,7 +112,7 @@
 
 .camada4{
     width: 75%;
-    margin-left: 220%;
+    margin-left: 235%;
     margin-top: -40%;
 
 }
@@ -120,11 +120,26 @@
 .text{
     color: rgb(255, 255, 255);
     margin-left: 108%;
-    margin-top: -550px;
+    margin-top: -382px;
     font-size: 1.5em;
     font-weight: bold;
-    word-break: keep-all;
-    
+}
+.text2{
+    color: rgb(255, 255, 255);
+    margin-left: 225%;
+    display: flex;
+    margin-top: -452px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.text33{
+    color: rgb(0, 255, 110);
+    margin-left: 685%;
+  
+    margin-top: -452px;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 .camada5{
@@ -136,8 +151,8 @@
 
 .camada5{
     width: 110%;
-    margin-left: 320%;
-    margin-top: -13%;
+    margin-left: 334%;
+    margin-top: -19%;
 
 }
 
