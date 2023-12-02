@@ -85,7 +85,7 @@
 .camada2{
     width: 590px;
     margin-left: 750px;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 .camada3{
@@ -127,7 +127,7 @@
 .camada5{
     width: 110%;
     margin-left: 320%;
-    margin-top: -40%;
+    margin-top: -41%;
 
 }
 
@@ -145,8 +145,9 @@ a{
 }
 
 p{
-    margin-left: 120px;
+    margin-left: 130px;
     font-weight: bold;
+    color: white;
 }
 
  h1{
