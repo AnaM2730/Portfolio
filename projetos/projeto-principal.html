@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/projeto-principal.css">
     <link rel="stylesheet" href="../css/cards.css">
+    <link rel="stylesheet" href="../js/janela-modal.js">
     <title>Projetos</title>
 </head>
 <body>
@@ -12,9 +13,23 @@
    <!-- criação nav -->
 
   <!-- janela modal -->
-    <button id="abre_modal">
+    <button id="open_modal">
       Vamos Conversar
     </button>
+
+    <div id="fade" class="hide"><!-- fundo --></div>
+    <div id="modal" class="hide">
+      <div class="modal-header">
+        <h1>Este é o modal</h1>
+        <button id="close-modal">Fechar</button>
+         </div><!-- fim modal -->
+
+         <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, at?</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem esse incidunt nemo velit quisquam dicta sit minima ea recusandae? Minus?</p>
+         </div>
+    </div><!-- fim open-modal -->
+
 
        <!-- DROPDOWN -->
        <nav class="contato">
