@@ -10,10 +10,15 @@
     src: url(../font/Judson-Regular.ttf);
 }
 
+* {
+  font-family: Helvetica;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
 body{
-    margin: 0;
-    background-color: white;
-    color: white;
     padding: 1rem;
 }
 
@@ -58,12 +63,7 @@ nav{
       position: relative;
       z-index: 1;    
     }
-     
-  
-   .contato{
-    padding-inline-end: 12px;
-    font-weight: bold;
-  } 
+    
   
   .dropdown-menu ul li{
     background: rgb(113, 113, 113);
@@ -154,15 +154,22 @@ button{
   transition: 0.4s;
 }
 
-#open-modal{
+#open-modal{ /* botão */
   background: #D9D9D9;
+  margin-left: 55%;
+  border: none;
+  border-radius: 0.625em;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+ padding: 15px;
 }
 
 button:hover{
   opacity: 1;
 }
 
-#fade{
+#fade {
   position: fixed;
   top: 0;
   left: 0;
@@ -172,37 +179,45 @@ button:hover{
   z-index: 5;
 }
 
-p{
-  color: black;
-}
-
-#modal{
+#modal {
   position: fixed;
   left: 50%;
   top: 50%;
-  z-index: 10;
   transform: translate(-50%, -50%);
-  background-color: white;
   width: 500px;
   max-width: 90%;
-  padding: 1rem;
-  border-radius: .5rem;
-
+  background-color: #fff;
+  padding: 1.2rem;
+  border-radius: 0.5rem;
+  z-index: 10;
 }
 
-.modal-header{
+#fade,
+#modal {
+  transition: 0.5s;
+  opacity: 1;
+  pointer-events: all;
+}
+
+.modal-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #CCC;
+  border-bottom: 1px solid #ccc;
   margin-bottom: 1rem;
   padding-bottom: 1rem;
 }
 
-.modal-body{
+.modal-body p {
   margin-bottom: 1rem;
 }
 
-#modal.hide, #fade.hide{
+#modal.hide,
+#fade.hide {
   opacity: 0;
+  pointer-events: none;
+}
+
+#modal.hide {
+  top: 0;
 }
