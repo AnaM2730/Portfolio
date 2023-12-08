@@ -11,7 +11,7 @@
 }
 
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(32, 32, 32);
 }
 
 
@@ -347,7 +347,7 @@ h1{
 #open-modal{ /* botão */
   background: #D9D9D9;
   margin-left:77%;
-  margin-top: 3%;
+  margin-top: 4%;
   border: none;
   border-radius: 0.625em;
   font-size: 20px;
