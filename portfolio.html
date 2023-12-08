@@ -10,14 +10,25 @@
 </head>
 <body>
 
+     <!-- janela modal -->
+     <button id="open-modal">Vamos Conversar</button>
+
+     <div id="fade" class="hide"><!-- fundo --></div>
+     <div id="modal" class="hide">
+       <div class="modal-header">
+         <h1>Contato</h1>
+         <button id="close-modal">Fechar</button>
+          </div><!-- fim modal -->
+ 
+          <div class="modal-body">
+           <a href="https://wa.me/5516981046299" class="zap" target="_blank">WhatsApp</a>
+           <a href="https://mail.google.com/mail/u/0/?pli=1#inbox" target="_blank">E-mail</a>
+          </div>
+     </div><!-- fim open-modal -->
 
        <!-- criação nav -->
        <!-- DROPDOWN -->
        <nav class="contato">
-        <ul>
-            <li class="talk">
-            <a href="">Vamos conversar</a>
-        </li>
           <li class="dropdown">
             <a href="#">Menu ..</a>
             <div class="dropdown-menu">
@@ -99,8 +110,6 @@
              <button> <i class="fa-solid fa-arrow-up" style="color: #a1a1a1;"></i></button>
             </div> -->
 
-            <script src="https://unpkg.com/scrollreveal"></script>
-            <script src="js/text-transform.js"></script>
-            <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+            <script src="js/janela-modal.js"></script>
 </body>
 </html>
