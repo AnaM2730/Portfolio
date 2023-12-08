@@ -1,4 +1,12 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'squad';
+    src: url(../../font/Super\ Squad\ Italic.otf);
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200;400;700&display=swap');
+
 
  *{
     margin: 0;
@@ -179,9 +187,10 @@ p{
     color: white;
     display: flex;
     margin-left: 150px;
-    margin-top: 180px;
+    margin-top: 80px;
     letter-spacing: 4px;
     width: 100vw;
+    font-family: 'squad';
 }
 
 h2{
