@@ -130,9 +130,10 @@ nav.contato{
     color: rgb(0, 0, 0);
     font-family: 'fonte2';
     background-color: black;
-
     margin-bottom: -50px;
 }
+
+
 
 
 /* janela modal 
@@ -237,7 +238,7 @@ button:hover{
   color: #ff6464;
 }
 
-a.zap{
+a.zap{  
   color: green;
 }
 
