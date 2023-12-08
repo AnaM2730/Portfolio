@@ -117,29 +117,6 @@
 
 }
 
-.text{
-    color: rgb(255, 255, 255);
-    margin-left: 108%;
-    margin-top: -382px;
-    font-size: 1.5em;
-    font-weight: bold;
-}
-.text2{
-    color: rgb(255, 255, 255);
-    margin-left: 225%;
-    display: flex;
-    margin-top: -452px;
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-.text3{
-    color: rgb(0, 255, 110);
-    margin-left: 285%;
-    margin-top: -452px;
-    font-size: 1.5em;
-    font-weight: bold;
-}
 
 .camada5{
     background-image: url(../img-projetos/modif-cores.png);

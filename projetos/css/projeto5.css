@@ -1,12 +1,11 @@
 @charset "UTF-8";
 
-@font-face {
-    font-family: 'squad';
-    src: url(../../font/Super\ Squad\ Italic.otf);
-}
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200;400;700&display=swap');
 
+body{
+    
+}
 
  *{
     margin: 0;
@@ -26,7 +25,7 @@
     width: 200vw;
     transform: rotate(90deg) translateY(-100vh); /* rolagem horizontal */
     transform-origin: top left;
-    background-color: rgb(0, 0, 0);
+    background-color: #ad7d4c82;
 }
 
 .container{
@@ -38,7 +37,7 @@
     overflow-x: hidden;
     overflow-y: scroll; /* rolagem horizontal */
     scroll-behavior: smooth;
-    background: black;
+    background: #ad7c4c;
 }
 
 .camada{
@@ -57,7 +56,7 @@
 }
 
 ::-webkit-scrollbar-track{
-    background: hsl(0, 0%, 0%);
+    background: hsl(40, 46%, 35%);
     border-radius: 100vw;
     margin-block: .5em;
 }
@@ -65,7 +64,7 @@
 ::-webkit-scrollbar-thumb{
     background: hsl(0, 0%, 68%);
     border-radius: 100vw;
-    border: .25em hsl(37 9% 2% / 1);
+    border: .25em hsl(60, 9%, 2%);
 }
 
 ::-webkit-scrollbar-thumb:hover{
@@ -84,20 +83,20 @@
 
 
 .camada2{
-    background-image: url(../img-projetos/midiaSocial-proj4.png);
+    background-image: url(../img-projetos/museu-proj5.png);
     text-align: center;
-    padding-top: 40%;
+    padding-top: 35%;
     border-radius: 10px;
 }
 
 .camada2{
     width: 590px;
     margin-left: 750px;
-    margin-top: 70px;
+    margin-top: 10%;
 }
 
 .camada3{
-    background-image: url(../img-projetos/midiaSocial-proj4.png);
+    background-image: url(../img-projetos/museu-proj5.png);
     text-align: center;
     padding-top: 40%;
     border-radius: 10px;
@@ -111,57 +110,7 @@
 }
 
 
-.camada4{
-    background-image: url(../img-projetos/notificações.png);
-    text-align: center;
-    padding-top: 40%;
-    border-radius: 10px;
-}
 
-.camada4{
-    width: 75%;
-    margin-left: 235%;
-    margin-top: -40%;
-
-}
-
-.text{
-    color: rgb(255, 255, 255);
-    margin-left: 108%;
-    margin-top: -382px;
-    font-size: 1.5em;
-    font-weight: bold;
-}
-.text2{
-    color: rgb(255, 255, 255);
-    margin-left: 225%;
-    display: flex;
-    margin-top: -452px;
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-.text3{
-    color: rgb(0, 255, 110);
-    margin-left: 285%;
-    margin-top: -452px;
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-.camada5{
-    background-image: url(../img-projetos/modif-cores.png);
-    text-align: center;
-    padding-top: 40%;
-    border-radius: 10px;
-}
-
-.camada5{
-    width: 110%;
-    margin-left: 334%;
-    margin-top: -19%;
-
-}
 
 a{
     color: white;
@@ -176,21 +125,21 @@ a{
     margin-left: 130px;
 }
 
-p{
-    margin-left: 130px;
-    font-weight: bold;
-    color: white;
+.projet-desc{
+    margin: 0;
+}
+
+.projet-desc p:not(:first-child){
+    margin-top: 1em;
 }
 
  h1{
-    font-size: 90px;
-    color: white;
-    display: flex;
-    margin-left: 150px;
-    margin-top: 80px;
-    letter-spacing: 4px;
-    width: 100vw;
-    font-family: 'squad';
+    font-size: 4.5em;
+    line-height: .95;
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h2{
@@ -211,7 +160,7 @@ h2{
 
 .link-projet{
     font-weight: bold;
-    color: rgb(154, 154, 154);
+    color: rgb(0, 0, 0);
     font-size: 25px;
     margin-left: -95%;
     font-style: italic;
