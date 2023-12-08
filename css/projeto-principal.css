@@ -165,6 +165,7 @@ button{
  padding: 15px;
 }
 
+
 button:hover{
   opacity: 1;
 }
@@ -221,3 +222,6 @@ button:hover{
 #modal.hide {
   top: 0;
 }
+
+
+/* CONTATO */
