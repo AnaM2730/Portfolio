@@ -25,10 +25,10 @@ body{
 /* BOTÕES */
 /* BOTÕES */
 
-nav{
+nav.contato{
     background-color: rgb(255, 255, 255);
-    padding-top: 60px;
-    margin-left: 70%;
+    margin-top: -51px;
+    margin-left: 90%;
   }
   
   nav li{
@@ -156,13 +156,14 @@ button{
 
 #open-modal{ /* botão */
   background: #D9D9D9;
-  margin-left: 55%;
+  margin-left:77%;
+  margin-top: 3%;
   border: none;
   border-radius: 0.625em;
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
- padding: 15px;
+  padding: 15px;
 }
 
 
@@ -225,3 +226,21 @@ button:hover{
 
 
 /* CONTATO */
+.modal-body a{
+  color: rgb(223, 0, 0);
+  font-size: 1.2em;
+  text-decoration: none;
+  padding: 65px;
+}
+
+.modal-body a:hover{
+  color: #ff6464;
+}
+
+a.zap{
+  color: green;
+}
+
+a.zap:hover{
+  color: rgb(1, 215, 1);
+}
