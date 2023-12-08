@@ -3,10 +3,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200;400;700&display=swap');
 
-body{
-    
-}
-
  *{
     margin: 0;
     padding: 0;
@@ -62,13 +58,13 @@ body{
 }
 
 ::-webkit-scrollbar-thumb{
-    background: hsl(0, 0%, 68%);
+    background: hsl(37, 100%, 23%);
     border-radius: 100vw;
     border: .25em hsl(60, 9%, 2%);
 }
 
 ::-webkit-scrollbar-thumb:hover{
-    background: hsl(0, 0%, 88%);
+    background: hsla(42, 84%, 45%, 0.799);
 }
 
 /* SUPORTE EM OUTROS NAVEGADORES */
@@ -127,6 +123,7 @@ a{
 
 .projet-desc{
     margin: 0;
+    padding-top: 20px;
 }
 
 .projet-desc p:not(:first-child){
@@ -136,34 +133,50 @@ a{
  h1{
     font-size: 4.5em;
     line-height: .95;
-    margin: 0;
     font-style: normal;
     font-weight: 400;
     font-family: 'Times New Roman', Times, serif;
+    margin-left: 40px;
+    color: rgb(69, 53, 0);
+    margin-top: 80px;
 }
 
 h2{
-    font-size: 50px;
-    color: white;
+    font-size: 2em;
+    color: rgb(69, 53, 0);
     margin-left: -1450px;
-    margin-top: 25%;
-    letter-spacing: 2px;
+    margin-top: 18%;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+
+
+.linguagens{
+
 }
 
 .link{
-    color: white;
+    color: rgba(249, 195, 57, 0.697);
     margin-left: -95%;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     cursor: default;
 }
 
 .link-projet{
     font-weight: bold;
-    color: rgb(0, 0, 0);
+    color: rgb(69, 53, 0);
     font-size: 25px;
     margin-left: -95%;
     font-style: italic;
     text-decoration: underline;
     cursor: pointer;
+}
+
+
+
+/* LEFT */
+.projet-left{
+    float: left;
+    padding-left: 60px;
 }
