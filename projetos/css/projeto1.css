@@ -1,3 +1,6 @@
+@charset "UTF-8";
+
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200;400;700&display=swap');
 
  *{
@@ -8,7 +11,7 @@
 
 .slide{
     height: 100vh;
-    width: 100vw;
+    width: 160vw;
     position: relative;
 }
 
@@ -18,7 +21,7 @@
     width: 200vw;
     transform: rotate(90deg) translateY(-100vh); /* rolagem horizontal */
     transform-origin: top left;
-    background-color: black;
+    background-color: #c4a701fc;
 }
 
 .container{
@@ -30,7 +33,7 @@
     overflow-x: hidden;
     overflow-y: scroll; /* rolagem horizontal */
     scroll-behavior: smooth;
-    background: black;
+    background-color: #c4a701fc;
 }
 
 .camada{
@@ -49,19 +52,19 @@
 }
 
 ::-webkit-scrollbar-track{
-    background: hsl(0, 0%, 0%);
+    background: hsl(52, 100%, 50%);
     border-radius: 100vw;
     margin-block: .5em;
 }
 
 ::-webkit-scrollbar-thumb{
-    background: hsl(0, 0%, 68%);
+    background: hsl(63, 100%, 23%);
     border-radius: 100vw;
-    border: .25em hsl(37 9% 2% / 1);
+    border: .25em hsl(60, 9%, 2%);
 }
 
 ::-webkit-scrollbar-thumb:hover{
-    background: hsl(0, 0%, 88%);
+    background: hsla(66, 100%, 65%, 0.799);
 }
 
 /* SUPORTE EM OUTROS NAVEGADORES */
@@ -76,17 +79,34 @@
 
 
 .camada2{
-    background-image: url(../img-projetos/annabella-proj1.png);
+    background-image: url(../img-projetos/chaleHotel-proj2.png);
+    text-align: center;
+    padding-top: 35%;
+    border-radius: 10px;
+}
+
+.camada2{
+    width: 590px;
+    margin-left: 750px;
+    margin-top: 10%;
+}
+
+.camada3{
+    background-image: url(../img-projetos/chaleHotel-proj2.png);
+    background-repeat: no-repeat;
     text-align: center;
     padding-top: 40%;
     border-radius: 10px;
 }
 
-.camada2{
-    width: 950px;
-    margin-left: 690px;
-    margin-top: 100px;
+.camada3{
+    width: 90%;
+    height: 10%;
+    margin-left: 90%;
+    margin-top: -40%;
+
 }
+
 
 a{
     color: white;
@@ -101,45 +121,67 @@ a{
     margin-left: 130px;
 }
 
-p{
-    margin-left: 120px;
-    font-weight: bold;
+.projet-desc{
+    margin: 0;
+    padding-top: 20px;
+}
+
+.projet-desc p:not(:first-child){
+    margin-top: 1em;
 }
 
  h1{
-    font-size: 90px;
-    color: white;
-    display: flex;
-    margin-left: 150px;
-    margin-top: 180px;
-    letter-spacing: 4px;
+    font-size: 4.5em;
+    line-height: .95;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 40px;
+    color: rgb(255, 242, 0);
+    margin-top: 80px;
 }
 
 h2{
-    color: white;
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    letter-spacing: 4px;
+    font-size: 2em;
+    color: rgb(255, 247, 0);
+    margin-left: -95%;
+    margin-top: 18%;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
 }
 
+
+
 .link{
-    color: white;
-    margin-left: 180px;
+    color: rgba(135, 123, 17, 0.978);
+    margin-left: -95%;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     cursor: default;
 }
 
 .link-projet{
     font-weight: bold;
-    color: rgb(154, 154, 154);
+    color: rgba(211, 216, 58, 0.978);
     font-size: 25px;
-    margin-left: 180px;
+    margin-left: -95%;
     font-style: italic;
     text-decoration: underline;
     cursor: pointer;
+}
+
+.link-projet2{
+    font-weight: bold;
+    color: rgba(3, 3, 3, 0.697);
+    font-size: 25px;
+    margin-left: -95%;
+    font-style: italic;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* LEFT */
+.projet-left{
+    float: left;
+    padding-left: 60px;
 }

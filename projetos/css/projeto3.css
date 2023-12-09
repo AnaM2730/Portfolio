@@ -170,3 +170,13 @@ h2{
     text-decoration: underline;
     cursor: pointer;
 }
+
+.link-projet2{
+    font-weight: bold;
+    color: rgba(3, 3, 3, 0.697);
+    font-size: 25px;
+    margin-left: -95%;
+    font-style: italic;
+    text-decoration: underline;
+    cursor: pointer;
+}
