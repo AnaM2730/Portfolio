@@ -21,7 +21,7 @@
     width: 200vw;
     transform: rotate(90deg) translateY(-100vh); /* rolagem horizontal */
     transform-origin: top left;
-    background-color: #ff9100d1;
+    background-color: #366ee7b1;
 }
 
 .container{
@@ -33,7 +33,7 @@
     overflow-x: hidden;
     overflow-y: scroll; /* rolagem horizontal */
     scroll-behavior: smooth;
-    background-color: #ff9100d1;
+    background-color: #366ee7;
 }
 
 .camada{
@@ -52,19 +52,19 @@
 }
 
 ::-webkit-scrollbar-track{
-    background: hsl(37, 100%, 38%);
+    background: hsl(205, 57%, 49%);
     border-radius: 100vw;
     margin-block: .5em;
 }
 
 ::-webkit-scrollbar-thumb{
-    background: hsl(32, 100%, 73%);
+    background: hsl(216, 100%, 23%);
     border-radius: 100vw;
     border: .25em hsl(60, 9%, 2%);
 }
 
 ::-webkit-scrollbar-thumb:hover{
-    background: hsl(37, 100%, 60%);
+    background: hsla(203, 100%, 65%, 0.799);
 }
 
 /* SUPORTE EM OUTROS NAVEGADORES */
@@ -79,7 +79,7 @@
 
 
 .camada2{
-    background-image: url(../img-projetos/tecBlog-proj8.png);
+    background-image: url(../img-projetos/noticiasCidade-proj6.png);
     text-align: center;
     padding-top: 35%;
     border-radius: 10px;
@@ -87,13 +87,12 @@
 
 .camada2{
     width: 590px;
-    margin-left: 750px;
+    margin-left: 50%;
     margin-top: 10%;
 }
 
 .camada3{
-    background-image: url(../img-projetos/tecBlog-proj8.png);
-    background-repeat: no-repeat;
+    background-image: url(../img-projetos/noticiasCidade-proj6.png);
     text-align: center;
     padding-top: 40%;
     border-radius: 10px;
@@ -136,13 +135,13 @@ a{
     font-weight: 400;
     font-family: 'Times New Roman', Times, serif;
     margin-left: 40px;
-    color: rgb(162, 84, 0);
+    color: rgb(30, 0, 151);
     margin-top: 80px;
 }
 
 h2{
     font-size: 2em;
-    color: rgb(162, 84, 0);
+    color: rgb(30, 0, 151);
     margin-left: -95%;
     margin-top: 20%;
     font-family: 'Times New Roman', Times, serif;
@@ -152,7 +151,7 @@ h2{
 
 
 .link{
-    color: rgba(148, 87, 1, 0.978);
+    color: rgba(1, 30, 148, 0.978);
     margin-left: -95%;
     font-weight: bold;
     font-size: 25px;
@@ -161,7 +160,7 @@ h2{
 
 .link-projet{
     font-weight: bold;
-    color: rgba(219, 86, 4, 0.974);
+    color: rgba(3, 39, 183, 0.697);
     font-size: 25px;
     margin-left: -95%;
     font-style: italic;
