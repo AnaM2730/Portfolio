@@ -30,7 +30,7 @@
     overflow-x: hidden;
     overflow-y: scroll; /* rolagem horizontal */
     scroll-behavior: smooth;
-    background: rgb(182, 12, 173);
+    background: #8805a2fe;
 }
 
 .camada{
@@ -85,7 +85,7 @@
 .camada2{
     width: 590px;
     margin-left: 750px;
-    margin-top: 70px;
+    margin-top: 100px;
 }
 
 .camada3{
@@ -96,8 +96,8 @@
 }
 
 .camada3{
-    width: 90%;
-    margin-left: 120%;
+    width: 80%;
+    margin-left: 85%;
     margin-top: -40%;
 
 }
@@ -112,7 +112,7 @@
 
 .camada4{
     width: 75%;
-    margin-left: 235%;
+    margin-left: 170%;
     margin-top: -40%;
 
 }
@@ -126,9 +126,9 @@
 }
 
 .camada5{
-    width: 110%;
-    margin-left: 334%;
-    margin-top: -19%;
+    width: 100%;
+    margin-left: 250%;
+    margin-top: -40%;
 
 }
 
@@ -154,6 +154,12 @@ a{
     margin-top: 1em;
 }
 
+/* LEFT */
+.projet-left{
+    float: left;
+    padding-left: 60px;
+}
+
  h1{
     font-size: 4.5em;
     line-height: .95;
@@ -161,21 +167,21 @@ a{
     font-weight: 400;
     font-family: 'Times New Roman', Times, serif;
     margin-left: 40px;
-    color: rgb(69, 53, 0);
+    color: rgb(58, 0, 94);
     margin-top: 80px;
 }
 
 h2{
     font-size: 2em;
-    color: rgb(69, 53, 0);
-    margin-left: -1450px;
-    margin-top: 20%;
+    color: rgb(58, 0, 94);
+    margin-left: -95%;
+    margin-top: 18%;
     font-family: 'Times New Roman', Times, serif;
     letter-spacing: 1px;
 }
 
 .link{
-    color: rgba(249, 195, 57, 0.697);
+    color: rgb(78, 0, 87);
     margin-left: -95%;
     font-weight: bold;
     font-size: 25px;
@@ -184,7 +190,7 @@ h2{
 
 .link-projet{
     font-weight: bold;
-    color: rgb(69, 53, 0);
+    color: rgb(217, 0, 255);
     font-size: 25px;
     margin-left: -95%;
     font-style: italic;
