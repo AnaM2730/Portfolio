@@ -21,7 +21,7 @@
     width: 200vw;
     transform: rotate(90deg) translateY(-100vh); /* rolagem horizontal */
     transform-origin: top left;
-    background-color: #c4a701fc;
+    background-color: #366ee7b1;
 }
 
 .container{
@@ -33,7 +33,7 @@
     overflow-x: hidden;
     overflow-y: scroll; /* rolagem horizontal */
     scroll-behavior: smooth;
-    background-color: #c4a701fc;
+    background-color: #366ee7;
 }
 
 .camada{
@@ -52,19 +52,19 @@
 }
 
 ::-webkit-scrollbar-track{
-    background: hsl(52, 100%, 50%);
+    background: hsl(205, 57%, 49%);
     border-radius: 100vw;
     margin-block: .5em;
 }
 
 ::-webkit-scrollbar-thumb{
-    background: hsl(63, 100%, 23%);
+    background: hsl(216, 100%, 23%);
     border-radius: 100vw;
     border: .25em hsl(60, 9%, 2%);
 }
 
 ::-webkit-scrollbar-thumb:hover{
-    background: hsla(66, 100%, 65%, 0.799);
+    background: hsla(203, 100%, 65%, 0.799);
 }
 
 /* SUPORTE EM OUTROS NAVEGADORES */
@@ -79,7 +79,7 @@
 
 
 .camada2{
-    background-image: url(../img-projetos/chaleHotel-proj2.png);
+    background-image: url(../img-projetos/tecBlog-proj8.png);
     text-align: center;
     padding-top: 35%;
     border-radius: 10px;
@@ -92,7 +92,7 @@
 }
 
 .camada3{
-    background-image: url(../img-projetos/chaleHotel-proj2.png);
+    background-image: url(../img-projetos/tecBlog-proj8.png);
     background-repeat: no-repeat;
     text-align: center;
     padding-top: 40%;
@@ -101,7 +101,6 @@
 
 .camada3{
     width: 90%;
-    height: 10%;
     margin-left: 90%;
     margin-top: -40%;
 
@@ -137,15 +136,15 @@ a{
     font-weight: 400;
     font-family: 'Times New Roman', Times, serif;
     margin-left: 40px;
-    color: rgb(255, 242, 0);
+    color: rgb(30, 0, 151);
     margin-top: 80px;
 }
 
 h2{
     font-size: 2em;
-    color: rgb(255, 247, 0);
+    color: rgb(30, 0, 151);
     margin-left: -95%;
-    margin-top: 18%;
+    margin-top: 20%;
     font-family: 'Times New Roman', Times, serif;
     letter-spacing: 1px;
 }
@@ -153,7 +152,7 @@ h2{
 
 
 .link{
-    color: rgba(135, 123, 17, 0.978);
+    color: rgba(1, 30, 148, 0.978);
     margin-left: -95%;
     font-weight: bold;
     font-size: 25px;
@@ -162,7 +161,7 @@ h2{
 
 .link-projet{
     font-weight: bold;
-    color: rgba(211, 216, 58, 0.978);
+    color: rgba(3, 39, 183, 0.697);
     font-size: 25px;
     margin-left: -95%;
     font-style: italic;
