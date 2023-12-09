@@ -21,7 +21,7 @@
     width: 200vw;
     transform: rotate(90deg) translateY(-100vh); /* rolagem horizontal */
     transform-origin: top left;
-    background-color: #b20441;
+    background-color: #366ee7b1;
 }
 
 .container{
@@ -33,7 +33,7 @@
     overflow-x: hidden;
     overflow-y: scroll; /* rolagem horizontal */
     scroll-behavior: smooth;
-    background-color: #b20441;
+    background-color: #366ee7;
 }
 
 .camada{
@@ -52,19 +52,19 @@
 }
 
 ::-webkit-scrollbar-track{
-    background: hsl(0, 0%, 100%);
+    background: hsl(205, 57%, 49%);
     border-radius: 100vw;
     margin-block: .5em;
 }
 
 ::-webkit-scrollbar-thumb{
-    background: hsl(331, 100%, 50%);
+    background: hsl(216, 100%, 23%);
     border-radius: 100vw;
     border: .25em hsl(60, 9%, 2%);
 }
 
 ::-webkit-scrollbar-thumb:hover{
-    background: hsla(330, 100%, 32%, 0.996);
+    background: hsla(203, 100%, 65%, 0.799);
 }
 
 /* SUPORTE EM OUTROS NAVEGADORES */
@@ -79,7 +79,7 @@
 
 
 .camada2{
-    background-image: url(../img-projetos/watermelon-proj10-copia.png);
+    background-image: url(../img-projetos/piano-proj7-copia.png);
     background-repeat: no-repeat;
     text-align: center;
     padding-top: 35%;
@@ -93,7 +93,7 @@
 }
 
 .camada3{
-    background-image: url(../img-projetos/watermelon-proj10.png);
+    background-image: url(../img-projetos/piano-proj7.png);
     background-repeat: no-repeat;
     text-align: center;
     padding-top: 40%;
@@ -105,57 +105,6 @@
     margin-left: 90%;
     margin-top: -40%;
 
-}
-
-.camada4{
-    background-image: url(../img-projetos/watermelon-1.png);
-    background-repeat: no-repeat;
-    text-align: center;
-    padding-top: 40%;
-    border-radius: 10px;
-}
-
-.camada4{
-    width: 90%;
-    margin-left: 175%;
-    margin-top: -42%;
-
-}
-
-.camada5{
-    background-image: url(../img-projetos/watermelon-2.png);
-    background-repeat: no-repeat;
-    text-align: center;
-    padding-top: 40%;
-    border-radius: 10px;
-}
-
-.camada5{
-    width: 90%;
-    margin-left: 270%;
-    margin-top: -40%;
-
-}
-
-.camada6{
-    background-image: url(../img-projetos/watermelon-3.png);
-    background-repeat: no-repeat;
-    text-align: center;
-    padding-top: 40%;
-    border-radius: 10px;
-}
-
-.camada6{
-    width: 110%;
-    margin-left: 365%;
-    margin-top: -40%;
-}
-
-
-.camada7{
-    width: 110%;
-    padding-top: 40%;
-    margin-left: 390%;
 }
 
 
@@ -188,13 +137,13 @@ a{
     font-weight: 400;
     font-family: 'Times New Roman', Times, serif;
     margin-left: 40px;
-    color: #ff036d;
+    color: rgb(30, 0, 151);
     margin-top: 80px;
 }
 
 h2{
     font-size: 2em;
-    color: #ff61a3;
+    color: rgb(30, 0, 151);
     margin-left: -95%;
     margin-top: 20%;
     font-family: 'Times New Roman', Times, serif;
@@ -204,7 +153,7 @@ h2{
 
 
 .link{
-    color: rgb(255, 255, 255);
+    color: rgba(1, 30, 148, 0.978);
     margin-left: -95%;
     font-weight: bold;
     font-size: 25px;
@@ -213,7 +162,7 @@ h2{
 
 .link-projet{
     font-weight: bold;
-    color: rgba(255, 255, 255, 0.697);
+    color: rgba(3, 39, 183, 0.697);
     font-size: 25px;
     margin-left: -95%;
     font-style: italic;
