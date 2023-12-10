@@ -186,3 +186,37 @@ h2{
     float: left;
     padding-left: 60px;
 }
+
+
+
+.back-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 50px;
+    background-color: #f1f1f1;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-left: 40%;
+    font-size: 18px;
+    margin-top: 60px;
+   }
+   
+   .back-btn:hover {
+    background-color: #ddd;
+   }
+   
+   .back-icon {
+    width: 2rem;
+    height: 2rem;
+    fill: currentColor;
+    transition: transform 0.2s ease;
+   }
+   
+   .back-btn:hover .back-icon {
+    transform: translateX(-3px);
+   }
