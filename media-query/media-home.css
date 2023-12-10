@@ -52,4 +52,278 @@
         margin-top: 10px;
     }
 
+
+
+    /* BOTÃO REDE SOCIAL */
+    /* BTN - SOCIAL / GITHUB*/
+.btn-social {
+    width: 45px;
+    height: 45px;
+    margin-left: 75%;
+    margin-top: -6%;
+  }
+
+  .btn-social2 {
+    width: 45px;
+    height: 45px;
+    margin-left: 35%;
+    margin-top: -8%;
+  }
+
+
+  .btn-social3{
+    width: 45px;
+    height: 45px;
+    margin-left: 55%;
+    margin-top: -8%;
+  }
+}
+
+
+
+
+
+@media screen and (min-width: 636px) and (max-width: 768px){ /*Celular*/
+    body{
+        overflow-x: hidden;
+    }
+    
+    nav.contato{
+        margin-top: -50px;
+        margin-left: 55%;
+        font-size: 10px;
+          }
+
+      nav li a{
+        font-size: 20px;
+      }
+
+      .dropdown-menu a{
+        font-size: 18px;
+      }
+      
+
+      #open-modal{ /* botão */
+        font-size: 18px;
+        width: 18%;
+      }
+
+        /* CAIXA DE FUNDO */
+    .caixa-fundo{
+        background: #D9D9D9;
+        height: 500px;
+        width: 500px;
+        margin-left: 80px; 
+    }
+    .caixa-fundo p{ /* PORTFOLIO */
+        color: white;
+        margin-top: -60px;
+        font-size: 95px;
+        font-family: 'fonte1';
+    }
+
+    .capa img{
+        margin-left: -500px;
+        margin-top: 190px;
+        width: 450px;
+    }
+
+    .right-text p{
+        float: left;
+        margin-left: 10%;
+        width: 85%;
+        font-size: 20px;
+        margin-top: 35px;
+    }
+
+
+
+    /* BOTÃO REDE SOCIAL */
+    /* BTN - SOCIAL / GITHUB*/
+.btn-social {
+    width: 45px;
+    height: 45px;
+    margin-left: 610px;
+    margin-top: -190px;
+  }
+
+  .btn-social2 {
+    width: 45px;
+    height: 45px;
+    margin-left: 610px;
+    margin-top: -110px;
+  }
+
+
+  .btn-social3{
+    width: 45px;
+    height: 45px;
+    margin-left: 85%;
+    margin-top: -110px;
+  }
+}
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 992px){ /*Tablet*/
+    body{
+        overflow-x: hidden;
+    }
+   
+    nav.contato{
+        margin-top: -50px;
+        margin-left: 60%;
+        font-size: 10px;
+          }
+
+      nav li a{
+        font-size: 20px;
+      }
+
+      .dropdown-menu a{
+        font-size: 18px;
+      }
+      
+
+      #open-modal{ /* botão */
+        font-size: 18px;
+        width: 18%;
+      }
+
+        /* CAIXA DE FUNDO */
+    .caixa-fundo{
+        background: #D9D9D9;
+        height: 550px;
+        width: 550px;
+        margin-left: 25%; 
+    }
+    .caixa-fundo p{ /* PORTFOLIO */
+        color: white;
+        margin-top: -60px;
+        font-size: 100px;
+        font-family: 'fonte1';
+    }
+
+    .capa img{
+        margin-left: -550px;
+        margin-top: 200px;
+        width: 500px;
+    }
+
+    .right-text p{
+        float: left;
+        margin-left: 10%;
+        width: 85%;
+        font-size: 20px;
+        margin-top: 35px;
+    }
+
+
+
+    /* BOTÃO REDE SOCIAL */
+    /* BTN - SOCIAL / GITHUB*/
+.btn-social {
+    width: 45px;
+    height: 45px;
+    margin-left: 85%;
+    margin-top: -190px;
+  }
+
+  .btn-social2 {
+    width: 45px;
+    height: 45px;
+    margin-left: 85%;
+    margin-top: -110px;
+  }
+
+
+  .btn-social3{
+    width: 45px;
+    height: 45px;
+    margin-left: 85%;
+    margin-top: -110px;
+  }
+}
+
+
+
+@media screen and (min-width: 992px){ /*Desktop e telas grandes*/
+    body{
+        overflow-x: hidden;
+    }
+   
+    nav.contato{
+        margin-top: -50px;
+        margin-left: 60%;
+        font-size: 10px;
+          }
+
+      nav li a{
+        font-size: 20px;
+      }
+
+      .dropdown-menu a{
+        font-size: 18px;
+      }
+      
+
+      #open-modal{ /* botão */
+        font-size: 18px;
+        width: 18%;
+      }
+
+        /* CAIXA DE FUNDO */
+    .caixa-fundo{
+        background: #D9D9D9;
+        height: 550px;
+        width: 550px;
+        margin-left: 25%; 
+    }
+    .caixa-fundo p{ /* PORTFOLIO */
+        color: white;
+        margin-top: -60px;
+        font-size: 100px;
+        font-family: 'fonte1';
+    }
+
+    .capa img{
+        margin-left: -550px;
+        margin-top: 200px;
+        width: 500px;
+    }
+
+    .right-text p{
+        float: left;
+        margin-left: 10%;
+        width: 85%;
+        font-size: 20px;
+        margin-top: 35px;
+    }
+
+
+
+    /* BOTÃO REDE SOCIAL */
+    /* BTN - SOCIAL / GITHUB*/
+.btn-social {
+    width: 45px;
+    height: 45px;
+    margin-left: 800px;
+    margin-top: -190px;
+  }
+
+  .btn-social2 {
+    width: 45px;
+    height: 45px;
+    margin-left: 800px;
+    margin-top: -110px;
+  }
+
+
+  .btn-social3{
+    width: 45px;
+    height: 45px;
+    margin-left: 800px;
+    margin-top: -110px;
+  }
 }
