@@ -283,6 +283,7 @@ nav.contato{
     font-size: 1.5em;
     display: flex;
     justify-content: center;
+    width:  750px;
     text-align: justify;
     margin: -350px 190px 28px;
 }
