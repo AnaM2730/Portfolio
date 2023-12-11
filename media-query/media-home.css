@@ -4,9 +4,10 @@
         }
     
     nav.contato{
-        margin-top: -10%;
-        margin-left: 55%;
+        margin-top: -45px;
+        margin-left: 420px;
         font-size: 10px;
+        width: 35%;
           }
 
       nav li a{
@@ -19,8 +20,10 @@
       
 
       #open-modal{ /* botão */
-           font-size: 14px;
-    width: 25%;
+      font-size: 14px;
+      width: 35%;
+      margin-top: 25px;
+      margin-left: 220px;
       }
       
       /* CAIXA DE FUNDO */

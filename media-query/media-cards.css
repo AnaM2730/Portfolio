@@ -1,0 +1,59 @@
+@media screen and (max-width: 636px){ /*Pequenas telas*/
+    body{
+        overflow-x: hidden;
+    }
+
+    nav.contato{
+        margin-top: -45px;
+        margin-left: 420px;
+        font-size: 10px;
+        width: 35%;
+          }
+
+      nav li a{
+        font-size: 16px;
+      }
+
+      .dropdown-menu a{
+        font-size: 15px;
+      }
+      
+
+      #open-modal{ /* botão */
+      font-size: 14px;
+      width: 35%;
+      margin-top: 25px;
+      margin-left: 220px;
+      }
+
+
+      .center-projetos P{
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 80px;
+        font-family: 'fonte1';
+        color: black;
+    }
+    
+    .center-projetos span{
+        font-size: 15px;
+        font-family: 'fonte1';
+        color: rgb(0, 0, 0);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: -490px;
+        margin-left: 1020px;
+    }
+
+    .linha{
+        margin-top: 80px;
+        height: 15px;
+        width: 10px;  
+        display: flex;
+        justify-content: center;
+    }
+}

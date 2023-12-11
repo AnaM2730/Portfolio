@@ -125,15 +125,12 @@ nav.contato{
     margin-left: 1020px;
 }
 
-/* TEXTOS - CARD */
-.text-project1 {
-    color: rgb(0, 0, 0);
-    font-family: 'fonte2';
-    background-color: black;
-    margin-bottom: -50px;
+
+.linha{
+  height: 40px;
+  color: black;
+  width: 20px;
 }
-
-
 
 
 /* janela modal 
