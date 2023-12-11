@@ -249,78 +249,60 @@
     body{
         overflow-x: hidden;
     }
-   
-    nav.contato{
-        margin-top: -50px;
-        margin-left: 60%;
-        font-size: 10px;
-          }
+   /* BOTÕES */
 
-      nav li a{
-        font-size: 20px;
-      }
+nav.contato{
+  margin-top: -51px;
+  margin-left: 90%;
+}
 
-      .dropdown-menu a{
-        font-size: 18px;
-      }
-      
 
-      #open-modal{ /* botão */
-        font-size: 18px;
-        width: 18%;
-      }
+/* CAIXA DE FUNDO */
+.caixa-fundo{
+    height: 500px;
+    width: 500px;    
+    margin-left: 90px; 
+    margin-top: 70px;
+}
+.caixa-fundo p{ /* PORTFOLIO */
+    color: white;
+    margin-top: -90px;
+    font-size: 150px;
+    font-family: 'fonte1';
+}
 
-        /* CAIXA DE FUNDO */
-    .caixa-fundo{
-        background: #D9D9D9;
-        height: 550px;
-        width: 550px;
-        margin-left: 25%; 
-    }
-    .caixa-fundo p{ /* PORTFOLIO */
-        color: white;
-        margin-top: -60px;
-        font-size: 100px;
-        font-family: 'fonte1';
-    }
+.capa img{
+    margin-left: -500px;
+    margin-top: 215px;
+    z-index: 14;
+}
 
-    .capa img{
-        margin-left: -550px;
-        margin-top: 200px;
-        width: 500px;
-    }
 
-    .right-text p{
-        float: left;
-        margin-left: 10%;
-        width: 85%;
-        font-size: 20px;
-        margin-top: 35px;
-    }
+.right-text p{
+    float: right;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    margin: -350px 190px 28px;
+}
 
 
 
-    /* BOTÃO REDE SOCIAL */
-    /* BTN - SOCIAL / GITHUB*/
+/* BTN - SOCIAL / GITHUB*/
 .btn-social {
-    width: 45px;
-    height: 45px;
-    margin-left: 800px;
-    margin-top: -190px;
+    margin-left: 36%;
+    margin-top: -8%;
   }
 
   .btn-social2 {
-    width: 45px;
-    height: 45px;
-    margin-left: 800px;
-    margin-top: -110px;
+    margin-left: 36%;
+    margin-top: -8%;
   }
 
 
   .btn-social3{
-    width: 45px;
-    height: 45px;
-    margin-left: 800px;
-    margin-top: -110px;
+    margin-left: 36%;
+    margin-top: -8%;
   }
 }
