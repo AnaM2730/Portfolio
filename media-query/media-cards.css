@@ -104,7 +104,16 @@
       margin-top: 80px;
       float: right;
     }
-
+    
+    .card-proj6{
+      width: 450px;
+      height: 340px;
+      border-radius: 14px;
+      overflow: hidden;
+      margin-top: 80px;
+      float: right;
+    }
+  }
 
 
 @media screen and (min-width: 992px){ /*Desktop e telas grandes*/
@@ -131,5 +140,5 @@
   margin-top: 25px;
   margin-left: 100px;
   }
-  }
+  
 }
