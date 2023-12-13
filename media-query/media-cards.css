@@ -160,9 +160,9 @@
 
 nav.contato{
     margin-top: -45px;
-    margin-left: 450px;
+    margin-left: 520px;
     font-size: 10px;
-    width: 585px;
+    width: 185px;
       }
 
   nav li a{
@@ -176,8 +176,8 @@ nav.contato{
 
   #open-modal{ /* botão */
   font-size: 14px;
-  width: 35px;
-  margin-left: 225px;
+  width: 150px;
+  margin-left: 350px;
   }
 
 
@@ -186,7 +186,7 @@ nav.contato{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 80px;
+    font-size: 100px;
     font-family: 'fonte1';
     color: black;
 }
