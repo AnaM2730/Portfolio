@@ -121,7 +121,7 @@
 
 /* CARD 4 */
   .card-proj4{
-    position: relative;
+  position: relative;
   width: 600px;
   height: 350px;
   border-radius: 14px;
@@ -135,6 +135,7 @@
   margin-top: 80px;
   float: right;
 }
+
 .card-proj4:hover {
     transform: scale(1.1);
   }

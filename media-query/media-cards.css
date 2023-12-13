@@ -88,7 +88,21 @@
       float: right;
     }
 
-
+    .card-proj4{
+      width: 450px;
+      height: 340px;
+      border-radius: 14px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
+      margin-right: 100px;
+      margin-top: 80px;
+      float: right;
+    }
+    
 
 
 
