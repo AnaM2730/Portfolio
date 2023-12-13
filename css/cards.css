@@ -156,7 +156,7 @@
 
 /* CARD 5 */
   .card-proj5{
-    position: relative;
+  position: relative;
   width: 600px;
   height: 350px;
   border-radius: 14px;
@@ -170,6 +170,7 @@
   margin-top: 80px;
   float: left;
 }
+
 .card-proj5:hover {
     transform: scale(1.1);
   }
@@ -188,7 +189,7 @@
 
 /* CARD 6 */
 .card-proj6{
-    position: relative;
+  position: relative;
   width: 600px;
   height: 350px;
   border-radius: 14px;
@@ -202,6 +203,7 @@
   margin-top: 80px;
   float: right;
 }
+
 .card-proj6:hover {
     transform: scale(1.1);
   }
