@@ -111,8 +111,22 @@
       border-radius: 14px;
       overflow: hidden;
       margin-top: 80px;
+      float: left;
+    }
+
+    .card-proj7{
+      width: 450px;
+      height: 340px;
+      border-radius: 14px;
+      overflow: hidden;
+      margin-top: 80px;
       float: right;
     }
+    
+
+
+
+
   }
 
 

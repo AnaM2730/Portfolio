@@ -224,7 +224,7 @@
 
 /* CARD 7 */
 .card-proj7{
-    position: relative;
+  position: relative;
   width: 600px;
   height: 350px;
   border-radius: 14px;
@@ -238,6 +238,7 @@
   margin-top: 80px;
   float: left;
 }
+
 .card-proj7:hover {
     transform: scale(1.1);
   }
