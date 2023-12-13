@@ -58,17 +58,23 @@
     } */
 
     .card-proj1{
-      position: relative;
       width: 500px;
       height: 340px;
       border-radius: 14px;
       overflow: hidden;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
       margin-top: 90px;
       box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
       float: right;
     }
+
+    .card-proj2{
+      width: 500px;
+      height: 340px;
+      border-radius: 14px;
+      overflow: hidden;
+      margin-top: 90px;
+      box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
+      float: left;
+      margin-left: 10px;
+    }  
 }
