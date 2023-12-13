@@ -205,7 +205,7 @@ nav.contato{
 
 
 .card-proj1{
-  width: 480px;
+  width: 500px;
   height: 345px;
   border-radius: 14px;
   overflow: hidden;
@@ -261,49 +261,59 @@ nav.contato{
 }
 
 .card-proj6{
-  width: 450px;
-  height: 340px;
+  width: 500px;
+  height: 345px;
   border-radius: 14px;
   overflow: hidden;
-  margin-top: 80px;
+  margin-top: 90px;
+  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   float: left;
+  margin-left: 65px;
 }
 
 .card-proj7{
-  width: 450px;
-  height: 340px;
+  width: 500px;
+  height: 345px;
   border-radius: 14px;
   overflow: hidden;
-  margin-top: 80px;
-  float: right;
+  margin-top: 90px;
+  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
+  float: left;
+  margin-left: 65px;
 }
 
 .card-proj8{
-  width: 450px;
-  height: 340px;
+  width: 500px;
+  height: 345px;
   border-radius: 14px;
   overflow: hidden;
-  margin-top: 80px;
+  margin-top: 90px;
+  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   float: left;
+  margin-left: 65px;
 }
 
 .card-proj9{
-  width: 450px;
-  height: 340px;
+  width: 500px;
+  height: 345px;
   border-radius: 14px;
   overflow: hidden;
-  margin-top: 80px;
-  float: right;
+  margin-top: 90px;
+  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
+  float: left;
+  margin-left: 65px;
 }
 
 .card-proj10{
-  width: 450px;
-  height: 340px;
+  width: 500px;
+  height: 345px;
   border-radius: 14px;
   overflow: hidden;
-  margin-top: 80px;
+  margin-top: 90px;
+  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   float: left;
-}
+  margin-left: 65px;
+  }
 }
 
 
