@@ -66,6 +66,10 @@
       box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
       float: right;
     }
+    
+    .card-proj1:hover {
+      transform: scale(1.0);
+    }
 
     .card-proj2{
       width: 500px;
