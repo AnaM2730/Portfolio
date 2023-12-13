@@ -259,7 +259,7 @@
 
 /* CARD 8 */
 .card-proj8{
-    position: relative;
+  position: relative;
   width: 600px;
   height: 350px;
   border-radius: 14px;
@@ -273,6 +273,7 @@
   margin-top: 80px;
   float: right;
 }
+
 .card-proj8:hover {
     transform: scale(1.1);
   }
@@ -293,7 +294,7 @@
 
 /* CARD 9 */
 .card-proj9{
-    position: relative;
+  position: relative;
   width: 600px;
   height: 350px;
   border-radius: 14px;
@@ -307,6 +308,7 @@
   margin-top: 80px;
   float: left;
 }
+
 .card-proj9:hover {
     transform: scale(1.1);
   }
@@ -327,7 +329,7 @@
 
 /* CARD 10 */
 .card-proj10{
-    position: relative;
+  position: relative;
   width: 600px;
   height: 350px;
   border-radius: 14px;
@@ -341,6 +343,7 @@
   margin-top: 80px;
   float: right;
 }
+
 .card-proj10:hover {
     transform: scale(1.1);
   }
