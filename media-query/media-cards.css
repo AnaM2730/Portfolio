@@ -81,4 +81,37 @@
       float: left;
       margin-left: 10px;
     }  
+
+
+
+
+
+
+
+
+@media screen and (min-width: 992px){ /*Desktop e telas grandes*/
+  
+  nav.contato{
+    margin-top: -45px;
+    margin-left: 420px;
+    font-size: 10px;
+    width: 35%;
+      }
+
+  nav li a{
+    font-size: 16px;
+  }
+
+  .dropdown-menu a{
+    font-size: 15px;
+  }
+  
+
+  #open-modal{ /* botão */
+  font-size: 14px;
+  width: 35%;
+  margin-top: 25px;
+  margin-left: 100px;
+  }
+  }
 }
