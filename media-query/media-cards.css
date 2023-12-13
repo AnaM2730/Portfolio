@@ -199,58 +199,65 @@ nav.contato{
     align-items: center;
     justify-content: center;
     margin: auto;
-    margin-top: -490px;
-    margin-left: 1020px;
+    margin-top: -440px;
+    margin-left: 560px;
 }
 
 
 .card-proj1{
-  width: 450px;
-  height: 340px;
+  width: 480px;
+  height: 345px;
   border-radius: 14px;
   overflow: hidden;
   margin-top: 90px;
   box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   float: right;
+  margin-right: 50px;
 }
 
 
 .card-proj2{
-  width: 450px;
-  height: 340px;
+  width: 500px;
+  height: 345px;
   border-radius: 14px;
   overflow: hidden;
   margin-top: 90px;
   box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
-  float: right;
-  margin-right: 2px;
+  float: left;
+  margin-left: 65px;
 }  
 
 .card-proj3{
-  width: 450px;
-  height: 340px;
+  width: 500px;
+  height: 345px;
   border-radius: 14px;
   overflow: hidden;
-  margin-top: 80px;
-  float: right;
+  margin-top: 90px;
+  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
+  float: left;
+  margin-left: 65px;
 }
 
 .card-proj4{
-  width: 450px;
-  height: 340px;
+  width: 500px;
+  height: 345px;
   border-radius: 14px;
   overflow: hidden;
-  margin-top: 80px;
+  margin-top: 90px;
+  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   float: left;
+  margin-left: 65px;
 }
 
 .card-proj5{
-  width: 450px;
-  height: 340px;
+  width: 500px;
+  height: 345px;
   border-radius: 14px;
   overflow: hidden;
-  margin-top: 80px;
-  float: right;
+  margin-top: 90px;
+  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
+  float: left;
+  margin-left: 65px;
 }
 
 .card-proj6{
