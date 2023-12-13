@@ -62,7 +62,6 @@
       border-radius: 14px;
       overflow: hidden;
       margin-top: 90px;
-      box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
       float: right;
     }
     
@@ -73,7 +72,6 @@
       border-radius: 14px;
       overflow: hidden;
       margin-top: 90px;
-      box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
       float: right;
       margin-right: 2px;
     }  
@@ -210,7 +208,6 @@ nav.contato{
   border-radius: 14px;
   overflow: hidden;
   margin-top: 90px;
-  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   float: right;
   margin-right: 50px;
 }
@@ -222,7 +219,6 @@ nav.contato{
   border-radius: 14px;
   overflow: hidden;
   margin-top: 90px;
-  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   float: right;
   margin-right: 50px;
 }  
@@ -233,7 +229,6 @@ nav.contato{
   border-radius: 14px;
   overflow: hidden;
   margin-top: 90px;
-  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   float: right;
   margin-right: 50px;
 }
@@ -244,7 +239,6 @@ nav.contato{
   border-radius: 14px;
   overflow: hidden;
   margin-top: 90px;
-  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   float: right;
   margin-right: 50px;
 }
@@ -255,7 +249,6 @@ nav.contato{
   border-radius: 14px;
   overflow: hidden;
   margin-top: 90px;
-  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   float: right;
   margin-right: 50px;
 }
@@ -266,7 +259,6 @@ nav.contato{
   border-radius: 14px;
   overflow: hidden;
   margin-top: 90px;
-  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   float: right;
   margin-right: 50px;
 }
@@ -277,7 +269,6 @@ nav.contato{
   border-radius: 14px;
   overflow: hidden;
   margin-top: 90px;
-  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   float: right;
   margin-right: 50px;
 }
@@ -288,7 +279,6 @@ nav.contato{
   border-radius: 14px;
   overflow: hidden;
   margin-top: 90px;
-  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   float: right;
   margin-right: 50px;
 }
@@ -299,7 +289,6 @@ nav.contato{
   border-radius: 14px;
   overflow: hidden;
   margin-top: 90px;
-  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   float: right;
   margin-right: 50px;
 }
@@ -310,7 +299,6 @@ nav.contato{
   border-radius: 14px;
   overflow: hidden;
   margin-top: 90px;
-  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   float: right;
   margin-right: 50px;
   }
@@ -369,112 +357,102 @@ nav.contato{
 
 
 .card-proj1{
-  width: 450px;
+  width: 350px;
   height: 345px;
   border-radius: 14px;
   overflow: hidden;
   margin-top: 90px;
-  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   float: left;
   margin-left: 0px;
 }
 
 
 .card-proj2{
-  width: 450px;
+  width: 350px;
   height: 345px;
   border-radius: 14px;
   overflow: hidden;
   margin-top: 90px;
-  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   float: right;
   margin-right: 0px;
 }  
 
 .card-proj3{
-  width: 450px;
+  width: 350px;
   height: 345px;
   border-radius: 14px;
   overflow: hidden;
   margin-top: 90px;
-  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   float: left;
   margin-left: 0px;
 }
 
 .card-proj4{
-  width: 450px;
+  width: 350px;
   height: 345px;
   border-radius: 14px;
   overflow: hidden;
   margin-top: 90px;
-  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   float: right;
   margin-right: 0px;
 }
 
 .card-proj5{
-  width: 450px;
+  width: 350px;
   height: 345px;
   border-radius: 14px;
   overflow: hidden;
   margin-top: 90px;
-  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   float: left;
   margin-left: 0px;
 }
 
 .card-proj6{
-  width: 450px;
+  width: 350px;
   height: 345px;
   border-radius: 14px;
   overflow: hidden;
   margin-top: 90px;
-  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   float: right;
   margin-right: 0px;
 }
 
 .card-proj7{
-  width: 450px;
+  width: 350px;
   height: 345px;
   border-radius: 14px;
   overflow: hidden;
   margin-top: 90px;
-  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   float: left;
   margin-left: 0px;
 }
 
 .card-proj8{
-  width: 450px;
+  width: 350px;
   height: 345px;
   border-radius: 14px;
   overflow: hidden;
   margin-top: 90px;
-  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   float: right;
   margin-right: 0px;
 }
 
 .card-proj9{
-  width: 450px;
+  width: 350px;
   height: 345px;
   border-radius: 14px;
   overflow: hidden;
   margin-top: 90px;
-  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   float: left;
   margin-left: 0px;
 }
 
 .card-proj10{
-  width: 450px;
+  width: 350px;
   height: 345px;
   border-radius: 14px;
   overflow: hidden;
   margin-top: 90px;
-  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   float: right;
   margin-right: 0px;
   }
@@ -551,9 +529,8 @@ nav.contato{
   border-radius: 14px;
   overflow: hidden;
   margin-top: 90px;
-  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
-  float: right;
-  margin-right: 50px;
+  float: left;
+  margin-left: 0px;
 }
 
 
@@ -563,9 +540,8 @@ nav.contato{
   border-radius: 14px;
   overflow: hidden;
   margin-top: 90px;
-  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   float: right;
-  margin-right: 50px;
+  margin-right: 0px;
 }  
 
 .card-proj3{
@@ -574,9 +550,8 @@ nav.contato{
   border-radius: 14px;
   overflow: hidden;
   margin-top: 90px;
-  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
-  float: right;
-  margin-right: 50px;
+  float: left;
+  margin-left: 0px;
 }
 
 .card-proj4{
@@ -585,75 +560,68 @@ nav.contato{
   border-radius: 14px;
   overflow: hidden;
   margin-top: 90px;
-  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   float: right;
-  margin-right: 50px;
+  margin-right: 0px;
 }
 
 .card-proj5{
-  width: 500px;
+  width: 350px;
   height: 345px;
   border-radius: 14px;
   overflow: hidden;
   margin-top: 90px;
-  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
-  float: right;
-  margin-right: 50px;
+  float: left;
+  margin-left: 0px;
 }
 
 .card-proj6{
-  width: 500px;
+  width: 350px;
   height: 345px;
   border-radius: 14px;
   overflow: hidden;
   margin-top: 90px;
-  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   float: right;
-  margin-right: 50px;
+  margin-right: 0px;
 }
 
 .card-proj7{
-  width: 500px;
+  width: 350px;
   height: 345px;
   border-radius: 14px;
   overflow: hidden;
   margin-top: 90px;
-  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
-  float: right;
-  margin-right: 50px;
+  float: left;
+  margin-left: 0px;
 }
 
 .card-proj8{
-  width: 500px;
+  width: 350px;
   height: 345px;
   border-radius: 14px;
   overflow: hidden;
   margin-top: 90px;
-  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   float: right;
-  margin-right: 50px;
+  margin-right: 0px;
 }
 
 .card-proj9{
-  width: 500px;
+  width: 350px;
   height: 345px;
   border-radius: 14px;
   overflow: hidden;
   margin-top: 90px;
-  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
-  float: right;
-  margin-right: 50px;
+  float: left;
+  margin-left: 0px;
 }
 
 .card-proj10{
-  width: 500px;
+  width: 350px;
   height: 345px;
   border-radius: 14px;
   overflow: hidden;
   margin-top: 90px;
-  box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   float: right;
-  margin-right: 50px;
+  margin-right: 0px;
   }
   
 }
