@@ -369,37 +369,37 @@ nav.contato{
 
 
 .card-proj1{
-  width: 500px;
+  width: 450px;
   height: 345px;
   border-radius: 14px;
   overflow: hidden;
   margin-top: 90px;
   box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
-  float: right;
-  margin-right: 50px;
+  float: left;
+  margin-left: 0px;
 }
 
 
 .card-proj2{
-  width: 500px;
+  width: 450px;
   height: 345px;
   border-radius: 14px;
   overflow: hidden;
   margin-top: 90px;
   box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   float: right;
-  margin-right: 50px;
+  margin-right: 0px;
 }  
 
 .card-proj3{
-  width: 500px;
+  width: 450px;
   height: 345px;
   border-radius: 14px;
   overflow: hidden;
   margin-top: 90px;
   box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
-  float: right;
-  margin-right: 50px;
+  float: left;
+  margin-left: 0px;
 }
 
 .card-proj4{
