@@ -5,7 +5,7 @@
 
     nav.contato{
         margin-top: -45px;
-        margin-left: 420px;
+        margin-left: 350px;
         font-size: 10px;
         width: 35%;
           }
@@ -22,8 +22,7 @@
       #open-modal{ /* botão */
       font-size: 14px;
       width: 35%;
-      margin-top: 25px;
-      margin-left: 220px;
+      margin-left: 180px;
       }
 
 
@@ -58,7 +57,7 @@
     } */
 
     .card-proj1{
-      width: 500px;
+      width: 450px;
       height: 340px;
       border-radius: 14px;
       overflow: hidden;
@@ -67,22 +66,27 @@
       float: right;
     }
     
-    .card-proj1:hover {
-      transform: scale(1.0);
-    }
 
     .card-proj2{
-      width: 500px;
+      width: 450px;
       height: 340px;
       border-radius: 14px;
       overflow: hidden;
       margin-top: 90px;
       box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
-      float: left;
-      margin-left: 10px;
+      float: right;
+      margin-right: 2px;
     }  
 
-
+    .card-proj3{
+      width: 450px;
+      height: 340px;
+      border-radius: 14px;
+      overflow: hidden;
+      margin-left: 75px;
+      margin-top: 80px;
+      float: right;
+    }
 
 
 
