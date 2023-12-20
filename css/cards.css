@@ -1,3 +1,40 @@
+
+.wrapper{
+  background-color: #fbfbfb; 
+}
+
+
+::-webkit-scrollbar{
+  width: 1em;
+  height: 1em;
+}
+
+::-webkit-scrollbar-track{
+  background: hsla(0, 0%, 17%, 0);
+  border-radius: 100vw;
+  margin-block: .5em;
+}
+
+::-webkit-scrollbar-thumb{
+  background: hsl(0, 0%, 73%);
+  border-radius: 100vw;
+  border: .25em hsl(60, 9%, 2%);
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: hsl(0, 0%, 57%);
+}
+
+/* SUPORTE EM OUTROS NAVEGADORES */
+@supports (scrollbar-color: white black){
+  *{
+      scrollbar-color:  hsl(0, 0%, 68%) hsl(0, 0%, 0%);
+      scrollbar-width: auto;
+  }
+}
+
+
+
 /* CARDS */
 
 
