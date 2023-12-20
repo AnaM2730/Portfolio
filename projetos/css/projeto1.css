@@ -33,10 +33,6 @@
     overflow-x: hidden;
     overflow-y: scroll; /* rolagem horizontal */
     scroll-behavior: smooth;
-    background-color: #aeaea0; 
-}
-
-.camada{
     position: absolute;
     top: 0;
     left: 0;
