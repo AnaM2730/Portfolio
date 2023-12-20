@@ -16,7 +16,7 @@
 }
 
 ::-webkit-scrollbar-thumb{
-  background: hsl(0, 0%, 0%);
+  background: hsl(0, 0%, 73%);
   border-radius: 100vw;
   border: .25em hsl(60, 9%, 2%);
 }
