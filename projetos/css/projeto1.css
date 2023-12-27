@@ -88,7 +88,7 @@
 .camada2{
     width: 590px;
     margin-left: 750px;
-    margin-top: 10%;
+    margin-top: 3%;
 }
 
 .camada3{
@@ -188,3 +188,24 @@ h2{
 
 
 /* icon arrow */
+
+.arrow{
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 65px;
+    height: 30px;
+    border-radius: 1.3em;
+}
+
+.arrow:hover{
+    background-color: aqua;
+}
+
+.arrow-black{
+    margin-left: 995px;
+    margin-top: 100px;
+    z-index: 10;
+}
