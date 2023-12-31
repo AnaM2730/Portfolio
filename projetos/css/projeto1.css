@@ -199,7 +199,8 @@ h2{
     overflow: hidden;
     background: rgb(240, 240, 240);
     color: #000000;
-    margin-left: 550px;
+    margin-left: 650px;
+    margin-top: 60px;
   }
   
   .button-text {
