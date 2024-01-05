@@ -2,8 +2,7 @@
         body{
             overflow-x: hidden;
             overflow-y: scroll;
-            background-color: rgb(43, 42, 43);
-
+            background-color: rgb(221, 219, 221);
         }
     
     nav.contato{
@@ -297,7 +296,16 @@
 
 nav.contato{
   margin-top: -51px;
-  margin-left: 90%;
+  margin-left: 87%;
+}
+
+nav li a{
+  color: black;
+  font-size: 16px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
 }
 
 
@@ -306,10 +314,10 @@ nav.contato{
     height: 500px;
     width: 500px;    
     margin-left: 90px; 
-    margin-top: 20px;
+    margin-top: 60px;
 }
 .caixa-fundo p{ /* PORTFOLIO */
-    color: white;
+    color: rgb(54, 54, 54);
     margin-top: -100px;
     font-size: 140px;
     z-index: 2;
@@ -317,9 +325,9 @@ nav.contato{
 }
 
 .capa img{
-    margin-left: -430px;
-    margin-top: 177px;
-    width: 28%;
+    margin-left: -499px;
+    margin-top: 192px;
+    width: 30%;
 }
 
 
@@ -340,14 +348,14 @@ nav.contato{
 .btn-social { 
     width: 50px;
     height: 50px;
-    margin-left: 36%;
-    margin-top: -8%;
+    margin-left: 42%;
+    margin-top: -13%;
   }
 
   .btn-social2 {
     width: 50px;
     height: 50px;
-    margin-left: 36%;
+    margin-left: 42%;
     margin-top: -8%;
   }
 
@@ -355,7 +363,7 @@ nav.contato{
   .btn-social3{
     width: 50px;
     height: 50px;
-    margin-left: 36%;
+    margin-left: 42%;
     margin-top: -8%;
   }
 
