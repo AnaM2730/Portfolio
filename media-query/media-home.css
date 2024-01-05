@@ -1,6 +1,7 @@
 @media screen and (max-width: 636px){ /*Pequenas telas*/
         body{
             overflow-x: hidden;
+            overflow-y: scroll;
         }
     
     nav.contato{
@@ -29,8 +30,8 @@
       /* CAIXA DE FUNDO */
     .caixa-fundo{
         background: #D9D9D9;
-        height: 450px;
-        width: 450px;
+        height: 380px;
+        width: 380px;
         margin-left: 10%; 
     }
     .caixa-fundo p{ /* PORTFOLIO */
@@ -78,6 +79,43 @@
     margin-left: 55%;
     margin-top: -8%;
   }
+
+  /* Scrool */
+  
+.wrapper{
+  background-color: #fbfbfb; 
+}
+
+
+::-webkit-scrollbar{
+  width: 1em;
+  height: 1em;
+}
+
+::-webkit-scrollbar-track{
+  background: hsla(0, 0%, 17%, 0);
+  border-radius: 100vw;
+  margin-block: .5em;
+}
+
+::-webkit-scrollbar-thumb{
+  background: hsl(0, 0%, 73%);
+  border-radius: 100vw;
+  border: .25em hsl(60, 9%, 2%);
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: hsl(0, 0%, 57%);
+}
+
+/* SUPORTE EM OUTROS NAVEGADORES */
+@supports (scrollbar-color: white black){
+  *{
+      scrollbar-color:  hsl(0, 0%, 68%) hsl(0, 0%, 0%);
+      scrollbar-width: auto;
+  }
+}
+
 }
 
 
@@ -265,49 +303,58 @@ nav.contato{
     height: 500px;
     width: 500px;    
     margin-left: 90px; 
-    margin-top: 70px;
+    margin-top: 20px;
 }
 .caixa-fundo p{ /* PORTFOLIO */
     color: white;
-    margin-top: -90px;
-    font-size: 150px;
+    margin-top: -100px;
+    font-size: 140px;
+    z-index: 2;
     font-family: 'fonte1';
 }
 
 .capa img{
     margin-left: -500px;
-    margin-top: 215px;
+    margin-top: 165px;
     z-index: 14;
 }
 
 
 .right-text p{
     float: right;
-    font-size: 1.5em;
+    font-size: 1.4em;
     display: flex;
     justify-content: center;
     width:  750px;
     text-align: justify;
-    margin: -250px 90px 8px;
+    margin: -380px 40px 8px 150px;
 
 }
 
 
 
 /* BTN - SOCIAL / GITHUB*/
-.btn-social {
+.btn-social { 
+    width: 50px;
+    height: 50px;
     margin-left: 36%;
     margin-top: -8%;
   }
 
   .btn-social2 {
+    width: 50px;
+    height: 50px;
     margin-left: 36%;
     margin-top: -8%;
   }
 
 
   .btn-social3{
+    width: 50px;
+    height: 50px;
     margin-left: 36%;
     margin-top: -8%;
   }
+
+  
 }
