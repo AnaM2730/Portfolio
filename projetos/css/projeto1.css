@@ -189,15 +189,34 @@ h2{
 
 /* icon arrow */
 
+button{
+    background-color: red;
+    border-radius: 30px;
+    margin-left: 630px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+p.btn-text{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/* 
 .button {
     display: flex;
     align-items: center;
     gap: 10px;
-    padding: 12px 15px;
+    padding: 5px 1px;
     border-radius: 10px;
     border: none;
     overflow: hidden;
-    background: rgb(240, 240, 240);
+    background: rgb(124, 124, 124);
     color: #000000;
     margin-left: 650px;
     margin-top: 60px;
@@ -225,4 +244,4 @@ h2{
   }
   
   
-  
+   */
