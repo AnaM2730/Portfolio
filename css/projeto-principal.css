@@ -26,7 +26,7 @@ body{
 /* BOTÕES */
 
 nav.contato{
-    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     margin-top: -51px;
     margin-left: 90%;
   }
@@ -37,9 +37,11 @@ nav.contato{
   
   nav li a{
     display: inline-block;
-    color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 20px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+      color: black;
+      font-weight: bold;
     text-decoration: none;
     padding: 15px;
     transition: 0.4s;
@@ -47,26 +49,21 @@ nav.contato{
   }
   
   nav li a:hover{
-    opacity: 1;
-  }
-
-  nav li{
-    border-radius: 10px;
-    background-color: #D9D9D9;
-    
+      opacity: 2;
+      background-color: rgb(194, 192, 192);
   }
   
+  
     .dropdown{     
-      background: #D9D9D9;
+      background: none;
       font-weight: bold;
+      border-radius: 20px;
       cursor: pointer;
       position: relative;
-      z-index: 1;    
     }
     
   
   .dropdown-menu ul li{
-    background: rgb(113, 113, 113);
     border: none;
     border-radius: 0.625em;
     font-size: 20px;
@@ -81,15 +78,14 @@ nav.contato{
     position: absolute;
     border: none;
     display: none;
-    box-shadow: 0 0 2px white;
     cursor: pointer;
   }
   
   .dropdown-menu a{
     display: block;
     color: rgb(0, 0, 0);
-    background-color: #D9D9D9;
-    font-size: 18px;
+    padding: 10px;
+    font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
   }
   
@@ -98,8 +94,12 @@ nav.contato{
   }
   
   .dropdown-menu a:hover{
-    background-color: white;
+    background-color: rgb(194, 192, 192);
   }
+  
+  
+
+
 
 
 .center-projetos P{
@@ -133,13 +133,14 @@ nav.contato{
 }
 
 
-/* janela modal 
-*/
+/* ================ JANELA MODAL ================ */
+
+
 h1{
   color: black;
 }
 
-button{
+#close-modal{
   padding: .6rem 1.2rem;
   background: #ff0505;
   font-weight: bold;
@@ -152,22 +153,31 @@ button{
   transition: 0.4s;
 }
 
+
 #open-modal{ /* botão */
-  background: #D9D9D9;
   margin-left: 75%;
-  margin-top: 3%;
+  margin-top: 4%;
   border: none;
-  border-radius: 0.625em;
-  font-size: 20px;
+  border-radius: 20px;
+  background: none;
+  font-size: 15px;
   font-weight: bold;
+  color: black;
   cursor: pointer;
+  font-family: 'Poppins', sans-serif;
   padding: 15px;
+}
+
+#open-modal:hover{
+    opacity: 2;
+    background-color: rgb(194, 192, 192);
 }
 
 
 button:hover{
   opacity: 1;
 }
+
 
 #fade {
   position: fixed;
@@ -186,7 +196,7 @@ button:hover{
   transform: translate(-50%, -50%);
   width: 500px;
   max-width: 90%;
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 1.2rem;
   border-radius: 0.5rem;
   z-index: 10;
@@ -223,7 +233,7 @@ button:hover{
 }
 
 
-/* CONTATO */
+/* ========= CONTATO MODAL ======= */
 .modal-body a{
   color: rgb(223, 0, 0);
   font-size: 1.2em;
@@ -235,7 +245,7 @@ button:hover{
   color: #ff6464;
 }
 
-a.zap{  
+a.zap{
   color: green;
 }
 
