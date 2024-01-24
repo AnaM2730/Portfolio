@@ -448,109 +448,110 @@ h2{
 
 
 @media screen and (min-width: 679px) and (max-width: 1360px){ /*Tela 2*/
-    
-    
-    
-.camada2{
-    background-image: url(../projetos/img-projetos/noticiasCidade-proj6.png);
-    text-align: center;
-    padding-top: 35%;
-    border-radius: 10px;
-}
+      
+    .camada2{
+        background-image: url(../projetos/img-projetos/piano-proj7-copia.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        padding-top: 35%;
+        border-radius: 10px;
+    }
 
-.camada2{
-    width: 590px;
-    margin-left: 750px;
-    margin-top: 5%;
-}
+    .camada2{
+        width: 590px;
+        margin-left: 50%;
+        margin-top: 5%;
+    }
 
-.camada3{
-    background-image: url(../projetos/img-projetos/noticiasCidade-proj6.png);
-    text-align: center;
-    padding-top: 40%;
-    border-radius: 10px;
-}
+    .camada3{
+        background-image: url(../projetos/img-projetos/piano-proj7-copia.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        padding-top: 40%;
+        border-radius: 10px;
+    }
 
-.camada3{
-    width: 90%;
-    margin-left: 105%;
-}
-
-
-a{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    font-size: 20px;
-    margin-left: 130px;
-}
-
-.projeto{
-    font-weight: bold;
-    margin-left: 130px;
-}
-
-.projet-desc{
-    margin: 0;
-    padding-top: 20px;
-}
-
-.projet-desc p:not(:first-child){
-    margin-top: 1em;
-}
-
- h1{
-    font-size: 4.5em;
-    line-height: .95;
-    font-style: normal;
-    font-weight: 400;
-    font-family: 'Times New Roman', Times, serif;
-    margin-left: 40px;
-    color: rgb(30, 0, 151);
-    margin-top: 80px;
-}
-
-h2{
-    font-size: 2em;
-    color: rgb(30, 0, 151);
-    margin-left: -95%;
-    margin-top: 25%;
-    font-family: 'Times New Roman', Times, serif;
-    letter-spacing: 1px;
-}
+    .camada3{
+        width: 65%;
+        margin-left: 105%;
+        margin-top: -35%;
+    }
 
 
+    a{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        font-size: 20px;
+        margin-left: 130px;
+    }
 
-.link{
-    color: rgba(1, 30, 148, 0.978);
-    margin-left: -95%;
-    font-weight: bold;
-    font-size: 25px;
-    cursor: default;
-}
+    .projeto{
+        font-weight: bold;
+        margin-left: 130px;
+    }
 
-.link-projet{
-    font-weight: bold;
-    color: rgba(3, 39, 183, 0.697);
-    font-size: 25px;
-    margin-left: -95%;
-    font-style: italic;
-    text-decoration: underline;
-    cursor: pointer;
-}
+    .projet-desc{
+        margin: 0;
+        padding-top: 20px;
+    }
 
-.link-projet2{
-    font-weight: bold;
-    color: rgba(3, 3, 3, 0.697);
-    font-size: 25px;
-    margin-left: -95%;
-    font-style: italic;
-    text-decoration: underline;
-    cursor: pointer;
-}
+    .projet-desc p:not(:first-child){
+        margin-top: 1em;
+    }
+
+    h1{
+        font-size: 4.5em;
+        line-height: .95;
+        font-style: normal;
+        font-weight: 400;
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: 40px;
+        color: rgb(24, 24, 24);
+        margin-top: 80px;
+    }
+
+    h2{
+        font-size: 2em;
+        color: rgb(0, 0, 0);
+        margin-left: -95%;
+        margin-top: 20%;
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing: 1px;
+    }
+
+
+
+    .link{
+        color: rgba(251, 251, 251, 0.978);
+        margin-left: -95%;
+        font-weight: bold;
+        font-size: 25px;
+        cursor: default;
+    }
+
+    .link-projet{
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        margin-left: -95%;
+        font-style: italic;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .link-projet2{
+        font-weight: bold;
+        color: rgba(3, 3, 3, 0.697);
+        font-size: 25px;
+        margin-left: -95%;
+        font-style: italic;
+        text-decoration: underline;
+        cursor: pointer;
+    }
 
     button{
-        background-color: rgb(206, 206, 206);
+        background-color: rgb(155, 155, 155);
         border-radius: 30px;
         margin-left: 690px;
         color: #000000;
