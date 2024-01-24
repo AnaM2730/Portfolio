@@ -319,7 +319,8 @@
 @media screen and (min-width: 811px) and (max-width: 1440px){ /*Tela 1*/
     
     .camada2{
-        background-image: url(../projetos/img-projetos/UNES-proj9.png);
+        background-image: url(../projetos/img-projetos/watermelon-proj10-copia.png);
+        background-repeat: no-repeat;
         text-align: center;
         padding-top: 35%;
         border-radius: 10px;
@@ -327,12 +328,13 @@
     
     .camada2{
         width: 590px;
-        margin-left: 65%;
+        margin-left: 60%;
         margin-top: 5%;
     }
     
     .camada3{
-        background-image: url(../projetos/img-projetos/UNES-proj9.png);
+        background-image: url(../projetos/img-projetos/watermelon-proj10.png);
+        background-repeat: no-repeat;
         text-align: center;
         padding-top: 40%;
         border-radius: 10px;
@@ -340,34 +342,59 @@
     
     .camada3{
         width: 90%;
-        margin-left: 115%;
+        margin-left: 105%;
         margin-top: -40%;
     
     }
-
-
-    a{
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        text-decoration: none;
-        font-size: 20px;
-        margin-left: 130px;
+    
+    .camada4{
+        background-image: url(../projetos/img-projetos/watermelon-1.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        padding-top: 40%;
+        border-radius: 10px;
     }
     
-    .projeto{
-        font-weight: bold;
-        margin-left: 130px;
+    .camada4{
+        width: 90%;
+        margin-left: 200%;
+        margin-top: -40%;
+    
     }
     
-    .projet-desc{
-        margin: 0;
-        padding-top: 20px;
+    .camada5{
+        background-image: url(../projetos/img-projetos/watermelon-2.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        padding-top: 40%;
+        border-radius: 10px;
     }
     
-    .projet-desc p:not(:first-child){
-        margin-top: 1em;
+    .camada5{
+        width: 90%;
+        margin-left: 295%;
+        margin-top: -40%;
+    
     }
     
+    .camada6{
+        background-image: url(../projetos/img-projetos/watermelon-3.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        padding-top: 40%;
+        border-radius: 10px;
+    }
+    
+    .camada6{
+        width: 100%;
+        margin-left: 390%;
+        margin-top: -40%;
+    }
+    
+    
+    
+        
+        
      h1{
         font-size: 4.5em;
         line-height: .95;
@@ -375,15 +402,15 @@
         font-weight: 400;
         font-family: 'Times New Roman', Times, serif;
         margin-left: 40px;
-        color: rgb(30, 0, 151);
+        color: #ff036d;
         margin-top: 80px;
     }
     
     h2{
         font-size: 2em;
-        color: rgb(30, 0, 151);
+        color: #ff61a3;
         margin-left: -95%;
-        margin-top: 20%;
+        margin-top: 25%;
         font-family: 'Times New Roman', Times, serif;
         letter-spacing: 1px;
     }
@@ -391,7 +418,7 @@
     
     
     .link{
-        color: rgba(1, 30, 148, 0.978);
+        color: rgb(255, 255, 255);
         margin-left: -95%;
         font-weight: bold;
         font-size: 25px;
@@ -400,7 +427,7 @@
     
     .link-projet{
         font-weight: bold;
-        color: rgba(3, 39, 183, 0.697);
+        color: rgba(255, 255, 255, 0.697);
         font-size: 25px;
         margin-left: -95%;
         font-style: italic;
@@ -417,6 +444,7 @@
         text-decoration: underline;
         cursor: pointer;
     }
+    
 
     button{
         background-color: rgb(155, 155, 155);
@@ -450,145 +478,123 @@
 @media screen and (min-width: 679px) and (max-width: 1360px){ /*Tela 2*/
       
     
-.camada2{
-    background-image: url(../projetos/img-projetos/watermelon-proj10-copia.png);
-    background-repeat: no-repeat;
-    text-align: center;
-    padding-top: 35%;
-    border-radius: 10px;
-}
-
-.camada2{
-    width: 590px;
-    margin-left: 60%;
-    margin-top: 5%;
-}
-
-.camada3{
-    background-image: url(../projetos/img-projetos/watermelon-proj10.png);
-    background-repeat: no-repeat;
-    text-align: center;
-    padding-top: 40%;
-    border-radius: 10px;
-}
-
-.camada3{
-    width: 90%;
-    margin-left: 105%;
-    margin-top: -40%;
-
-}
-
-.camada4{
-    background-image: url(../projetos/img-projetos/watermelon-1.png);
-    background-repeat: no-repeat;
-    text-align: center;
-    padding-top: 40%;
-    border-radius: 10px;
-}
-
-.camada4{
-    width: 90%;
-    margin-left: 200%;
-    margin-top: -40%;
-
-}
-
-.camada5{
-    background-image: url(../projetos/img-projetos/watermelon-2.png);
-    background-repeat: no-repeat;
-    text-align: center;
-    padding-top: 40%;
-    border-radius: 10px;
-}
-
-.camada5{
-    width: 90%;
-    margin-left: 295%;
-    margin-top: -40%;
-
-}
-
-.camada6{
-    background-image: url(../projetos/img-projetos/watermelon-3.png);
-    background-repeat: no-repeat;
-    text-align: center;
-    padding-top: 40%;
-    border-radius: 10px;
-}
-
-.camada6{
-    width: 100%;
-    margin-left: 390%;
-    margin-top: -40%;
-}
-
-
-
-    
-    
-    a{
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        text-decoration: none;
-        font-size: 20px;
-        margin-left: 130px;
+    .camada2{
+        background-image: url(../projetos/img-projetos/watermelon-proj10-copia.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        padding-top: 35%;
+        border-radius: 10px;
     }
-    
-    .projeto{
-        font-weight: bold;
-        margin-left: 130px;
+
+    .camada2{
+        width: 590px;
+        margin-left: 60%;
+        margin-top: 5%;
     }
-    
-    .projet-desc{
-        margin: 0;
-        padding-top: 20px;
+
+    .camada3{
+        background-image: url(../projetos/img-projetos/watermelon-proj10.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        padding-top: 40%;
+        border-radius: 10px;
     }
-    
-    .projet-desc p:not(:first-child){
-        margin-top: 1em;
+
+    .camada3{
+        width: 90%;
+        margin-left: 105%;
+        margin-top: -40%;
+
     }
-    
-     h1{
+
+    .camada4{
+        background-image: url(../projetos/img-projetos/watermelon-1.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        padding-top: 40%;
+        border-radius: 10px;
+    }
+
+    .camada4{
+        width: 90%;
+        margin-left: 200%;
+        margin-top: -40%;
+
+    }
+
+    .camada5{
+        background-image: url(../projetos/img-projetos/watermelon-2.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        padding-top: 40%;
+        border-radius: 10px;
+    }
+
+    .camada5{
+        width: 90%;
+        margin-left: 295%;
+        margin-top: -40%;
+
+    }
+
+    .camada6{
+        background-image: url(../projetos/img-projetos/watermelon-3.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        padding-top: 40%;
+        border-radius: 10px;
+    }
+
+    .camada6{
+        width: 100%;
+        margin-left: 390%;
+        margin-top: -40%;
+    }
+
+
+
+        
+        
+    h1{
         font-size: 4.5em;
         line-height: .95;
         font-style: normal;
         font-weight: 400;
         font-family: 'Times New Roman', Times, serif;
         margin-left: 40px;
-        color: rgb(30, 0, 151);
+        color: #ff036d;
         margin-top: 80px;
     }
-    
+
     h2{
         font-size: 2em;
-        color: rgb(30, 0, 151);
+        color: #ff61a3;
         margin-left: -95%;
-        margin-top: 20%;
+        margin-top: 25%;
         font-family: 'Times New Roman', Times, serif;
         letter-spacing: 1px;
     }
-    
-    
-    
+
+
+
     .link{
-        color: rgba(1, 30, 148, 0.978);
+        color: rgb(255, 255, 255);
         margin-left: -95%;
         font-weight: bold;
         font-size: 25px;
         cursor: default;
     }
-    
+
     .link-projet{
         font-weight: bold;
-        color: rgba(3, 39, 183, 0.697);
+        color: rgba(255, 255, 255, 0.697);
         font-size: 25px;
         margin-left: -95%;
         font-style: italic;
         text-decoration: underline;
         cursor: pointer;
     }
-    
+
     .link-projet2{
         font-weight: bold;
         color: rgba(3, 3, 3, 0.697);
@@ -598,6 +604,7 @@
         text-decoration: underline;
         cursor: pointer;
     }
+
 
     button{
         background-color: rgb(155, 155, 155);
