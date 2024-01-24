@@ -446,9 +446,121 @@
 
 }
 
+@media screen and (min-width: 811px) and (max-width: 1440px){ /*Tela 1*/
+    .camada2{
+        background-image: url(../projetos/img-projetos/annabella-proj1.png);
+        text-align: center;
+        padding-top: 35%;
+        border-radius: 10px;
+    }
+    
+    .camada2{
+        width: 450px;
+        margin-left: 750px;
+        margin-top: 3%;
+    }
+    
+    .camada3{
+        background-image: url(../projetos/img-projetos/annabella-proj1.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        padding-top: 40%;
+        border-radius: 10px;
+    }
+    
+    .camada3{
+        width: 90%;
+        height: 10%;
+        margin-left: 95%;
+        margin-top: -40%;
+    
+    }
+    
+    
+    a{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        font-size: 20px;
+        margin-left: 130px;
+    }
+    
+    .projeto{
+        font-weight: bold;
+        margin-left: 130px;
+    }
+    
+    .projet-desc{
+        margin: 0;
+        padding-top: 20px;
+    }
+    
+    .projet-desc p:not(:first-child){
+        margin-top: 1em;
+    }
+    
+     h1{
+        font-size: 3.5em;
+        line-height: .95;
+        font-style: normal;
+        font-weight: 400;
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: 55px;
+        color: rgb(85, 84, 59);
+        margin-top: 80px;
+    }
+    
+    h2{
+        font-size: 2em;
+        color: rgb(85, 84, 59);
+        margin-left: -95%;
+        margin-top: 18%;
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing: 1px;
+    }
+    
+    
+    
+    .link{
+        color: rgba(122, 126, 5, 0.978);
+        margin-left: -95%;
+        font-weight: bold;
+        font-size: 25px;
+        cursor: default;
+    }
+    
+    .link-projet{
+        font-weight: bold;
+        color: rgba(118, 121, 47, 0.978);
+        font-size: 25px;
+        margin-left: -95%;
+        font-style: italic;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    .link-projet2{
+        font-weight: bold;
+        color: rgba(3, 3, 3, 0.697);
+        font-size: 25px;
+        margin-left: -95%;
+        font-style: italic;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    /* LEFT */
+    .projet-left{
+        float: left;
+        padding-left: 60px;
+    }
+
+}
 
 
-@media screen and (min-width: 679px) and (max-width: 1360px){ /*Tablet*/
+
+
+@media screen and (min-width: 679px) and (max-width: 1360px){ /*Tela 2*/
     .camada2{
         background-image: url(../projetos/img-projetos/annabella-proj1.png);
         text-align: center;

@@ -1,6 +1,6 @@
 @media screen and (max-width: 636px){ /*Pequenas telas*/
     .camada2{
-        background-image: url(../projetos/img-projetos/mario-proj3.png);
+        background-image: url(../projetos/img-projetos/midiaSocial-proj4.png);
         text-align: center;
         padding-top: 35%;
         border-radius: 10px;
@@ -13,7 +13,7 @@
     }
     
     .camada3{
-        background-image: url(../projetos/img-projetos/mario-proj3.png);
+        background-image: url(../projetos/img-projetos/midiaSocial-proj4.png);
         background-repeat: no-repeat;
         text-align: center;
         padding-top: 40%;
@@ -112,7 +112,7 @@
 
 @media screen and (min-width: 636px) and (max-width: 768px){ /*Celular*/
     .camada2{
-        background-image: url(../projetos/img-projetos/mario-proj3.png);
+        background-image: url(../projetos/img-projetos/midiaSocial-proj4.png);
         text-align: center;
         padding-top: 35%;
         border-radius: 10px;
@@ -125,7 +125,7 @@
     }
     
     .camada3{
-        background-image: url(../projetos/img-projetos/mario-proj3.png);
+        background-image: url(../projetos/img-projetos/midiaSocial-proj4.png);
         background-repeat: no-repeat;
         text-align: center;
         padding-top: 40%;
@@ -226,7 +226,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px){ /*Tablet*/
     .camada2{
-        background-image: url(../projetos/img-projetos/mario-proj3.png);
+        background-image: url(../projetos/img-projetos/midiaSocial-proj4.png);
         text-align: center;
         padding-top: 35%;
         border-radius: 10px;
@@ -239,7 +239,7 @@
     }
     
     .camada3{
-        background-image: url(../projetos/img-projetos/mario-proj3.png);
+        background-image: url(../projetos/img-projetos/midiaSocial-proj4.png);
         background-repeat: no-repeat;
         text-align: center;
         padding-top: 40%;
@@ -335,9 +335,9 @@
 }
 
 
-@media screen and (min-width: 992px) and (max-width: 1357px){ /*Desktop e telas grandes*/
+@media screen and (min-width: 992px) and (max-width: 1360px){ /*Desktop e telas grandes*/
     .camada2{
-        background-image: url(../projetos/img-projetos/mario-proj3.png);
+        background-image: url(../projetos/img-projetos/midiaSocial-proj4.png);
         text-align: center;
         padding-top: 35%;
         border-radius: 10px;
@@ -350,7 +350,7 @@
     }
     
     .camada3{
-        background-image: url(../projetos/img-projetos/mario-proj3.png);
+        background-image: url(../projetos/img-projetos/midiaSocial-proj4.png);
         background-repeat: no-repeat;
         text-align: center;
         padding-top: 40%;
@@ -447,64 +447,64 @@
 }
 
 @media screen and (min-width: 811px) and (max-width: 1440px){ /*Tela 1*/
+   
     .camada2{
-        background-image: url(../projetos/img-projetos/mario-proj3.png);
+        background-image: url(../projetos/img-projetos/midiaSocial-proj4.png);
         text-align: center;
-        padding-top: 30%;
+        padding-top: 40%;
         border-radius: 10px;
     }
-    
+
     .camada2{
-        width: 450px;
-        margin-left: 850px;
-        margin-top: 3%;
+        width: 590px;
+        margin-left: 750px;
+        margin-top: 100px;
     }
-    
+
     .camada3{
-        background-image: url(../projetos/img-projetos/mario-proj3.png);
-        background-repeat: no-repeat;
+        background-image: url(../projetos/img-projetos/midiaSocial-proj4.png);
         text-align: center;
-        padding-top: 30%;
+        padding-top: 40%;
         border-radius: 10px;
     }
-    
+
     .camada3{
-        width: 90%;
-        height: 10%;
-        margin-left: 103%;
-        margin-top: -30%;
-    
+        width: 80%;
+        margin-left: 85%;
+        margin-top: -40%;
+
     }
-    
-
-    /* icon arrow */
-
-button{
-    background-color: rgb(206, 206, 206);
-    border-radius: 30px;
-    margin-left: 690px;
-    color: #000000;
-    cursor: pointer;
-    margin-top: 60px;
-    padding: 5px 1px;
-    border: none;
-}
-
-p.btn-text{
-    transform: translateX(15px);
-    font-size: 1em;
-    font-weight: 700;
-    transition-duration: 0.3s;
-    color: black;
-    margin-right: 25px;
-    margin-top: -20px;
-}
 
 
-button:hover .btn-text {
-    transform: translateX(0px);
-  }
-    
+    .camada4{
+        background-image: url(../projetos/img-projetos/notificações.png);
+        text-align: center;
+        padding-top: 40%;
+        border-radius: 10px;
+    }
+
+    .camada4{
+        width: 75%;
+        margin-left: 170%;
+        margin-top: -40%;
+
+    }
+
+
+    .camada5{
+        background-image: url(../projetos/img-projetos/modif-cores.png);
+        text-align: center;
+        padding-top: 40%;
+        border-radius: 10px;
+    }
+
+    .camada5{
+        width: 100%;
+        margin-left: 250%;
+        margin-top: -40%;
+
+    }
+
     a{
         color: white;
         font-family: Arial, Helvetica, sans-serif;
@@ -512,22 +512,27 @@ button:hover .btn-text {
         font-size: 20px;
         margin-left: 130px;
     }
-    
+
     .projeto{
         font-weight: bold;
         margin-left: 130px;
     }
-    
+
     .projet-desc{
         margin: 0;
         padding-top: 20px;
     }
-    
+
     .projet-desc p:not(:first-child){
         margin-top: 1em;
     }
-    
-     
+
+    /* LEFT */
+    .projet-left{
+        float: left;
+        padding-left: 60px;
+    }
+
     h1{
         font-size: 4.5em;
         line-height: .95;
@@ -535,23 +540,22 @@ button:hover .btn-text {
         font-weight: 400;
         font-family: 'Times New Roman', Times, serif;
         margin-left: 40px;
-        color: rgb(255, 196, 0);
+        color: rgb(58, 0, 94);
         margin-top: 80px;
     }
 
     h2{
         font-size: 2em;
-        color: rgb(236, 248, 4);
-        margin-left: -96%;
-        margin-top: 22%;
+        color: rgb(58, 0, 94);
+        margin-left: -95%;
+        margin-top: 18%;
         font-family: 'Times New Roman', Times, serif;
         letter-spacing: 1px;
     }
 
-    
     .link{
-        color: rgb(255, 196, 0);
-        margin-left: -96%;
+        color: rgb(78, 0, 87);
+        margin-left: -95%;
         font-weight: bold;
         font-size: 25px;
         cursor: default;
@@ -559,8 +563,9 @@ button:hover .btn-text {
 
     .link-projet{
         font-weight: bold;
+        color: rgb(217, 0, 255);
         font-size: 25px;
-        margin-left: -96%;
+        margin-left: -95%;
         font-style: italic;
         text-decoration: underline;
         cursor: pointer;
@@ -568,73 +573,104 @@ button:hover .btn-text {
 
     .link-projet2{
         font-weight: bold;
+        color: rgba(3, 3, 3, 0.697);
         font-size: 25px;
-        margin-left: -96%;
+        margin-left: -95%;
         font-style: italic;
         text-decoration: underline;
         cursor: pointer;
     }
 }
+
 
 
 @media screen and (min-width: 679px) and (max-width: 1360px){ /*Tela 2*/
-    .camada2{
-        background-image: url(../projetos/img-projetos/mario-proj3.png);
-        text-align: center;
-        padding-top: 30%;
-        border-radius: 10px;
-    }
     
     .camada2{
-        width: 450px;
-        margin-left: 850px;
-        margin-top: 3%;
-    }
-    
-    .camada3{
-        background-image: url(../projetos/img-projetos/mario-proj3.png);
-        background-repeat: no-repeat;
+        background-image: url(../projetos/img-projetos/midiaSocial-proj4.png);
         text-align: center;
-        padding-top: 30%;
+        padding-top: 40%;
         border-radius: 10px;
     }
-    
+
+    .camada2{
+        width: 390px;
+        margin-left: 750px;
+        margin-top: 16px;
+    }
+
     .camada3{
-        width: 90%;
-        height: 10%;
-        margin-left: 103%;
-        margin-top: -30%;
-    
+        background-image: url(../projetos/img-projetos/midiaSocial-proj4.png);
+        text-align: center;
+        padding-top: 40%;
+        border-radius: 10px;
+    }
+
+    .camada3{
+        width: 70%;
+        margin-left: 95%;
+        margin-top: -42%;
+
+    }
+
+
+    .camada4{
+        background-image: url(../projetos/img-projetos/notificações.png);
+        text-align: center;
+        padding-top: 40%;
+        border-radius: 10px;
+    }
+
+    .camada4{
+        width: 75%;
+        margin-left: 170%;
+        margin-top: -40%;
+
+    }
+
+
+    .camada5{
+        background-image: url(../img-projetos/modif-cores.png);
+        text-align: center;
+        padding-top: 40%;
+        border-radius: 10px;
+    }
+
+    .camada5{
+        width: 100%;
+        margin-left: 250%;
+        margin-top: -40%;
+
     }
     
 
     /* icon arrow */
 
-button{
-    background-color: rgb(206, 206, 206);
-    border-radius: 30px;
-    margin-left: 690px;
-    color: #000000;
-    cursor: pointer;
-    margin-top: 60px;
-    padding: 5px 1px;
-    border: none;
-}
+    button{
+        background-color: rgb(206, 206, 206);
+        border-radius: 30px;
+        margin-left: 540px;
+        color: #000000;
+        cursor: pointer;
+        margin-top: 60px;
+        padding: 5px 1px;
+        border: none;
+    }
 
-p.btn-text{
-    transform: translateX(15px);
-    font-size: 1em;
-    font-weight: 700;
-    transition-duration: 0.3s;
-    color: black;
-    margin-right: 25px;
-    margin-top: -20px;
-}
+    p.btn-text{
+        transform: translateX(15px);
+        font-size: 1em;
+        font-weight: 700;
+        transition-duration: 0.3s;
+        color: black;
+        margin-right: 25px;
+        margin-top: -20px;
+    }
 
 
-button:hover .btn-text {
-    transform: translateX(0px);
-  }
+    button:hover .btn-text {
+        transform: translateX(0px);
+    }
     
     a{
         color: white;
@@ -658,7 +694,6 @@ button:hover .btn-text {
         margin-top: 1em;
     }
     
-     
     h1{
         font-size: 4.5em;
         line-height: .95;
@@ -666,23 +701,22 @@ button:hover .btn-text {
         font-weight: 400;
         font-family: 'Times New Roman', Times, serif;
         margin-left: 40px;
-        color: rgb(255, 196, 0);
+        color: rgb(58, 0, 94);
         margin-top: 80px;
     }
 
     h2{
         font-size: 2em;
-        color: rgb(236, 248, 4);
-        margin-left: -96%;
+        color: rgb(58, 0, 94);
+        margin-left: -95%;
         margin-top: 22%;
         font-family: 'Times New Roman', Times, serif;
         letter-spacing: 1px;
     }
 
-    
     .link{
-        color: rgb(255, 196, 0);
-        margin-left: -96%;
+        color: rgb(78, 0, 87);
+        margin-left: -95%;
         font-weight: bold;
         font-size: 25px;
         cursor: default;
@@ -690,8 +724,9 @@ button:hover .btn-text {
 
     .link-projet{
         font-weight: bold;
+        color: rgb(217, 0, 255);
         font-size: 25px;
-        margin-left: -96%;
+        margin-left: -95%;
         font-style: italic;
         text-decoration: underline;
         cursor: pointer;
@@ -699,8 +734,9 @@ button:hover .btn-text {
 
     .link-projet2{
         font-weight: bold;
+        color: rgba(3, 3, 3, 0.697);
         font-size: 25px;
-        margin-left: -96%;
+        margin-left: -95%;
         font-style: italic;
         text-decoration: underline;
         cursor: pointer;

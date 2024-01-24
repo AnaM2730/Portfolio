@@ -446,7 +446,7 @@
 
 }
 
-@media screen and (min-width: 992px) and (max-width: 1360px){ /*Tela 1*/
+@media screen and (min-width: 811px) and (max-width: 1440px){ /*Tela 1*/
     .camada2{
         background-image: url(../projetos/img-projetos/chaleHotel-proj2.png);
         text-align: center;
@@ -455,7 +455,7 @@
     }
     
     .camada2{
-        width: 590px;
+        width: 190px;
         margin-left: 750px;
         margin-top: 10%;
     }
@@ -472,10 +472,8 @@
         width: 90%;
         height: 10%;
         margin-left: 90%;
-        margin-top: -40%;
-    
-    }
-    
+        margin-top: -40%;    
+    }    
     
     a{
         color: white;
