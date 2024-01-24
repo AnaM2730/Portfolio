@@ -81,7 +81,7 @@
 .camada2{
     background-image: url(../img-projetos/chaleHotel-proj2.png);
     text-align: center;
-    padding-top: 35%;
+    padding-top: 30%;
     border-radius: 10px;
 }
 
@@ -100,9 +100,9 @@
 }
 
 .camada3{
-    width: 90%;
+    width: 85%;
     height: 10%;
-    margin-left: 90%;
+    margin-right: 95%;
     margin-top: -40%;
 
 }
