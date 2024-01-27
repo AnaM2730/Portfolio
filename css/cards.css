@@ -39,15 +39,9 @@
 
 
 .card-proj1{
-  position: relative;
   width: 600px;
   height: 340px;
   border-radius: 14px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   margin-top: 50px;
   box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   float: left;
@@ -65,7 +59,6 @@
   }
 
 .card-proj1 img{
-    z-index: 15;
     width: 650px;
     height: 350px;
 }
@@ -73,15 +66,9 @@
 
   /* CARD 2 */
   .card-proj2{
-    position: relative;
   width: 600px;
   height: 340px;
   border-radius: 14px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   margin-right: 110px;
   margin-top: 50px;
@@ -99,22 +86,15 @@
     }
 
 .card-proj2 img{
-    z-index: 15;
     width: 600px;
     height: 450px;
 }
 
 /* CARD 3 */
   .card-proj3{
-  position: relative;
   width: 600px;
   height: 350px;
   border-radius: 14px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   margin-left: 50px;
   margin-top: 80px;
@@ -132,22 +112,15 @@
     }
 
 .card-proj3 img{
-    z-index: 15;
     width: 600px;
     height: 450px;
 }
 
 /* CARD 4 */
   .card-proj4{
-  position: relative;
   width: 600px;
   height: 350px;
   border-radius: 14px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   margin-right: 100px;
   margin-top: 80px;
@@ -166,22 +139,15 @@
     }
 
 .card-proj4 img{
-    z-index: 15;
     width: 601px;
     height: 350px;
 }
 
 /* CARD 5 */
   .card-proj5{
-  position: relative;
   width: 600px;
   height: 350px;
   border-radius: 14px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   margin-left: 50px;
   margin-top: 80px;
@@ -198,22 +164,15 @@
     text-decoration: none;
     }
 .card-proj5 img{
-    z-index: 15;
     width: 600px;
     height: 350px;
 }
 
 /* CARD 6 */
 .card-proj6{
-  position: relative;
   width: 600px;
   height: 350px;
   border-radius: 14px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   margin-right: 90px;
   margin-top: 80px;
@@ -232,22 +191,15 @@
     }
   
 .card-proj6 img{
-    z-index: 15;
     width: 600px;
     height: 350px;
 }
 
 /* CARD 7 */
 .card-proj7{
-  position: relative;
   width: 600px;
   height: 350px;
   border-radius: 14px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   margin-left: 50px;
   margin-top: 80px;
@@ -266,22 +218,15 @@
     }
   
 .card-proj7 img{
-    z-index: 15;
     width: 600px;
     height: 350px;
 }
 
 /* CARD 8 */
 .card-proj8{
-  position: relative;
   width: 600px;
   height: 350px;
   border-radius: 14px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   margin-right: 90px;
   margin-top: 80px;
@@ -300,22 +245,15 @@
     }
   
 .card-proj8 img{
-    z-index: 15;
     width: 600px;
     height: 350px;
 }
 
 /* CARD 9 */
 .card-proj9{
-  position: relative;
   width: 600px;
   height: 350px;
   border-radius: 14px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   margin-left: 50px;
   margin-top: 80px;
@@ -334,22 +272,15 @@
     }
   
 .card-proj9 img{
-    z-index: 15;
     width: 600px;
     height: 350px;
 }
 
 /* CARD 10 */
 .card-proj10{
-  position: relative;
   width: 600px;
   height: 350px;
   border-radius: 14px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   margin-right: 90px;
   margin-top: 80px;
@@ -368,7 +299,6 @@
     }
 
 .card-proj10 img{
-    z-index: 15;
     width: 600px;
     height: 350px;
 }
@@ -381,13 +311,3 @@
   visibility: hidden;
 }
 
-
-/* FOOTER */
-
-footer{
-  
-}
-.rodape{
-  width: 500px;
-  height: 500px;
-}

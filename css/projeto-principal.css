@@ -100,8 +100,6 @@ nav.contato{
   
 
 
-
-
 .center-projetos P{
     margin-bottom: 390px;
     margin-top: 50px;
@@ -121,15 +119,6 @@ nav.contato{
     align-items: center;
     justify-content: center;
     margin: auto;
-    margin-top: -490px;
-    margin-left: 1020px;
-}
-
-
-.linha{
-  height: 40px;
-  color: black;
-  width: 20px;
 }
 
 
@@ -251,4 +240,22 @@ a.zap{
 
 a.zap:hover{
   color: rgb(1, 215, 1);
+}
+
+
+
+/* FOOTER */
+
+.fixar-footer{
+  border-top: 1px solid #333;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  position: fixed;
+  width: 100%;
+}
+
+.fixar-footer{
+    /** Essa margem vai evitar que o conteudo fique por baixo do rodapé **/
+    margin-bottom: 40px;
 }
