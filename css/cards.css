@@ -380,3 +380,14 @@
 .card-proj9, .card-proj10{
   visibility: hidden;
 }
+
+
+/* FOOTER */
+
+footer{
+  
+}
+.rodape{
+  width: 500px;
+  height: 500px;
+}
