@@ -372,3 +372,11 @@
     width: 600px;
     height: 350px;
 }
+
+
+/* ANIMAÇÃO */
+.card-proj1, .card-proj2, .card-proj3, .card-proj4,
+.card-proj5, .card-proj6, .card-proj7, .card-proj8, 
+.card-proj9, .card-proj10{
+  visibility: hidden;
+}
