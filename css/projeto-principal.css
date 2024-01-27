@@ -246,8 +246,7 @@ a.zap:hover{
 
 /* FOOTER */
 
-.fixar-footer{
-  border-top: 1px solid #333;
+#rodape{
   bottom: 0;
   left: 0;
   height: 40px;
