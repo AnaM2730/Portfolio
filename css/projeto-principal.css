@@ -45,7 +45,6 @@ nav.contato{
     text-decoration: none;
     padding: 15px;
     transition: 0.4s;
-    opacity: 0.8;
   }
   
   nav li a:hover{
@@ -66,7 +65,7 @@ nav.contato{
   .dropdown-menu ul li{
     border: none;
     border-radius: 0.625em;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     cursor: pointer;
     position: relative;
