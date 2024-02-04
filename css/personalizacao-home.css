@@ -16,16 +16,9 @@
 
 body{
     background-color: rgb(221, 219, 221);
-    overflow-y: hidden;
 }
 
-
-
-
-
 /* BOTÕES */
-
-
 nav li{
   display: inline-block;
 }
@@ -426,4 +419,52 @@ a.zap{
 
 a.zap:hover{
   color: rgb(1, 215, 1);
+}
+
+
+
+/* FOOTER */
+.footer {
+  background-color: #e2e2e3;
+  padding: 25px;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  position: fixed;
+  width: 100%;
+}
+
+.footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.footer .footer-links {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  margin-right: 450px;
+  font-size: 25px;
+}
+
+.footer .footer-links a {
+  margin: 0 10px;
+  color: red;
+}
+
+.footer .footer-info {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  margin-right: 350px;
+}
+
+.footer .footer-info p {
+  margin: 0;
 }
