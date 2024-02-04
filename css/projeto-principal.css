@@ -243,18 +243,3 @@ a.zap:hover{
 }
 
 
-
-/* FOOTER */
-
-#rodape{
-  bottom: 0;
-  left: 0;
-  height: 40px;
-  position: fixed;
-  width: 100%;
-}
-
-.fixar-footer{
-    /** Essa margem vai evitar que o conteudo fique por baixo do rodapé **/
-    margin-bottom: 40px;
-}
