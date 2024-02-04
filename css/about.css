@@ -1,285 +1,341 @@
-@charset "UTF-8";
+    @charset "UTF-8";
 
-/* ============= GOOGLE FONTS ============= */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+    /* ============= GOOGLE FONTS ============= */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 
-@font-face {
-    font-family: 'fonte1';
-    src: url(../font/KaushanScript-Regular.ttf);
-}
-*{
-    margin: 0;
-    padding: 0;
-  }
-  
-  body{
-      background-color: rgb(221, 219, 221);
-  }
-  
-  /* BOTÕES */
- 
-nav.contato{
-    color: rgb(255, 255, 255);
-    margin-top: -51px;
-    margin-left: 90%;
-  }
-  
- 
-/* BOTÕES */
-nav li{
-    display: inline-block;
-  }
-  
-  nav.contato{
-    margin-top: -51px;
-    margin-left: 87%;
+    @font-face {
+        font-family: 'fonte1';
+        src: url(../font/KaushanScript-Regular.ttf);
     }
-  nav li a{
-    margin-top: -2px;
-    width: 80px;
-    border-radius: 10px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 15px;
-    transition: 0.4s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-  }
-  
-  nav li a:hover{
-      opacity: 2;
-      background-color: rgb(194, 192, 192);
-  }
-  
-  
-    .dropdown{     
-      background: none;
-      font-weight: bold;
-      border-radius: 20px;
-      cursor: pointer;
-      position: relative;
+    *{
+        margin: 0;
+        padding: 0;
     }
     
-  
-  .dropdown-menu ul li{
-    border: none;
-    border-radius: 0.625em;
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-  }
-  
-  .dropdown-menu{
-    position: absolute;
-    border: none;
-    display: none;
-    cursor: pointer;
-  }
-  
-  .dropdown-menu a{
-    display: block;
-    color: rgb(0, 0, 0);
-    padding: 10px;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .dropdown:hover .dropdown-menu{
-    display: block;
-  }
-  
-  .dropdown-menu a:hover{
-    background-color: rgb(194, 192, 192);
-  }
+    body{
+        background-color: rgb(221, 219, 221);
+    }
+    
+    /* BOTÕES */
+    
+    nav.contato{
+        color: rgb(255, 255, 255);
+        margin-top: -51px;
+        margin-left: 90%;
+    }
+    
+    
+    /* BOTÕES */
+    nav li{
+        display: inline-block;
+    }
+    
+    nav.contato{
+        margin-top: -44px;
+        margin-left: 87%;
+        }
+        
+    nav li a{
+        margin-top: -2px;
+        width: 80px;
+        border-radius: 10px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 15px;
+        transition: 0.4s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+    }
+    
+    nav li a:hover{
+        opacity: 2;
+        background-color: rgb(194, 192, 192);
+    }
+    
+    
+        .dropdown{     
+        background: none;
+        font-weight: bold;
+        border-radius: 20px;
+        cursor: pointer;
+        position: relative;
+        }
+        
+    
+    .dropdown-menu ul li{
+        border: none;
+        border-radius: 0.625em;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+    }
+    
+    .dropdown-menu{
+        position: absolute;
+        border: none;
+        display: none;
+        cursor: pointer;
+    }
+    
+    .dropdown-menu a{
+        display: block;
+        color: rgb(0, 0, 0);
+        padding: 10px;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .dropdown:hover .dropdown-menu{
+        display: block;
+    }
+    
+    .dropdown-menu a:hover{
+        background-color: rgb(194, 192, 192);
+    }
+
+
+
+
+    /* == IMAGEM - PROFILE == */
+    .img-about img{
+        width: 450px;
+        height: 550px;
+    }
+
+    .img-about{
+        margin-left: 260px;
+        margin-top: 80px;
+    }
+
+
+    /* == texts == */
+
+    .about{
+        margin-left: 850px;
+        margin-top: -450px;
+    }
+
+    .about h4{
+        font-size: 60px;
+    }
+
+    .about p{
+        font-size: 15px;
+        margin-top: 60px;
+        margin-right: 80px;
+    }
+
+
+    /* == BUTTON == */
+    .button-CV{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 550px;
+        margin-top: 30px;
+    }
+
+    button{
+        background-color: rgb(145, 144, 144);
+        border-radius: 0.5em;
+        border: none;
+        width: 150px;
+        height: 45px;
+    }
+
+    button p{
+        font-size: 18px;
+    }
+
+    button:hover{
+        color: #e2e2e3;
+        background-color: rgb(47, 46, 46);
+    }
 
 
 
 
 
 
+    /* ================ JANELA MODAL ================ */
 
 
+    h1{
+        color: black;
+    }
+    
+    #close-modal{
+        padding: .6rem 1.2rem;
+        background: #ff0505;
+        font-weight: bold;
+        color: black;
+        border: none;
+        border-radius: .25rem;
+        cursor: pointer;
+        opacity: 0.8;
+        font-size: 1rem;
+        transition: 0.4s;
+    }
+    
+    
+    #open-modal{ /* botão */
+        margin-left: 78%;
+        margin-top: 40px;
+        border: none;
+        border-radius: 20px;
+        background: none;
+        font-size: 15px;
+        font-weight: bold;
+        color: black;
+        cursor: pointer;
+        font-family: 'Poppins', sans-serif;
+        padding: 15px;
+    }
+    
+    #open-modal:hover{
+        opacity: 2;
+        background-color: rgb(194, 192, 192);
+    }
+    
+    
+    button:hover{
+        opacity: 1;
+    }
+    
+    
+    #fade {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+        z-index: 5;
+    }
+    
+    #modal {
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 500px;
+        max-width: 90%;
+        background-color: #ffffff;
+        padding: 1.2rem;
+        border-radius: 0.5rem;
+        z-index: 10;
+    }
+    
+    #fade,
+    #modal {
+        transition: 0.5s;
+        opacity: 1;
+        pointer-events: all;
+    }
+    
+    .modal-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+    }
+    
+    .modal-body p {
+        margin-bottom: 1rem;
+    }
+    
+    #modal.hide,
+    #fade.hide {
+        opacity: 0;
+        pointer-events: none;
+    }
+    
+    #modal.hide {
+        top: 0;
+    }
+    
+    
+    /* ========= CONTATO MODAL ======= */
+    .modal-body a{
+        color: rgb(223, 0, 0);
+        font-size: 1.2em;
+        text-decoration: none;
+        padding: 65px;
+    }
+    
+    .modal-body a:hover{
+        color: #ff6464;
+    }
+    
+    a.zap{
+        color: green;
+    }
+    
+    a.zap:hover{
+        color: rgb(1, 215, 1);
+    }
 
 
-/* ================ JANELA MODAL ================ */
-
-
-h1{
-    color: black;
-  }
-  
-  #close-modal{
-    padding: .6rem 1.2rem;
-    background: #ff0505;
-    font-weight: bold;
-    color: black;
-    border: none;
-    border-radius: .25rem;
-    cursor: pointer;
-    opacity: 0.8;
-    font-size: 1rem;
-    transition: 0.4s;
-  }
-  
-  
-  #open-modal{ /* botão */
-    margin-left: 78%;
-    margin-top: 40px;
-    border: none;
-    border-radius: 20px;
-    background: none;
-    font-size: 15px;
-    font-weight: bold;
-    color: black;
-    cursor: pointer;
-    font-family: 'Poppins', sans-serif;
-    padding: 15px;
-  }
-  
-  #open-modal:hover{
-      opacity: 2;
-      background-color: rgb(194, 192, 192);
-  }
-  
-  
-  button:hover{
-    opacity: 1;
-  }
-  
-  
-  #fade {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
-    z-index: 5;
-  }
-  
-  #modal {
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 500px;
-    max-width: 90%;
-    background-color: #ffffff;
-    padding: 1.2rem;
-    border-radius: 0.5rem;
-    z-index: 10;
-  }
-  
-  #fade,
-  #modal {
-    transition: 0.5s;
-    opacity: 1;
-    pointer-events: all;
-  }
-  
-  .modal-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 1rem;
-    padding-bottom: 1rem;
-  }
-  
-  .modal-body p {
-    margin-bottom: 1rem;
-  }
-  
-  #modal.hide,
-  #fade.hide {
-    opacity: 0;
-    pointer-events: none;
-  }
-  
-  #modal.hide {
-    top: 0;
-  }
-  
-  
-  /* ========= CONTATO MODAL ======= */
-  .modal-body a{
-    color: rgb(223, 0, 0);
-    font-size: 1.2em;
-    text-decoration: none;
-    padding: 65px;
-  }
-  
-  .modal-body a:hover{
-    color: #ff6464;
-  }
-  
-  a.zap{
-    color: green;
-  }
-  
-  a.zap:hover{
-    color: rgb(1, 215, 1);
-  }
-
-
-  
-/* FOOTER */
-.footer {
-    background-color: #e2e2e3;
-    padding: 25px;
-    text-align: center;
-    bottom: 0;
-    left: 0;
-    height: 50px;
-    position: fixed;
-    width: 100%;
-  }
-  
-  .footer a {
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  .footer a:hover {
-    color: #0056b3;
-    text-decoration: underline;
-  }
-  
-  .footer .footer-title{
-    font-size: 25px;
-    margin-right: 450px;
-    margin-top: -16px;
-    font-family: 'fonte1';
-  }
-  
-  .footer .footer-links {
-    display: flex;
-    margin-left: 850px;
-    font-size: 18px;
-  }
-  
-  .footer .footer-links a {
-    margin: 0 10px;
-    color: rgb(44, 44, 44);
-    font-weight: bold;
-  }
-  
-  .footer .footer-info {
-    display: flex;
-    justify-content: space-around;
-    margin-right: 321px;
-    margin-top: -24px;
-  }
-  
-  .footer .footer-info p {
-    margin: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
+    
+    /* FOOTER */
+    .footer {
+        background-color: #e2e2e3;
+        padding: 25px;
+        text-align: center;
+        bottom: 0;
+        left: 0;
+        height: 50px;
+        position: fixed;
+        width: 100%;
+    }
+    
+    .footer a {
+        color: #007bff;
+        text-decoration: none;
+    }
+    
+    .footer a:hover {
+        color: #0056b3;
+        text-decoration: underline;
+    }
+    
+    .footer .footer-title{
+        font-size: 25px;
+        margin-right: 450px;
+        margin-top: -16px;
+        font-family: 'fonte1';
+    }
+    
+    .footer .footer-links {
+        display: flex;
+        margin-left: 850px;
+        font-size: 18px;
+    }
+    
+    .footer .footer-links a {
+        margin: 0 10px;
+        color: rgb(44, 44, 44);
+        font-weight: bold;
+    }
+    
+    .footer .footer-info {
+        display: flex;
+        justify-content: space-around;
+        margin-right: 321px;
+        margin-top: -24px;
+    }
+    
+    .footer .footer-info p {
+        margin: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
