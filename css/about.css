@@ -3,7 +3,7 @@
     /* ============= GOOGLE FONTS ============= */
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
-
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
     @font-face {
         font-family: 'fonte1';
         src: url(../font/KaushanScript-Regular.ttf);
@@ -106,13 +106,13 @@
 
     /* == IMAGEM - PROFILE == */
     .img-about img{
-        width: 450px;
+        width: 400px;
         height: 550px;
     }
 
     .img-about{
         margin-left: 260px;
-        margin-top: 80px;
+        margin-top: 30px;
     }
 
 
@@ -129,8 +129,10 @@
 
     .about p{
         font-size: 15px;
-        margin-top: 60px;
+        color: rgb(49, 49, 49);
+        margin-top: 45px;
         margin-right: 80px;
+        font-family: 'Poppins', sans-serif;
     }
 
 
@@ -187,7 +189,7 @@
     
     
     #open-modal{ /* botão */
-        margin-left: 78%;
+        margin-left: 76%;
         margin-top: 40px;
         border: none;
         border-radius: 20px;

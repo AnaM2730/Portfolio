@@ -32,7 +32,6 @@ nav li a{
   text-decoration: none;
   padding: 15px;
   transition: 0.4s;
-  opacity: 0.8;
 }
 
 nav li a:hover{
@@ -321,7 +320,7 @@ h1{
 
 
 #open-modal{ /* botão */
-  margin-left: 75%;
+  margin-left: 80%;
   margin-top: 4%;
   border: none;
   border-radius: 20px;
