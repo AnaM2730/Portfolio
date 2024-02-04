@@ -86,8 +86,6 @@ nav li a:hover{
 
 
 
-
-
 /* CAIXA DE FUNDO */
 .caixa-fundo{
     background: #686767;
@@ -109,7 +107,7 @@ nav li a:hover{
 .capa img{
     margin-left: -500px;
     margin-top: 215px;
-    z-index: 14;
+    z-index: 1;
 }
 
 
@@ -430,7 +428,7 @@ a.zap:hover{
   text-align: center;
   bottom: 0;
   left: 0;
-  height: 40px;
+  height: 50px;
   position: fixed;
   width: 100%;
 }
@@ -445,26 +443,33 @@ a.zap:hover{
   text-decoration: underline;
 }
 
+.footer .footer-title{
+  font-size: 25px;
+  margin-right: 450px;
+  margin-top: -16px;
+  font-family: 'fonte1';
+}
+
 .footer .footer-links {
   display: flex;
-  justify-content: space-around;
-  margin-bottom: 10px;
-  margin-right: 450px;
-  font-size: 25px;
+  margin-left: 850px;
+  font-size: 18px;
 }
 
 .footer .footer-links a {
   margin: 0 10px;
-  color: red;
+  color: rgb(44, 44, 44);
+  font-weight: bold;
 }
 
 .footer .footer-info {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 10px;
-  margin-right: 350px;
+  margin-right: 321px;
+  margin-top: -24px;
 }
 
 .footer .footer-info p {
   margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
