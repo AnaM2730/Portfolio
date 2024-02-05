@@ -269,8 +269,8 @@
 
 /* CARD 10 */
 .card-proj10{
-  width: 600px;
-  height: 350px;
+  width: 450px;
+  height: 300px;
   border-radius: 14px;
   box-shadow: 10px 20px 20px #383838, -4px -10px 60px #4f4f4f;
   margin-right: 90px;
@@ -278,12 +278,19 @@
 }
 
 .card-proj10:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
+}
+.card-proj10 {
+  transition: transform 0.5s;
+}
+
+.card-proj10 a{
+  text-decoration: none;
   }
 
 .card-proj10 img{
     width: 600px;
-    height: 350px;
+    height: 300px;
 }
 
 
