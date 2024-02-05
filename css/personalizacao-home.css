@@ -1,474 +1,478 @@
-@charset "UTF-8";
+  @charset "UTF-8";
 
-/* ============= GOOGLE FONTS ============= */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-
-
-@font-face {
-    font-family: 'fonte1';
-    src: url(../font/KaushanScript-Regular.ttf);
-}
-
-*{
-  margin: 0;
-  padding: 0;
-}
-
-body{
-    background-color: rgb(221, 219, 221);
-}
-
-/* BOTÕES */
-nav li{
-  display: inline-block;
-}
-
-nav li a{
-  display: inline-block;
-  border-radius: 10px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 15px;
-  font-weight: bold;
-  text-decoration: none;
-  padding: 15px;
-  transition: 0.4s;
-}
-
-nav li a:hover{
-    opacity: 2;
-    background-color: rgb(194, 192, 192);
-}
+  /* ============= GOOGLE FONTS ============= */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 
-  .dropdown{     
-    background: none;
+  @font-face {
+      font-family: 'fonte1';
+      src: url(../font/KaushanScript-Regular.ttf);
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+      background-color: rgb(221, 219, 221);
+  }
+
+  /* BOTÕES */
+  nav li{
+    display: inline-block;
+  }
+
+  nav li a{
+    display: inline-block;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
     font-weight: bold;
-    border-radius: 20px;
+    text-decoration: none;
+    padding: 15px;
+    transition: 0.4s;
+  }
+
+  nav li a:hover{
+      opacity: 2;
+      background-color: rgb(194, 192, 192);
+  }
+
+
+    .dropdown{     
+      background: none;
+      font-weight: bold;
+      border-radius: 20px;
+      cursor: pointer;
+      position: relative;
+    }
+    
+
+  .dropdown-menu ul li{
+    border: none;
+    border-radius: 0.625em;
+    font-size: 20px;
+    font-weight: bold;
     cursor: pointer;
     position: relative;
-  }
-  
-
-.dropdown-menu ul li{
-  border: none;
-  border-radius: 0.625em;
-  font-size: 20px;
-  font-weight: bold;
-  cursor: pointer;
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
-}
-
-.dropdown-menu{
-  position: absolute;
-  border: none;
-  display: none;
-  cursor: pointer;
-}
-
-.dropdown-menu a{
-  display: block;
-  color: rgb(0, 0, 0);
-  padding: 10px;
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.dropdown:hover .dropdown-menu{
-  display: block;
-}
-
-.dropdown-menu a:hover{
-  background-color: rgb(194, 192, 192);
-}
-
-
-
-/* CAIXA DE FUNDO */
-.caixa-fundo{
-    background: #686767;
-    height: 500px;
-    width: 500px;
-    float: left;
-    margin-left: 90px; 
     z-index: 1;
-    margin-top: 70px;
-    border-radius: 126% 14% 5% 9%;
-}
-.caixa-fundo p{ /* PORTFOLIO */
-    color: white;
-    margin-top: -90px;
-    font-size: 150px;
-    font-family: 'fonte1';
-}
-
-.capa img{
-    margin-left: -500px;
-    margin-top: 215px;
-    z-index: 1;
-}
-
-
-.right-text p{
-    float: right;
-    color: black;
-    font-size: 25px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width:  750px;
-    text-align: justify;
-    margin: -354px 8px 0px;
-}
-
-
-
-
-
-
-/* BTN - SOCIAL / GITHUB*/
-.btn-social {
-    width: 55px;
-    height: 55px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    background-color: transparent;
-    position: relative;
-    /* overflow: hidden; */
-    border-radius: 7px;
-    cursor: pointer;
-    transition: all .3s;
-    margin-left: 620px;
-    margin-top: -190px;
+    overflow: hidden;
   }
 
-  .btn-social2 {
-    width: 55px;
-    height: 55px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    background-color: transparent;
-    position: relative;
-    /* overflow: hidden; */
-    border-radius: 7px;
-    cursor: pointer;
-    transition: all .3s;
-  }
-
-
-  .btn-social3{
-    width: 55px;
-    height: 55px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    background-color: transparent;
-    position: relative;
-    border-radius: 7px;
-    cursor: pointer;
-    transition: all .3s;
-    margin-left: 620px;
-    margin-top: -120px;
-  }
-  
-  .svgContainer {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: transparent;
-    backdrop-filter: blur(0px);
-    letter-spacing: 0.8px;
-    border-radius: 10px;
-    transition: all .3s;
-    border: 1px solid rgb(156, 156, 156);
-  }
-  .svgContainer2 {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: transparent;
-    backdrop-filter: blur(0px);
-    letter-spacing: 0.8px;
-    border-radius: 10px;
-    transition: all .3s;
-    border: 1px solid rgb(156, 156, 156);
-  }
-
-  .svgContainer3 {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: transparent;
-    backdrop-filter: blur(0px);
-    letter-spacing: 0.8px;
-    border-radius: 10px;
-    transition: all .3s;
-    border: 1px solid rgb(156, 156, 156);
-  }
-  
-  .bg-social {
+  .dropdown-menu{
     position: absolute;
-    content: "";
-    width: 100%;
-    height: 100%;
-    background: #181818;
-    z-index: -1;
-    border-radius: 10px;
-    pointer-events: none;
-    transition: all .3s;
-  }
-  
-  .btn-social:hover .bg-social {
-    transform: rotate(35deg);
-    transform-origin: bottom;
-  }
-  
-  .btn-social:hover .svgContainer {
-    background-color: rgba(156, 156, 156, 0.466);
-    backdrop-filter: blur(4px);
-  }
- 
-  
-  .bg-social3 {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 100%;
-    background: #41409b;
-    z-index: -1;
-    border-radius: 10px;
-    pointer-events: none;
-    transition: all .3s;
-  }
-  
-  .btn-social3:hover .bg-social3 {
-    transform: rotate(35deg);
-    transform-origin: bottom;
-  }
-  
-  .btn-social3:hover .svgContainer3 {
-    background-color: rgba(156, 156, 156, 0.466);
-    backdrop-filter: blur(4px);
+    border: none;
+    display: none;
+    cursor: pointer;
   }
 
-  .BG {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 100%;
-    background: #f09433;
-    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
-    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
-    z-index: -1;
-    border-radius: 10px;
-    pointer-events: none;
-    transition: all .3s;
+  .dropdown-menu a{
+    display: block;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
   }
-  
-  .btn-social2:hover .BG {
-    transform: rotate(35deg);
-    transform-origin: bottom;
+
+  .dropdown:hover .dropdown-menu{
+    display: block;
   }
-  
-  .btn-social2:hover .svgContainer2 {
-    backdrop-filter: blur(4px);
-    background-color: rgba(156, 156, 156, 0.466);
-  }
-  
 
-
-
-.card-proj1 a{
-  text-decoration: none;
-}
-
-
-
-/* ================ JANELA MODAL ================ */
-
-
-h1{
-  color: black;
-}
-
-#close-modal{
-  padding: .6rem 1.2rem;
-  background: #ff0505;
-  font-weight: bold;
-  color: black;
-  border: none;
-  border-radius: .25rem;
-  cursor: pointer;
-  opacity: 0.8;
-  font-size: 1rem;
-  transition: 0.4s;
-}
-
-
-#open-modal{ /* botão */
-  margin-left: 80%;
-  margin-top: 4%;
-  border: none;
-  border-radius: 20px;
-  background: none;
-  font-size: 15px;
-  font-weight: bold;
-  color: black;
-  cursor: pointer;
-  font-family: 'Poppins', sans-serif;
-  padding: 15px;
-}
-
-#open-modal:hover{
-    opacity: 2;
+  .dropdown-menu a:hover{
     background-color: rgb(194, 192, 192);
-}
-
-
-button:hover{
-  opacity: 1;
-}
-
-
-#fade {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-  z-index: 5;
-}
-
-#modal {
-  position: fixed;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 500px;
-  max-width: 90%;
-  background-color: #ffffff;
-  padding: 1.2rem;
-  border-radius: 0.5rem;
-  z-index: 10;
-}
-
-#fade,
-#modal {
-  transition: 0.5s;
-  opacity: 1;
-  pointer-events: all;
-}
-
-.modal-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid #ccc;
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
-}
-
-.modal-body p {
-  margin-bottom: 1rem;
-}
-
-#modal.hide,
-#fade.hide {
-  opacity: 0;
-  pointer-events: none;
-}
-
-#modal.hide {
-  top: 0;
-}
-
-
-/* ========= CONTATO MODAL ======= */
-.modal-body a{
-  color: rgb(223, 0, 0);
-  font-size: 1.2em;
-  text-decoration: none;
-  padding: 65px;
-}
-
-.modal-body a:hover{
-  color: #ff6464;
-}
-
-a.zap{
-  color: green;
-}
-
-a.zap:hover{
-  color: rgb(1, 215, 1);
-}
+  }
 
 
 
-/* FOOTER */
-.footer {
-  background-color: #e2e2e3;
-  padding: 25px;
-  text-align: center;
-  bottom: 0;
-  left: 0;
-  height: 50px;
-  position: fixed;
-  width: 100%;
-}
+  /* CAIXA DE FUNDO */
+  .caixa-fundo{
+      background: #686767;
+      height: 500px;
+      width: 500px;
+      float: left;
+      margin-left: 90px; 
+      z-index: 1;
+      margin-top: 70px;
+      border-radius: 126% 14% 5% 9%;
+  }
+  .caixa-fundo p{ /* PORTFOLIO */
+      color: white;
+      margin-top: -90px;
+      font-size: 150px;
+      font-family: 'fonte1';
+  }
 
-.footer a {
-  color: #007bff;
-  text-decoration: none;
-}
+  .capa img{
+      margin-left: -500px;
+      margin-top: 215px;
+      z-index: 1;
+  }
 
-.footer a:hover {
-  color: #0056b3;
-  text-decoration: underline;
-}
 
-.footer .footer-title{
-  font-size: 25px;
-  margin-right: 450px;
-  margin-top: -16px;
-  font-family: 'fonte1';
-}
+  .right-text p{
+      float: right;
+      color: black;
+      font-size: 25px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width:  750px;
+      text-align: justify;
+      margin: -354px 8px 0px;
+  }
 
-.footer .footer-links {
-  display: flex;
-  margin-left: 850px;
-  font-size: 18px;
-}
 
-.footer .footer-links a {
-  margin: 0 10px;
-  color: rgb(44, 44, 44);
-  font-weight: bold;
-}
 
-.footer .footer-info {
-  display: flex;
-  justify-content: space-around;
-  margin-right: 321px;
-  margin-top: -24px;
-}
 
-.footer .footer-info p {
-  margin: 0;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+
+
+  /* BTN - SOCIAL / GITHUB*/
+  .btn-social {
+      width: 55px;
+      height: 55px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      background-color: transparent;
+      position: relative;
+      /* overflow: hidden; */
+      border-radius: 7px;
+      cursor: pointer;
+      transition: all .3s;
+      margin-left: 620px;
+      margin-top: -190px;
+    }
+
+    .btn-social2 {
+      width: 55px;
+      height: 55px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      background-color: transparent;
+      position: relative;
+      /* overflow: hidden; */
+      border-radius: 7px;
+      cursor: pointer;
+      transition: all .3s;
+    }
+
+
+    .btn-social3{
+      width: 55px;
+      height: 55px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      background-color: transparent;
+      position: relative;
+      border-radius: 7px;
+      cursor: pointer;
+      transition: all .3s;
+      margin-left: 620px;
+      margin-top: -120px;
+    }
+    
+    .svgContainer {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: transparent;
+      backdrop-filter: blur(0px);
+      letter-spacing: 0.8px;
+      border-radius: 10px;
+      transition: all .3s;
+      border: 1px solid rgb(156, 156, 156);
+    }
+    .svgContainer2 {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: transparent;
+      backdrop-filter: blur(0px);
+      letter-spacing: 0.8px;
+      border-radius: 10px;
+      transition: all .3s;
+      border: 1px solid rgb(156, 156, 156);
+    }
+
+    .svgContainer3 {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: transparent;
+      backdrop-filter: blur(0px);
+      letter-spacing: 0.8px;
+      border-radius: 10px;
+      transition: all .3s;
+      border: 1px solid rgb(156, 156, 156);
+    }
+    
+    .bg-social {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      background: #181818;
+      z-index: -1;
+      border-radius: 10px;
+      pointer-events: none;
+      transition: all .3s;
+    }
+    
+    .btn-social:hover .bg-social {
+      transform: rotate(35deg);
+      transform-origin: bottom;
+    }
+    
+    .btn-social:hover .svgContainer {
+      background-color: rgba(156, 156, 156, 0.466);
+      backdrop-filter: blur(4px);
+    }
+  
+    
+    .bg-social3 {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      background: #41409b;
+      z-index: -1;
+      border-radius: 10px;
+      pointer-events: none;
+      transition: all .3s;
+    }
+    
+    .btn-social3:hover .bg-social3 {
+      transform: rotate(35deg);
+      transform-origin: bottom;
+    }
+    
+    .btn-social3:hover .svgContainer3 {
+      background-color: rgba(156, 156, 156, 0.466);
+      backdrop-filter: blur(4px);
+    }
+
+    .BG {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      background: #f09433;
+      background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+      background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+      background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+      z-index: -1;
+      border-radius: 10px;
+      pointer-events: none;
+      transition: all .3s;
+    }
+    
+    .btn-social2:hover .BG {
+      transform: rotate(35deg);
+      transform-origin: bottom;
+    }
+    
+    .btn-social2:hover .svgContainer2 {
+      backdrop-filter: blur(4px);
+      background-color: rgba(156, 156, 156, 0.466);
+    }
+    
+
+
+
+  .card-proj1 a{
+    text-decoration: none;
+  }
+
+
+
+  /* ================ JANELA MODAL ================ */
+
+
+  h1{
+    color: black;
+  }
+
+  #close-modal{
+    padding: .6rem 1.2rem;
+    background: #ff0505;
+    font-weight: bold;
+    color: black;
+    border: none;
+    border-radius: .25rem;
+    cursor: pointer;
+    opacity: 0.8;
+    font-size: 1rem;
+    transition: 0.4s;
+  }
+
+
+  #open-modal{ /* botão */
+    margin-left: 80%;
+    margin-top: 4%;
+    border: none;
+    border-radius: 20px;
+    background: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+  }
+
+  #open-modal:hover{
+      opacity: 2;
+      background-color: rgb(194, 192, 192);
+  }
+
+
+  button:hover{
+    opacity: 1;
+  }
+
+
+  #fade {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 5;
+  }
+
+  #modal {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    max-width: 90%;
+    background-color: #ffffff;
+    padding: 1.2rem;
+    border-radius: 0.5rem;
+    z-index: 10;
+  }
+
+  #fade,
+  #modal {
+    transition: 0.5s;
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .modal-body p {
+    margin-bottom: 1rem;
+  }
+
+  #modal.hide,
+  #fade.hide {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  #modal.hide {
+    top: 0;
+  }
+
+
+  /* ========= CONTATO MODAL ======= */
+  .modal-body a{
+    color: rgb(223, 0, 0);
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 65px;
+  }
+
+  .modal-body a:hover{
+    color: #ff6464;
+  }
+
+  a.zap{
+    color: green;
+  }
+
+  a.zap:hover{
+    color: rgb(1, 215, 1);
+  }
+
+
+
+  /* FOOTER */
+  .footer {
+    background-color: #e2e2e3;
+    padding: 25px;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+  }
+
+  .footer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  .footer a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+
+  .footer .footer-title{
+    font-size: 25px;
+    margin-right: 450px;
+    margin-top: -16px;
+    font-family: 'fonte1';
+  }
+
+  .footer .footer-links {
+    display: flex;
+    margin-left: 850px;
+    font-size: 18px;
+  }
+
+  .footer .footer-links a {
+    margin: 0 10px;
+    color: rgb(44, 44, 44);
+    font-weight: bold;
+  }
+
+  .footer .footer-links a:hover {
+    color: rgb(99, 99, 99);
+    }
+
+  .footer .footer-info {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 321px;
+    margin-top: -24px;
+  }
+
+  .footer .footer-info p {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }

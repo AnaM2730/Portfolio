@@ -145,24 +145,28 @@
         margin-top: 30px;
     }
 
+    .button-CV a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .button-CV a:hover{
+        text-decoration: none;
+        color: #e2e2e3;
+    }
+
     button{
         background-color: rgb(145, 144, 144);
         border-radius: 0.5em;
         border: none;
         width: 150px;
         height: 45px;
+        font-size: 16px;
     }
-
-    button p{
-        font-size: 18px;
-    }
-
     button:hover{
         color: #e2e2e3;
         background-color: rgb(47, 46, 46);
     }
-
-
 
 
 
@@ -330,6 +334,10 @@
         font-weight: bold;
     }
     
+    .footer .footer-links a:hover {
+    color: rgb(99, 99, 99);
+    }
+
     .footer .footer-info {
         display: flex;
         justify-content: space-around;
