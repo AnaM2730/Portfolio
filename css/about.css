@@ -15,16 +15,7 @@
     
     body{
         background-color: rgb(221, 219, 221);
-    }
-    
-    /* BOTÕES */
-    
-    nav.contato{
-        color: rgb(255, 255, 255);
-        margin-top: -51px;
-        margin-left: 90%;
-    }
-    
+    }   
     
     /* BOTÕES */
     nav li{
@@ -51,12 +42,6 @@
         align-items: center;
         color: black;
     }
-    
-    nav li a:hover{
-        opacity: 2;
-        background-color: rgb(194, 192, 192);
-    }
-    
     
         .dropdown{     
         background: none;
@@ -106,7 +91,7 @@
 
     /* == IMAGEM - PROFILE == */
     .img-about img{
-        width: 400px;
+        width: 360px;
         height: 550px;
     }
 
@@ -119,8 +104,8 @@
     /* == texts == */
 
     .about{
-        margin-left: 850px;
-        margin-top: -450px;
+        margin-left: 750px;
+        margin-top: -550px;
     }
 
     .about h4{
