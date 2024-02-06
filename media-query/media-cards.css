@@ -24,7 +24,10 @@
         width: 150px;
         margin-left: 180px;
         }
-
+        
+        .modal-body a{
+          padding: 45px;
+        }
 
         .center-projetos P{
           margin-top: 50px;
@@ -48,22 +51,17 @@
           margin-left: 1020px;
       }
 
-      /* .linha{
-          margin-top: 80px;
-          height: 15px;
-          width: 10px;  
-          display: flex;
-          justify-content: center;
-      } */
-
+     
       .card-proj1{
         width: 350px;
         height: 350px;
         border-radius: 14px;
         overflow: hidden;
         margin-top: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
-      
 
       .card-proj2{
         width: 350px;
@@ -72,6 +70,9 @@
         overflow: hidden;
         margin-left: 52px;
         margin-top: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }  
 
       .card-proj3{
@@ -80,6 +81,9 @@
         border-radius: 14px;
         overflow: hidden;
         margin-top: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
 
       .card-proj4{
@@ -89,6 +93,9 @@
         overflow: hidden;
         margin-left: 52px;
         margin-top: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
       
       .card-proj5{
@@ -97,6 +104,9 @@
         border-radius: 14px;
         overflow: hidden;
         margin-top: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
       
       .card-proj6{
@@ -106,6 +116,9 @@
         border-radius: 14px;
         overflow: hidden;
         margin-top: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
 
       .card-proj7{
@@ -114,6 +127,9 @@
         border-radius: 14px;
         overflow: hidden;
         margin-top: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
       
       .card-proj8{
@@ -123,6 +139,9 @@
         overflow: hidden;
         margin-left: 52px;
         margin-top: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
 
       .card-proj9{
@@ -131,6 +150,9 @@
         border-radius: 14px;
         overflow: hidden;
         margin-top: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
 
       .card-proj10{
@@ -140,6 +162,9 @@
         margin-left: 52px;
         overflow: hidden;
         margin-top: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
 
     }
