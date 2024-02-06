@@ -1,4 +1,9 @@
 @media screen and (max-width: 636px){ /*Pequenas telas*/
+    body{
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    
     .camada2{
         background-image: url(../projetos/img-projetos/annabella-proj1.png);
         text-align: center;
@@ -7,9 +12,10 @@
     }
     
     .camada2{
-        width: 590px;
+        width: 350px;
+        height: 350px;
         margin-left: 490px;
-        margin-top: 35%;
+        margin-top: 20%;
     }
     
     .camada3{
@@ -21,10 +27,10 @@
     }
     
     .camada3{
-        width: 90%;
-        height: 10%;
-        margin-left: 90%;
-        margin-top: -40%;
+        width: 550px;
+        height: 450px;
+        margin-left: 115%;
+        margin-top: -44%;
     
     }
     

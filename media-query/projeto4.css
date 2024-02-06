@@ -7,9 +7,10 @@
     }
     
     .camada2{
-        width: 590px;
-        margin-left: 750px;
-        margin-top: 10%;
+        width: 350px;
+        height: 350px;
+        margin-left: 490px;
+        margin-top: 20%;
     }
     
     .camada3{
@@ -21,11 +22,38 @@
     }
     
     .camada3{
-        width: 90%;
-        height: 10%;
-        margin-left: 90%;
+        width: 550px;
+        height: 450px;
+        margin-left: 115%;
+        margin-top: -44%;    
+    }
+
+    .camada4{
+        background-image: url(../projetos/img-projetos/notificações.png);
+        text-align: center;
+        padding-top: 40%;
+        border-radius: 10px;
+    }
+
+    .camada4{
+        width: 75%;
+        margin-left: 190%;
         margin-top: -40%;
-    
+
+    }
+
+
+    .camada5{
+        background-image: url(../projetos/img-projetos/modif-cores.png);
+        text-align: center;
+        padding-top: 40%;
+        border-radius: 10px;
+    }
+
+    .camada5{
+        width: 85%;
+        margin-left: 272%;
+        margin-top: -40%;
     }
     
     
@@ -48,25 +76,19 @@
     }
     
     .projet-desc p:not(:first-child){
-        margin-top: 1em;
+        margin-top: 0em;
     }
     
      h1{
-        font-size: 3.5em;
-        line-height: .95;
-        font-style: normal;
-        font-weight: 400;
-        font-family: 'Times New Roman', Times, serif;
-        margin-left: 55px;
-        color: rgb(85, 84, 59);
-        margin-top: 80px;
+    color: rgb(58, 0, 94);
+    font-size: 2.5em;
     }
     
     h2{
-        font-size: 2em;
-        color: rgb(85, 84, 59);
-        margin-left: -95%;
-        margin-top: 18%;
+        font-size: 1.5em;
+        color: rgb(58, 0, 94);
+        margin-left: -370%;
+        margin-top: 136%;
         font-family: 'Times New Roman', Times, serif;
         letter-spacing: 1px;
     }
@@ -74,37 +96,34 @@
     
     
     .link{
-        color: rgba(122, 126, 5, 0.978);
-        margin-left: -95%;
+        color: rgb(78, 0, 87);
+        margin-left: -370%;
         font-weight: bold;
         font-size: 25px;
         cursor: default;
     }
     
     .link-projet{
-        font-weight: bold;
-        color: rgba(118, 121, 47, 0.978);
         font-size: 25px;
-        margin-left: -95%;
-        font-style: italic;
-        text-decoration: underline;
-        cursor: pointer;
+        margin-left: -370%;    
+        color: rgb(217, 0, 255);
+
     }
     
     .link-projet2{
-        font-weight: bold;
-        color: rgba(3, 3, 3, 0.697);
         font-size: 25px;
-        margin-left: -95%;
-        font-style: italic;
-        text-decoration: underline;
-        cursor: pointer;
+        margin-left: -370%;
+        color: rgba(3, 3, 3, 0.697);
     }
     
     /* LEFT */
     .projet-left{
         float: left;
         padding-left: 60px;
+    }
+
+    button{
+        display: none;
     }
 }
 
