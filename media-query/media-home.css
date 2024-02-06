@@ -93,6 +93,21 @@
           margin-top: -18%;
         }
 
+
+        /* == FOOTER == */
+        .footer .footer-title{
+          margin-right: 325px;
+        }
+
+        .footer .footer-links {
+          margin-left: 300px;
+        }
+
+        .footer .footer-info {
+          margin-right: 210px;
+          margin-top: -24px;
+        }
+
       }
 
 

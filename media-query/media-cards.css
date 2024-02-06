@@ -57,95 +57,87 @@
       } */
 
       .card-proj1{
-        width: 450px;
-        height: 340px;
+        width: 350px;
+        height: 350px;
         border-radius: 14px;
         overflow: hidden;
         margin-top: 90px;
-        float: right;
       }
       
 
       .card-proj2{
-        width: 450px;
-        height: 340px;
+        width: 350px;
+        height: 350px;
         border-radius: 14px;
         overflow: hidden;
         margin-top: 90px;
-        float: right;
-        margin-right: 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }  
 
       .card-proj3{
-        width: 450px;
-        height: 340px;
+        width: 350px;
+        height: 350px;
         border-radius: 14px;
         overflow: hidden;
         margin-top: 80px;
-        float: right;
       }
 
       .card-proj4{
-        width: 450px;
-        height: 340px;
+        width: 350px;
+        height: 350px;
         border-radius: 14px;
         overflow: hidden;
         margin-top: 80px;
-        float: left;
       }
       
       .card-proj5{
-        width: 450px;
-        height: 340px;
+        width: 350px;
+        height: 350px;
         border-radius: 14px;
         overflow: hidden;
         margin-top: 80px;
-        float: right;
       }
       
       .card-proj6{
-        width: 450px;
-        height: 340px;
+        width: 350px;
+        height: 350px;
         border-radius: 14px;
         overflow: hidden;
         margin-top: 80px;
-        float: left;
       }
 
       .card-proj7{
-        width: 450px;
-        height: 340px;
+        width: 350px;
+        height: 350px;
         border-radius: 14px;
         overflow: hidden;
         margin-top: 80px;
-        float: right;
       }
       
       .card-proj8{
-        width: 450px;
-        height: 340px;
+        width: 350px;
+        height: 350px;
         border-radius: 14px;
         overflow: hidden;
         margin-top: 80px;
-        float: left;
       }
 
       .card-proj9{
-        width: 450px;
-        height: 340px;
+        width: 350px;
+        height: 350px;
         border-radius: 14px;
         overflow: hidden;
         margin-top: 80px;
-        float: right;
       }
 
       .card-proj10{
-        width: 450px;
-        height: 340px;
+        width: 350px;
+        height: 350px;
         border-radius: 14px;
         overflow: hidden;
         margin-top: 80px;
-        float: left;
       }
 
     }
