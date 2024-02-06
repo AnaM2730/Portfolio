@@ -61,7 +61,7 @@
         height: 350px;
         border-radius: 14px;
         overflow: hidden;
-        margin-top: 90px;
+        margin-top: 150px;
       }
       
 
@@ -70,10 +70,8 @@
         height: 350px;
         border-radius: 14px;
         overflow: hidden;
+        margin-left: 52px;
         margin-top: 90px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
       }  
 
       .card-proj3{
@@ -89,6 +87,7 @@
         height: 350px;
         border-radius: 14px;
         overflow: hidden;
+        margin-left: 52px;
         margin-top: 80px;
       }
       
@@ -102,6 +101,7 @@
       
       .card-proj6{
         width: 350px;
+        margin-left: 52px;
         height: 350px;
         border-radius: 14px;
         overflow: hidden;
@@ -121,6 +121,7 @@
         height: 350px;
         border-radius: 14px;
         overflow: hidden;
+        margin-left: 52px;
         margin-top: 80px;
       }
 
@@ -136,6 +137,7 @@
         width: 350px;
         height: 350px;
         border-radius: 14px;
+        margin-left: 52px;
         overflow: hidden;
         margin-top: 80px;
       }
