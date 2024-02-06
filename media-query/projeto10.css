@@ -4,6 +4,7 @@
         text-align: center;
         padding-top: 35%;
         border-radius: 10px;
+        background-repeat: no-repeat;
     }
     
     .camada2{
@@ -14,11 +15,14 @@
     }
     
     .camada3{
-        background-image: url(../projetos/img-projetos/watermelon-1.png);
+        background-image: url(../projetos/img-projetos/watermelon-respons.png);
         background-repeat: no-repeat;
         text-align: center;
         padding-top: 40%;
         border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
     .camada3{
@@ -29,19 +33,42 @@
     
     }
     .camada4{
-        background-image: url(../projetos/img-projetos/watermelon-2.png);
+        background-image: url(../projetos/img-projetos/watermelon2-respons.png);
         text-align: center;
         padding-top: 40%;display: flex;
         align-items: center;
         justify-content: center;
+        background-repeat: no-repeat;
         border-radius: 10px;
     }
 
     .camada4{
         width: 75%;
-        height: 34%;
-        margin-left: 170%;
+        height: 57%;
+        margin-left: 193%;
         margin-top: -56%;
+         }
+    
+         .camada5{
+        background-image: url(../projetos/img-projetos/watermelon-3.png);
+        text-align: center;
+        background-repeat: no-repeat;
+        padding-top: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+    }
+
+    .camada5{
+        width: 75%;
+        height: 57%;
+        margin-left: 275%;
+        margin-top: -56%;
+         }
+
+         .camada6{
+            display: none;
          }
     
     a{
