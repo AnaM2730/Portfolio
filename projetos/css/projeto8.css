@@ -33,7 +33,7 @@
     overflow-x: hidden;
     overflow-y: scroll; /* rolagem horizontal */
     scroll-behavior: smooth;
-    background-color: #ff9100d1;
+    background-color: #ff9100;
 }
 
 .camada{

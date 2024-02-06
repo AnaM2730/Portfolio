@@ -5,30 +5,31 @@
         padding-top: 35%;
         border-radius: 10px;
     }
-
+    
     .camada2{
-        width: 590px;
-        margin-left: 750px;
-        margin-top: 10%;
+        width: 350px;
+        height: 350px;
+        margin-left: 520px;
+        margin-top: 20%;
     }
-
+    
     .camada3{
         background-image: url(../projetos/img-projetos/museu-proj5.png);
+        background-repeat: no-repeat;
         text-align: center;
         padding-top: 40%;
         border-radius: 10px;
     }
-
+    
     .camada3{
-        width: 90%;
-        margin-left: 90%;
-        margin-top: -40%;
-
+        width: 550px;
+        height: 450px;
+        margin-left: 115%;
+        margin-top: -44%;
+    
     }
-
-
-
-
+    
+    
     a{
         color: white;
         font-family: Arial, Helvetica, sans-serif;
@@ -36,69 +37,65 @@
         font-size: 20px;
         margin-left: 130px;
     }
-
+    
     .projeto{
         font-weight: bold;
         margin-left: 130px;
     }
-
+    
     .projet-desc{
         margin: 0;
         padding-top: 20px;
     }
-
+    
     .projet-desc p:not(:first-child){
-        margin-top: 1em;
+        margin-top: 0em;
     }
-
-    h1{
-        font-size: 4.5em;
-        line-height: .95;
-        font-style: normal;
-        font-weight: 400;
-        font-family: 'Times New Roman', Times, serif;
-        margin-left: 40px;
+    
+     h1{
+        font-size: 2.5em;    
         color: rgb(69, 53, 0);
-        margin-top: 80px;
-    }
 
+    }
+    
     h2{
-        font-size: 2em;
+        font-size: 1.5em;
         color: rgb(69, 53, 0);
-        margin-left: -95%;
-        margin-top: 20%;
+        margin-left: -370%;
+        margin-top: 136%;
         font-family: 'Times New Roman', Times, serif;
         letter-spacing: 1px;
     }
-
-
-
+    
+    
+    
     .link{
         color: rgba(249, 195, 57, 0.697);
-        margin-left: -95%;
+        margin-left: -370%;
         font-weight: bold;
         font-size: 25px;
         cursor: default;
     }
-
+    
     .link-projet{
-        font-weight: bold;
-        color: rgb(69, 53, 0);
         font-size: 25px;
-        margin-left: -95%;
-        font-style: italic;
-        text-decoration: underline;
-        cursor: pointer;
+    color: rgb(69, 53, 0);
+    margin-left: -370%;
+    }
+    
+    .link-projet2{
+        font-size: 25px;
+        margin-left: -370%;
+    }
+    
+    /* LEFT */
+    .projet-left{
+        float: left;
+        padding-left: 60px;
     }
 
-    .link-projet2{
-        font-weight: bold;
-        color: rgba(3, 3, 3, 0.697);
-        font-size: 25px;
-        margin-left: -95%;
-        font-style: italic;
-        text-decoration: underline;
-        cursor: pointer;
+    button{
+        display: none;
     }
 }
 
