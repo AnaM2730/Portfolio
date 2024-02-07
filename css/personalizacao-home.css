@@ -15,7 +15,7 @@
   }
 
   body{
-      background-color: #dbdbdb;
+      background-color: var(--primary-color);
   }
 
   /* BOTÕES */
@@ -70,7 +70,7 @@
 
   .dropdown-menu a{
     display: block;
-    color: var;
+    color: var(--secondary-color);
     padding: 10px;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
@@ -88,7 +88,7 @@
 
   /* CAIXA DE FUNDO */
   .caixa-fundo{
-      background: #686767;
+      background: var(--three-color);
       height: 500px;
       width: 500px;
       float: left;
@@ -96,12 +96,6 @@
       z-index: 1;
       margin-top: 70px;
       border-radius: 126% 14% 5% 9%;
-  }
-  .caixa-fundo p{ /* PORTFOLIO */
-      color: white;
-      margin-top: -90px;
-      font-size: 150px;
-      font-family: 'fonte1';
   }
 
   .capa img{
@@ -113,7 +107,7 @@
 
   .right-text p{
       float: right;
-      color: black;
+      color: var(--secondary-color);
       font-size: 25px;
       display: flex;
       flex-direction: row;
@@ -303,14 +297,14 @@
 
 
   h1{
-    color: black;
+    color: var(--secondary-color);
   }
 
   #close-modal{
     padding: .6rem 1.2rem;
     background: #ff0505;
     font-weight: bold;
-    color: black;
+    color: var(--secondary-color);
     border: none;
     border-radius: .25rem;
     cursor: pointer;
@@ -328,7 +322,7 @@
     background: none;
     font-size: 15px;
     font-weight: bold;
-    color: black;
+    color: var(--secondary-color);
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
     padding: 15px;
@@ -528,7 +522,10 @@
 :root{
   --primary-color: #edf2fc;
   --secondary-color: #212121;
-  --three-color:  #ffffff;
+  --three-color: #686767;
 }
 
-.dark-theme
+.dark-theme{
+  --primary-color: #ffffff;
+  --secondary-color: #212121;
+}
