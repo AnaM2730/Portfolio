@@ -1,5 +1,16 @@
 /* === DARK THEME === */
-'use strict' 
+function mudarBackground() {
+var body = document.body;
+
+/* defini novo background */
+body.style.background = "black";
+
+
+
+}
+
+
+/* 'use strict' 
 
 const switcher = document.querySelector('.switch-container')
 
@@ -10,7 +21,7 @@ switcher.addEventListener('click', function() {
     if(className== "light_theme")
 
     console.log('current class name: ' + className)
-})
+}) */
 
 
 
