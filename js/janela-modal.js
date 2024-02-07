@@ -1,27 +1,9 @@
 /* === DARK THEME === */
-function mudarBackground() {
-var body = document.body;
+var switch_container = document.getElementById("switch_container");
 
-/* defini novo background */
-body.style.background = "black";
-
-
-
+switch_container.onclick = function() {
+  document.body.classList.toggle("dark-theme");
 }
-
-
-/* 'use strict' 
-
-const switcher = document.querySelector('.switch-container')
-
-switcher.addEventListener('click', function() {
-    document.body.classList.toggle('dark-theme')
-
-    var className = document.body.className
-    if(className== "light_theme")
-
-    console.log('current class name: ' + className)
-}) */
 
 
 

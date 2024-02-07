@@ -413,7 +413,16 @@
     color: rgb(1, 215, 1);
   }
 
-
+  .skills h2 {
+    margin-bottom: 120px;
+    font-size: 30px;
+    margin-top: -190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: oblique;
+    color: var(--secondary-color);
+}
 
   /* FOOTER */
   .footer {
@@ -465,7 +474,7 @@
 
 
   /* Interruptor - a caixa ao redor do controle deslizante */
-.switch-container{
+.switch_container{
   position: relative;
   display: inline-block;
   width: 3.5em;
@@ -475,14 +484,14 @@
 }
 
 /* Ocultar caixa de seleção HTML padrão */
-.switch-container input {
+.switch_container input {
   opacity: 0;
   width: 0;
   height: 0;
 }
 
 /* controle deslizante*/
-.switch-container .slider {
+.switch_container .slider {
   --background: linear-gradient(to right, #5e5c63ef, #646465);
   position: absolute;
   cursor: pointer;
@@ -495,7 +504,7 @@
   border-radius: 15px;
 }
 
-.switch-container .slider:before {
+.switch_container .slider:before {
   position: absolute;
   content: "";
   height: 1.3em;
@@ -508,11 +517,11 @@
   transition: transform 0.5s, box-shadow 0.5s;
 }
 
-.switch-container input:checked + .slider {
+.switch_container input:checked + .slider {
   background-color: #000;
 }
 
-.switch-container input:checked + .slider:before {
+.switch_container input:checked + .slider:before {
   transform: translateX(100%);
   box-shadow: inset 8px -4px 0px 0px #c8c8f6;
 }
@@ -527,5 +536,5 @@
 
 .dark-theme{
   --primary-color: #ffffff;
-  --secondary-color: #212121;
+  --secondary-color: #212121; 
 }
