@@ -15,7 +15,7 @@
   }
 
   body{
-      background-color: rgb(221, 219, 221);
+      background-color: #dbdbdb;
   }
 
   /* BOTÕES */
@@ -70,7 +70,7 @@
 
   .dropdown-menu a{
     display: block;
-    color: rgb(0, 0, 0);
+    color: var;
     padding: 10px;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
@@ -522,3 +522,13 @@
   transform: translateX(100%);
   box-shadow: inset 8px -4px 0px 0px #c8c8f6;
 }
+
+
+
+:root{
+  --primary-color: #edf2fc;
+  --secondary-color: #212121;
+  --three-color:  #ffffff;
+}
+
+.dark-theme
