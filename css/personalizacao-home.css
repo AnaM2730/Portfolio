@@ -46,6 +46,7 @@
       border-radius: 20px;
       cursor: pointer;
       position: relative;
+      margin-top: -20px;
     }
     
 
@@ -466,3 +467,58 @@
     margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
+
+
+
+  /* Interruptor - a caixa ao redor do controle deslizante */
+.switch-container{
+  position: relative;
+  display: inline-block;
+  width: 4em;
+  height: 2em;
+  margin-left: -222px;
+  margin-bottom: -80px;
+}
+
+/* Ocultar caixa de seleção HTML padrão */
+.switch-container input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* controle deslizante*/
+.switch-container .slider {
+  --background: linear-gradient(to right, #090613ef, #18151f);
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--background);
+  transition: background-color 0.5s;
+  border-radius: 25px;
+}
+
+.switch-container .slider:before {
+  position: absolute;
+  content: "";
+  height: 1.3em;
+  width: 1.3em;
+  border-radius: 50%;
+  left: 10%;
+  bottom: 15%;
+  box-shadow: inset 15px -4px 0px 15px #fff34c;
+  background: var(--background);
+  transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.switch-container input:checked + .slider {
+  background-color: #000;
+}
+
+.switch-container input:checked + .slider:before {
+  transform: translateX(100%);
+  box-shadow: inset 8px -4px 0px 0px #c8c8f6;
+}
