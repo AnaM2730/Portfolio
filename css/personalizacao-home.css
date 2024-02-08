@@ -16,8 +16,30 @@
 
   body{
       background-color: var(--primary-color);
+      transition: all 0.3s ease-in-out;
   }
 
+  body.dark{
+    background-color: black;
+  }
+
+  :root{
+    --primary-color: #edf2fc;
+    --secondary-color: #212121;
+    --three-color: #686767;
+  }
+
+  .dark-mode:root{
+    --primary-color: #edf2fc;
+    --secondary-color: #212121;
+    --three-color: #686767;
+  }
+
+  .dark-mode{
+    --primary-color: #edf2fc;
+    --secondary-color: #212121;
+    --three-color: #686767;
+  }
   /* BOTÕES */
   nav li{
     display: inline-block;
@@ -504,6 +526,7 @@
   border-radius: 15px;
 }
 
+/* sol */
 .switch_container .slider:before {
   position: absolute;
   content: "";
@@ -521,20 +544,8 @@
   background-color: #000;
 }
 
+/* lua */
 .switch_container input:checked + .slider:before {
   transform: translateX(100%);
   box-shadow: inset 8px -4px 0px 0px #c8c8f6;
-}
-
-
-
-:root{
-  --primary-color: #edf2fc;
-  --secondary-color: #212121;
-  --three-color: #686767;
-}
-
-.dark-theme{
-  --primary-color: #ffffff;
-  --secondary-color: #212121; 
 }

@@ -1,13 +1,31 @@
 /* === DARK THEME === */
   const body = document.querySelector("body"),
-  switch_container = document.querySelector(".switch_container");
+  slider = document.querySelector(".slider");
 
-  switch_container.
+  let getMode = localStorage.getItem("mode");
+  if(getMode && getMode === "dark"){
+    body.classList.add("dark");
+    slider.classList.add("active");
+  }
+  
+  slider.addEventListener("click", () => {
+    body.classList.toggle("dark");
+  
+  
+  if (!body.classList.contains( "dark" )) {
+    return localStorage.setItem("mode", "light");
+  }
+  localStorage.setItem("mode", "dark");
+});
+  slider.addEventListener("click", () => slider.classList.toggle("active"));
 
+  const $html = document.querySelector('html')
+  const $checkbox = document.querySelector('#switch')
+  $checkbox.addEventListener('change', function() {
+    $html.classList.toggle('dark-mode')
+  })
 
-
-
-
+/* == Janela MODAL == */
 const openModalButton = document.querySelector("#open-modal");
 const closeModalButton = document.querySelector("#close-modal");
 const modal = document.querySelector("#modal");
@@ -21,12 +39,3 @@ const toggleModal = () => {
 [openModalButton, closeModalButton, fade].forEach((el) => {
   el.addEventListener("click", () => toggleModal());
 });
-
-
-
-
-
-
-
-
-
