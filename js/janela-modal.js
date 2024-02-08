@@ -1,9 +1,8 @@
 /* === DARK THEME === */
-var switch_container = document.getElementById("switch_container");
+  const body = document.querySelector("body"),
+  switch_container = document.querySelector(".switch_container");
 
-switch_container.onclick = function() {
-  document.body.classList.toggle("dark-theme");
-}
+  switch_container.
 
 
 
