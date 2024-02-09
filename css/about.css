@@ -19,7 +19,7 @@
     }
   
     body.dark{
-      background-color: black;
+      background-color: rgb(38, 38, 38);
     }
   
     :root{
@@ -57,7 +57,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        color: black;
+        color: var(--secondary-color);
     }
 
     nav li a:hover{
@@ -158,12 +158,12 @@
 
     .button-CV a{
         text-decoration: none;
-        color: black;
+        color: var(--secondary-color);
     }
     
     .button-CV a:hover{
         text-decoration: none;
-        color: #e2e2e3;
+        color: var(--primary-color);
     }
 
     button{
@@ -171,12 +171,13 @@
         border-radius: 0.5em;
         border: none;
         width: 150px;
+        color: var(--secondary-color);
         height: 45px;
         font-size: 16px;
     }
     button:hover{
-      color: var(--secondary-color);
-        background-color: rgb(47, 46, 46);
+    color: var(--primary-color);
+    background-color: rgb(73, 73, 73);
     }
 
 
@@ -211,7 +212,7 @@
         background: none;
         font-size: 15px;
         font-weight: bold;
-        color: black;
+        color: var(--secondary-color);
         cursor: pointer;
         font-family: 'Poppins', sans-serif;
         padding: 15px;
@@ -417,4 +418,12 @@
   box-shadow: inset 8px -4px 0px 0px #c8c8f6;
 }
 
-
+.tecnologias{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+}

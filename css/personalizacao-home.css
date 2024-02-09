@@ -20,7 +20,7 @@
   }
 
   body.dark{
-    background-color: black;
+    background-color: rgb(38, 38, 38);
   }
 
   :root{
@@ -321,7 +321,7 @@
     padding: .6rem 1.2rem;
     background: #ff0505;
     font-weight: bold;
-    color: var(--secondary-color);
+    color: black;
     border: none;
     border-radius: .25rem;
     cursor: pointer;
