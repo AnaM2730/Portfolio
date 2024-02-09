@@ -503,7 +503,7 @@
   }
 
   .caixa-fundo p{ /* PORTFOLIO */
-  color: rgb(54, 54, 54);
+  color: var(--secondary-color);
   margin-top: -120px;
   font-size: 140px;
   z-index: 2;
