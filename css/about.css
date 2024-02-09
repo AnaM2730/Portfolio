@@ -421,9 +421,96 @@
 .tecnologias{
     margin-top: 150px;
     margin-bottom: 100px;
+    
+}
+
+.tittle h3{
     color: var(--secondary-color);
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 45px;
+}
+
+/* ======== CARD ========== */
+.card {
+  position: relative;
+  margin-left: 20%;
+  margin-bottom: 55px;
+  margin-top: 20px;
+  width: 250px;
+  height: 250px;
+  border-radius: 14px;
+  z-index: 2;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  
+}
+
+.card h2{
+    z-index: 3;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+.card p{
+    z-index: 3;
+   align-items: center;
+   margin-left: 40px;
+   margin-top: 35px;
+}
+
+.icon{
+    z-index: 3;
+}
+
+.bg {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 240px;
+  height: 250px;
+  z-index: 2;
+  background: rgba(255, 255, 255, .95);
+  backdrop-filter: blur(24px);
+  border-radius: 10px;
+  overflow: hidden;
+  outline: 2px solid white;
+}
+
+.bolha {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #010101;
+  opacity: 1;
+  filter: blur(12px);
+  animation: bolha-bounce 5s infinite ease;
+}
+
+@keyframes bolha-bounce {
+  0% {
+    transform: translate(-100%, -100%) translate3d(0, 0, 0);
+  }
+
+  25% {
+    transform: translate(-100%, -100%) translate3d(100%, 0, 0);
+  }
+
+  50% {
+    transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
+  }
+
+  75% {
+    transform: translate(-100%, -100%) translate3d(0, 100%, 0);
+  }
+
+  100% {
+    transform: translate(-100%, -100%) translate3d(0, 0, 0);
+  }
 }
