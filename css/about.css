@@ -116,6 +116,7 @@
     /* == IMAGEM - PROFILE == */
     .img-about img{
         width: 360px;
+        border-radius: 10px;
         height: 550px;
     }
 
@@ -435,115 +436,64 @@
 /* ======== CARD ========== */
 .card {
   position: relative;
-  margin-left: 20%;
-  margin-bottom: 55px;
-  margin-top: 20px;
+  margin-left: 18%;
+  margin-bottom: 65px;
+  margin-top: 35px;
   width: 250px;
   height: 250px;
-  border-radius: 14px;
+  border-radius: 14px; 
+  cursor: pointer;
   z-index: 2;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  box-shadow: 12px 17px 51px var(--secondary-color);
 }
 
-.card2 {
-  position: relative;
-  margin-left: 50%;
-  margin-top: 0px;
-  width: 250px;
-  height: 250px;
-  border-radius: 14px;
-  display: flex;
-  flex-direction: column;
-  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+.card:hover {
+  border: 1px solid var(--secondary-color);
+  transform: scale(1.05);
+}
+
+.card:active {
+  transform: scale(0.95) rotateZ(1.7deg);
 }
 
 .card h2{
-    z-index: 3;
-    margin-left: 120px;
-    color: #c97d02;
-    margin-top: 40px;
+  z-index: 3;
+  margin-left: 120px;
+  color: #c97d02;
+  margin-top: 40px;
 }
 .card p{
-  z-index: 3;
-   align-items: center;
-   margin-left: 40px;
-   margin-top: 35px;
-}
-
-.bg {
-  position: absolute;
-  top: 5px;
-  left: 5px;
-  width: 240px;
-  height: 250px;
-  z-index: 2;
-  background: rgba(255, 255, 255, .95);
-  backdrop-filter: blur(24px);
-  border-radius: 10px;
-  overflow: hidden;
-  outline: 2px solid white;
-}
-
-.bolha {
-  position: absolute;
-  z-index: 1;
-  top: 50%;
-  left: 50%;
-  width: 200px;
-  height: 150px;
-  border-radius: 50%;
-  background-color: #010101;
-  opacity: 1;
-  filter: blur(12px);
-  animation: bolha-bounce 5s infinite ease;
-}
-
-@keyframes bolha-bounce {
-  0% {
-    transform: translate(-100%, -100%) translate3d(0, 0, 0);
-  }
-
-  25% {
-    transform: translate(-100%, -100%) translate3d(100%, 0, 0);
-  }
-
-  50% {
-    transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
-  }
-
-  75% {
-    transform: translate(-100%, -100%) translate3d(0, 100%, 0);
-  }
-
-  100% {
-    transform: translate(-100%, -100%) translate3d(0, 0, 0);
-  }
+z-index: 3;
+color: var(--secondary-color);
+ align-items: center;
+ margin-left: 40px;
+ margin-top: 35px;
 }
 
 
 
 
 /* == SCROLL == */
+::-webkit-scrollbar{
+  width: 1em;
+  height: 1em;
+}
+
 ::-webkit-scrollbar-track{
-  background: hsl(52, 58%, 40%);
+  background: hsla(0, 0%, 17%, 0);
   border-radius: 100vw;
   margin-block: .5em;
 }
 
 ::-webkit-scrollbar-thumb{
-  background: hsl(63, 100%, 23%);
+  background: hsl(0, 0%, 73%);
   border-radius: 100vw;
   border: .25em hsl(60, 9%, 2%);
 }
 
 ::-webkit-scrollbar-thumb:hover{
-  background: hsla(65, 27%, 51%, 0.799);
-}
-
-::-webkit-scrollbar{
-  width: 1em;
-  height: 1em;
+  background: hsl(0, 0%, 57%);
 }
