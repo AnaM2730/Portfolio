@@ -449,6 +449,7 @@
     bottom: 0;
     left: 0;
     height: 50px;
+    display: block;
     position: fixed;
     width: 100%;
   }

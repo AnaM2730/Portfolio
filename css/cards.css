@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: center;
   position: sticky;
+  width: 100vw;
 }
 
 .wrapper{
@@ -303,5 +304,3 @@
 .card-proj9, .card-proj10{
   visibility: hidden;
 }
-
-
