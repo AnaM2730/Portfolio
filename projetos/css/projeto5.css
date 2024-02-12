@@ -68,12 +68,12 @@
 }
 
 /* SUPORTE EM OUTROS NAVEGADORES */
-@supports (scrollbar-color: white black){
+/* @supports (scrollbar-color: white black){
     *{
         scrollbar-color:  hsl(0, 0%, 68%) hsl(0, 0%, 0%);
         scrollbar-width: auto;
     }
-}
+} */
 
 
 

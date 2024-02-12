@@ -451,13 +451,10 @@
 .card2 {
   position: relative;
   margin-left: 50%;
-  margin-bottom: 55px;
   margin-top: 0px;
   width: 250px;
   height: 250px;
   border-radius: 14px;
-  z-index: 2;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
@@ -524,4 +521,29 @@
   100% {
     transform: translate(-100%, -100%) translate3d(0, 0, 0);
   }
+}
+
+
+
+
+/* == SCROLL == */
+::-webkit-scrollbar-track{
+  background: hsl(52, 58%, 40%);
+  border-radius: 100vw;
+  margin-block: .5em;
+}
+
+::-webkit-scrollbar-thumb{
+  background: hsl(63, 100%, 23%);
+  border-radius: 100vw;
+  border: .25em hsl(60, 9%, 2%);
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: hsla(65, 27%, 51%, 0.799);
+}
+
+::-webkit-scrollbar{
+  width: 1em;
+  height: 1em;
 }
