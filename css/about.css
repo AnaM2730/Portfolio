@@ -446,23 +446,34 @@
   display: flex;
   flex-direction: column;
   box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
-  
+}
+
+.card2 {
+  position: relative;
+  margin-left: 50%;
+  margin-bottom: 55px;
+  margin-top: 0px;
+  width: 250px;
+  height: 250px;
+  border-radius: 14px;
+  z-index: 2;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
 }
 
 .card h2{
     z-index: 3;
     margin-left: 120px;
+    color: #c97d02;
     margin-top: 40px;
 }
 .card p{
-    z-index: 3;
+  z-index: 3;
    align-items: center;
    margin-left: 40px;
    margin-top: 35px;
-}
-
-.icon{
-    z-index: 3;
 }
 
 .bg {
