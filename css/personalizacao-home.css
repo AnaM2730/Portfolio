@@ -346,17 +346,17 @@
   }
 
   #open-modal:hover{
-      opacity: 2;
-      background-color: rgb(194, 192, 192);
-  }
+    opacity: 2;
+    background-color: rgb(194, 192, 192);
+}
 
 
-  button:hover{
+button:hover{
     opacity: 1;
-  }
+}
 
 
-  #fade {
+#fade {
     position: fixed;
     top: 0;
     left: 0;
@@ -364,9 +364,9 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
     z-index: 5;
-  }
+}
 
-  #modal {
+#modal {
     position: fixed;
     left: 50%;
     top: 50%;
@@ -377,58 +377,58 @@
     padding: 1.2rem;
     border-radius: 0.5rem;
     z-index: 10;
-  }
+}
 
-  #fade,
-  #modal {
+#fade,
+#modal {
     transition: 0.5s;
     opacity: 1;
     pointer-events: all;
-  }
+}
 
-  .modal-header {
+.modal-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #ccc;
     margin-bottom: 1rem;
     padding-bottom: 1rem;
-  }
+}
 
-  .modal-body p {
+.modal-body p {
     margin-bottom: 1rem;
-  }
+}
 
-  #modal.hide,
-  #fade.hide {
+#modal.hide,
+#fade.hide {
     opacity: 0;
     pointer-events: none;
-  }
+}
 
-  #modal.hide {
+#modal.hide {
     top: 0;
-  }
+}
 
 
-  /* ========= CONTATO MODAL ======= */
-  .modal-body a{
+/* ========= CONTATO MODAL ======= */
+.modal-body a{
     color: rgb(223, 0, 0);
     font-size: 1.2em;
     text-decoration: none;
     padding: 65px;
-  }
+}
 
-  .modal-body a:hover{
+.modal-body a:hover{
     color: #ff6464;
-  }
+}
 
-  a.zap{
+a.zap{
     color: green;
-  }
+}
 
-  a.zap:hover{
+a.zap:hover{
     color: rgb(1, 215, 1);
-  }
+}
 
   .skills h2 {
     margin-bottom: 120px;

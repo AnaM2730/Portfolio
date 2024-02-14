@@ -13,17 +13,31 @@
 
 
 body{
-    padding: 1rem;
+  background-color: var(--primary-color);
+  transition: all 0.3s ease-in-out;
 }
 
+body.dark{
+background-color: rgb(38, 38, 38);
+}
 
+:root{
+--primary-color: #edf2fc;
+--secondary-color: #212121;
+--three-color: #686767;
+}
+
+.dark-mode:root{
+--primary-color: #edf2fc;
+--secondary-color: #ffffff;
+}
 
 /* BOTÕES */
 
 nav.contato{
   color: rgb(255, 255, 255);
   margin-top: -51px;
-  margin-left: 90%;
+  margin-left: 88%;
 }
 
 nav li{
@@ -48,47 +62,48 @@ nav li a:hover{
 }
 
 
-  .dropdown{     
-    background: none;
-    font-weight: bold;
-    border-radius: 20px;
-    cursor: pointer;
-    position: relative;
-  }
-  
-
-.dropdown-menu ul li{
-  border: none;
-  border-radius: 0.625em;
-  font-size: 20px;
+.dropdown{     
+  background: none;
   font-weight: bold;
+  border-radius: 20px;
   cursor: pointer;
   position: relative;
-  z-index: 1;
-  overflow: hidden;
+  margin-top: -20px;
+}
+
+
+.dropdown-menu ul li{
+border: none;
+border-radius: 0.625em;
+font-size: 20px;
+font-weight: bold;
+cursor: pointer;
+position: relative;
+z-index: 1;
+overflow: hidden;
 }
 
 .dropdown-menu{
-  position: absolute;
-  border: none;
-  display: none;
-  cursor: pointer;
+position: absolute;
+border: none;
+display: none;
+cursor: pointer;
 }
 
 .dropdown-menu a{
-  display: block;
-  color: rgb(0, 0, 0);
-  padding: 10px;
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
+display: block;
+color: var(--secondary-color);
+padding: 10px;
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 .dropdown:hover .dropdown-menu{
-  display: block;
+display: block;
 }
 
 .dropdown-menu a:hover{
-  background-color: rgb(194, 192, 192);
+background-color: rgb(194, 192, 192);
 }
   
   
@@ -284,4 +299,60 @@ color: rgb(99, 99, 99);
 .footer .footer-info p {
   margin: 0;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+ /* Interruptor - a caixa ao redor do controle deslizante */
+ .switch_container{
+  position: relative;
+  display: inline-block;
+  width: 3.5em;
+  height: 1.8em;
+  margin-left: -222px;
+  margin-bottom: -10px;
+}
+
+/* Ocultar caixa de seleção HTML padrão */
+.switch_container input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* controle deslizante*/
+.switch_container .slider {
+  --background: linear-gradient(to right, #5e5c63ef, #646465);
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--background);
+  transition: background-color 0.5s;
+  border-radius: 15px;
+}
+
+/* sol */
+.switch_container .slider:before {
+  position: absolute;
+  content: "";
+  height: 1.3em;
+  width: 1.3em;
+  border-radius: 50%;
+  left: 12%;
+  bottom: 15%;
+  box-shadow: inset 15px -4px 0px 15px #fff34c;
+  background: var(--background);
+  transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.switch_container input:checked + .slider {
+  background-color: #000;
+}
+
+/* lua */
+.switch_container input:checked + .slider:before {
+  transform: translateX(100%);
+  box-shadow: inset 8px -4px 0px 0px #c8c8f6;
 }
