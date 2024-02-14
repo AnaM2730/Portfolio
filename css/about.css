@@ -487,7 +487,7 @@
 }
 
 .card5{
-  margin-left: 38em;
+  margin-left: 39.4em;
   margin-top: -15.4em;
   width: 250px;
   height: 250px;
@@ -499,7 +499,7 @@
 }
 
 .card6{
-  margin-left: 60em;
+  margin-left: 62.5em;
   margin-top: -15.4em;
   width: 250px;
   height: 250px;
@@ -682,7 +682,11 @@
   text-decoration: none;
   display: block;
   margin-top: 50px;
+}
+
+.home__scroll-button:hover{
   transition: .5s;
+  color: #636262;
 }
 
 .home__scroll-name{
