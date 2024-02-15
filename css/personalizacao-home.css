@@ -395,6 +395,10 @@ button:hover{
     padding-bottom: 1rem;
 }
 
+.modal-header h1{
+  color: black;
+}
+
 .modal-body p {
     margin-bottom: 1rem;
 }
