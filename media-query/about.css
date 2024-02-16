@@ -46,7 +46,7 @@
     }
 
     .about p{
-        margin-left: 8px;
+        margin-left: 15px;
         width: 400px;
     }
     
@@ -62,22 +62,74 @@
     }
 
     .card{
-        width: 230px;
-        margin-left: 20px;
+        width: 200px;
+        margin-left: 15px;
+        float: left;
         height: 250px;
     }
 
     .card2{
-        margin-top: 90px;
-        margin-left: 88px;
+        margin-top: 35px;
+        margin-left: 45px;
+        display: inline-block;
+        height: 250px;
+        width: 200px;
     }
 
     .card3{
-        margin-top: 19px;
+        margin-top: 0em;
+        margin-left: 15px;
+        height: 250px;
+        float: left;
+        width: 200px;
+    }
+
+    .card4{
+        margin-top: -15.5em;
+        margin-right: 21px;
+        float: right;
+        width: 200px;
+        height: 250px;
+    }
+    
+    .card5{
+        margin-top: 3.5em;
+        margin-left: 21px;
+        float: left;
+        width: 200px;
+        height: 250px;
+    }
+    
+    .card6{
+        margin-top: -15.5em;
+        margin-right: 21px;
+        float: right;
+        width: 200px;
+        height: 250px;
+    }
+    
+    .card7{
+        margin-top: 3.5em;
+        margin-left: 21px;
+        float: left;
+        width: 200px;
+        height: 250px;
+    }
+    
+    .card8{
+        margin-top: -15.5em;
+        margin-right: 21px;
+        float: right;
+        width: 200px;
+        height: 250px;
+        margin-bottom: 5em;
     }
 
 
+
+
       /* == FOOTER == */
+
       .footer .footer-title{
         margin-right: 325px;
       }
