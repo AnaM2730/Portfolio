@@ -1,0 +1,93 @@
+@media screen and (max-width: 636px) { /*Pequenas telas*/
+    
+    nav.contato{
+        margin-top: -42px;
+        margin-left: 370px;
+        font-size: 15px;
+          }
+
+      nav li a{
+        font-size: 16px;
+      }
+
+
+      .dropdown-menu a{
+        font-size: 15px;
+      }
+      
+
+      #open-modal{ /* botão */
+      font-size: 15px;
+      width: 35%;
+      margin-top: 25px;
+      margin-left: 210px;
+      }
+
+    .switch_container{
+        margin-left: -20em;
+        font-size: 14px;
+    }
+
+    /* == IMAGEM === */
+    .img-about img{
+        width: 250px;
+        height: 350px;
+        margin-left: -9em;
+        margin-top: 45px;
+    }
+
+    /* ABOUT */
+    .about h4{
+        margin-top: 120px;
+    }
+    .about{
+        text-align: center;
+        margin: 2.5rem;
+    }
+
+    .about p{
+        margin-left: 8px;
+        width: 400px;
+    }
+    
+    .button-CV{
+        display: inline-flex;
+        align-items: center;
+        margin-left: 170px;
+        margin-top: 5px;
+    }
+
+    .home__scroll-button{
+        display: none;
+    }
+
+    .card{
+        width: 230px;
+        margin-left: 20px;
+        height: 250px;
+    }
+
+    .card2{
+        margin-top: 90px;
+        margin-left: 88px;
+    }
+
+    .card3{
+        margin-top: 19px;
+    }
+
+
+      /* == FOOTER == */
+      .footer .footer-title{
+        margin-right: 325px;
+      }
+
+      .footer .footer-links {
+        margin-left: 300px;
+      }
+
+      .footer .footer-info {
+        margin-right: 210px;
+        margin-top: -24px;
+      }
+}
