@@ -364,12 +364,6 @@
 
   .center-projetos span{
       font-size: 15px;
-      font-family: 'fonte1';
-      color: rgb(0, 0, 0);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin: auto;
       margin-top: -440px;
       margin-left: 700px;
   }
@@ -496,7 +490,7 @@
       overflow-x: hidden;
   }
 
-  nav.contato{
+    nav.contato{
       margin-top: -45px;
       width: 185px;
         }
@@ -519,18 +513,9 @@
 
     .center-projetos P{
       margin-top: 50px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 150px;
-      font-family: 'fonte1';
-      color: black;
   }
 
   .center-projetos span{
-      font-size: 15px;
-      font-family: 'fonte1';
-      color: rgb(0, 0, 0);
       margin-left: 800px;
       margin-top: -440px;
   }
