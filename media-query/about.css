@@ -129,6 +129,9 @@
 
 
       /* == FOOTER == */
+      .footer{
+        display: inline-block;
+      }
 
       .footer .footer-title{
         margin-right: 325px;
