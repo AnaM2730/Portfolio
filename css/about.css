@@ -521,6 +521,21 @@
   box-shadow: 12px 17px 51px var(--secondary-color);
 }
 
+.card8{
+  margin-left: 39.5em;
+  margin-top: -15.3em;
+  width: 250px;
+  height: 250px;
+  border-radius: 14px; 
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 12px 17px 51px var(--secondary-color);
+}
+
+
+
+
 /* CARD HOVER */
 .card:hover {
   border: 1px solid var(--secondary-color);
@@ -550,6 +565,10 @@
   transform: scale(1.05);
 }
 .card7:hover {
+  border: 1px solid var(--secondary-color);
+  transform: scale(1.05);
+}
+.card8:hover {
   border: 1px solid var(--secondary-color);
   transform: scale(1.05);
 }
@@ -597,6 +616,12 @@
   margin-top: 40px;
 }
 
+.card8 h2{
+  margin-left: 12px;
+  color: #4a4644;
+  margin-top: 40px;
+}
+
   /* CARD TEXT (P) */
   .card p{
     color: var(--secondary-color);
@@ -639,6 +664,13 @@
   }
   
   .card7 p{
+  color: var(--secondary-color);
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 35px;
+  }
+  
+  .card8 p{
   color: var(--secondary-color);
   align-items: center;
   margin-left: 20px;
