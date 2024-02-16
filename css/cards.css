@@ -1,3 +1,19 @@
+
+body{
+  background-color: var(--primary-color);
+  transition: all 0.3s ease-in-out;
+}
+
+body.dark{
+background-color: rgb(38, 38, 38);
+}
+
+
+.dark-mode:root{
+--primary-color: #3b3b3b;
+--secondary-color: #ffffff;
+}
+
 .container{
   display: flex;
   align-items: center;
@@ -7,7 +23,7 @@
 }
 
 .wrapper{
-  background-color: #fbfbfb; 
+  background-color: var(--primary-color); 
 }
 
 

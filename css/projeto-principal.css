@@ -12,25 +12,6 @@
 }
 
 
-body{
-  background-color: var(--primary-color);
-  transition: all 0.3s ease-in-out;
-}
-
-body.dark{
-background-color: rgb(38, 38, 38);
-}
-
-:root{
---primary-color: #edf2fc;
---secondary-color: #212121;
---three-color: #686767;
-}
-
-.dark-mode:root{
---primary-color: #edf2fc;
---secondary-color: #ffffff;
-}
 
 /* BOTÕES */
 
