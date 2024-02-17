@@ -137,8 +137,7 @@
 
     .about h4{
         font-size: 60px;
-      color: var(--secondary-color);
-
+        color: var(--secondary-color);
     }
 
     .about p{
