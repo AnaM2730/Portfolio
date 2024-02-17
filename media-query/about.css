@@ -33,13 +33,16 @@
     .img-about img{
         width: 250px;
         height: 350px;
-        margin-left: -9em;
-        margin-top: 45px;
+        margin: 30px -134px;
     }
+    #tecnologias{
+        margin-top: 85px;
+    }
+
 
     /* ABOUT */
     .about h4{
-        margin-top: 120px;
+        margin-top: 50px;
     }
     .about{
         text-align: center;
@@ -151,7 +154,7 @@
 @media screen and (min-width: 636px) and (max-width: 768px){ /*Celular*/
     nav.contato{
         margin-top: -42px;
-        margin-left: 34em;
+        margin-left: 600px;
         font-size: 15px;
         width: 25%;
           }
@@ -168,13 +171,13 @@
 
       #open-modal{ /* botão */
       font-size: 15px;
-      width: 25%;
+      width: 20%;
       margin-top: 25px;
-      margin-left: 21em;
+      margin-left: 440px;
       }
 
     .switch_container{
-        margin-left: -20em;
+        margin-left: -244px;
         font-size: 14px;
     }
 
@@ -183,7 +186,6 @@
         width: 200px;
         height: 300px;
         margin-left: -14em;
-        display: inline-block;
         margin-top: 90px;
     }
 
@@ -206,7 +208,7 @@
     .button-CV{
         display: inline-flex;
         align-items: center;
-        margin-left: 170px;
+        margin-left: 430px;
         margin-top: 5px;
     }
 
@@ -287,11 +289,11 @@
       }
 
       .footer .footer-title{
-        margin-right: 325px;
+        margin-right: 345px;
       }
 
       .footer .footer-links {
-        margin-left: 300px;
+        margin-left: 450px;
       }
 
       .footer .footer-info {
