@@ -608,3 +608,158 @@
         margin-top: -24px;
       }
 }
+
+@media screen and (min-width: 679px) and (max-width: 1360px){ /*Tela 2*/
+    nav.contato{
+        margin-top: -42px;
+        margin-left: 1180px;
+        font-size: 15px;
+        width: 25%;
+          }
+
+      nav li a{
+        font-size: 16px;
+      }
+
+
+      .dropdown-menu a{
+        font-size: 15px;
+      }
+      
+
+      #open-modal{ /* botão */
+      font-size: 15px;
+      width: 10%;
+      margin-top: 25px;
+      margin-left: 1032px;
+      }
+
+    .switch_container{
+        margin-left: -244px;
+        font-size: 14px;
+    }
+
+    /* == IMAGEM === */
+    .img-about img{
+        width: 312px;
+        height: 440px;
+        margin-left: 1em;
+        margin-top: 64px;
+    }
+
+    /* ABOUT */
+    .about h4{
+        margin-top: -10.5em;
+        margin-left: 15em;
+        font-size: 3rem;
+    }
+    .about{
+        text-align: center;
+        margin: 2.5rem;
+    }
+
+    .about p{
+        margin-left: 50em;
+        width: 440px;
+    }
+    
+    .tittle h3{
+        margin-top: 85px;
+        font-size: 45px;
+    }
+
+    .button-CV{
+        display: inline-flex;
+        align-items: center;
+        margin-left: 950px;
+        margin-top: 5px;
+    }
+
+    .home__scroll-button{
+        margin-left: 85px;
+        margin-top: -155px;
+    }
+
+    .card{
+        width: 240px;
+        margin-left: 172px;
+        float: left;
+        height: 250px;
+    }
+
+    .card2{
+        margin-top: 35px;
+        margin-left: 142px;
+        display: inline-block;
+        height: 250px;
+        width: 240px;
+    }
+
+    .card3{
+        display: block;
+        margin-top: 2.5em;
+        margin-right: 160px;
+        height: 250px;
+        width: 240px;
+    }
+
+    .card4{
+        margin-top: 4.5em;
+        margin-left: 176px;
+        width: 240px;
+        height: 250px;
+    }
+    
+    .card5{
+        margin-top: -15.5em;
+        margin-left: 557px;
+        width: 240px;
+        height: 250px;
+    }
+    
+    .card6{
+        margin-top: -15.5em;
+        margin-right: 154px;
+        float: right;
+        width: 240px;
+        height: 250px;
+    }
+    
+    .card7{
+        margin-top: 3.5em;
+        margin-left: 175px;
+        float: left;
+        width: 240px;
+        height: 250px;
+    }
+    
+    .card8{
+        margin-top: -15.5em;
+        margin-right: 544px;
+        float: right;
+        width: 240px;
+        height: 250px;
+        margin-bottom: 5em;
+    }
+
+
+
+
+      /* == FOOTER == */
+      .footer{
+        display: inline-block;
+      }
+
+      .footer .footer-title{
+        margin-right: 345px;
+      }
+
+      .footer .footer-links {
+        margin-left: 750px;
+      }
+
+      .footer .footer-info {
+        margin-right: 210px;
+        margin-top: -24px;
+      }
+}
