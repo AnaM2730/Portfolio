@@ -4,6 +4,7 @@
         margin-top: -42px;
         margin-left: 370px;
         font-size: 15px;
+        width: 25%;
           }
 
       nav li a{
@@ -18,7 +19,7 @@
 
       #open-modal{ /* botão */
       font-size: 15px;
-      width: 35%;
+      width: 25%;
       margin-top: 25px;
       margin-left: 210px;
       }
@@ -48,6 +49,158 @@
     .about p{
         margin-left: 15px;
         width: 400px;
+    }
+    
+    .button-CV{
+        display: inline-flex;
+        align-items: center;
+        margin-left: 170px;
+        margin-top: 5px;
+    }
+
+    .home__scroll-button{
+        display: none;
+    }
+
+    .card{
+        width: 200px;
+        margin-left: 15px;
+        float: left;
+        height: 250px;
+    }
+
+    .card2{
+        margin-top: 35px;
+        margin-left: 45px;
+        display: inline-block;
+        height: 250px;
+        width: 200px;
+    }
+
+    .card3{
+        margin-top: 0em;
+        margin-left: 15px;
+        height: 250px;
+        float: left;
+        width: 200px;
+    }
+
+    .card4{
+        margin-top: -15.5em;
+        margin-right: 21px;
+        float: right;
+        width: 200px;
+        height: 250px;
+    }
+    
+    .card5{
+        margin-top: 3.5em;
+        margin-left: 21px;
+        float: left;
+        width: 200px;
+        height: 250px;
+    }
+    
+    .card6{
+        margin-top: -15.5em;
+        margin-right: 21px;
+        float: right;
+        width: 200px;
+        height: 250px;
+    }
+    
+    .card7{
+        margin-top: 3.5em;
+        margin-left: 21px;
+        float: left;
+        width: 200px;
+        height: 250px;
+    }
+    
+    .card8{
+        margin-top: -15.5em;
+        margin-right: 21px;
+        float: right;
+        width: 200px;
+        height: 250px;
+        margin-bottom: 5em;
+    }
+
+
+
+
+      /* == FOOTER == */
+      .footer{
+        display: inline-block;
+      }
+
+      .footer .footer-title{
+        margin-right: 325px;
+      }
+
+      .footer .footer-links {
+        margin-left: 300px;
+      }
+
+      .footer .footer-info {
+        margin-right: 210px;
+        margin-top: -24px;
+      }
+}
+
+@media screen and (min-width: 636px) and (max-width: 768px){ /*Celular*/
+    nav.contato{
+        margin-top: -42px;
+        margin-left: 34em;
+        font-size: 15px;
+        width: 25%;
+          }
+
+      nav li a{
+        font-size: 16px;
+      }
+
+
+      .dropdown-menu a{
+        font-size: 15px;
+      }
+      
+
+      #open-modal{ /* botão */
+      font-size: 15px;
+      width: 25%;
+      margin-top: 25px;
+      margin-left: 21em;
+      }
+
+    .switch_container{
+        margin-left: -20em;
+        font-size: 14px;
+    }
+
+    /* == IMAGEM === */
+    .img-about img{
+        width: 200px;
+        height: 300px;
+        margin-left: -14em;
+        display: inline-block;
+        margin-top: 90px;
+    }
+
+    /* ABOUT */
+    .about h4{
+        margin-top: -9em;
+        margin-left: 8em;
+        font-size: 2.5rem;
+    }
+    .about{
+        text-align: center;
+        margin: 2.5rem;
+    }
+
+    .about p{
+        margin-left: 18em;
+        width: 381px;
     }
     
     .button-CV{
