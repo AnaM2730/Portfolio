@@ -339,6 +339,25 @@
     float: right;
     margin-right: 50px;
     }
+
+     /* == FOOTER == */
+     .footer{
+      display: inline-block;
+      padding: 35px;
+    }
+
+    .footer .footer-title{
+      margin-right: 345px;
+    }
+
+    .footer .footer-links {
+      margin-left: 450px;
+    }
+
+    .footer .footer-info {
+      margin-right: 210px;
+      margin-top: -24px;
+    }
   }
 
 
@@ -488,7 +507,24 @@
     margin-right: 0px;
     }
 
+    /* == FOOTER == */
+    .footer{
+      display: inline-block;
+      padding: 35px;
+    }
 
+    .footer .footer-title{
+      margin-left: 125px;
+    }
+
+    .footer .footer-links {
+      margin-left: 450px;
+    }
+
+    .footer .footer-info {
+      margin-right: 210px;
+      margin-top: -24px;
+    }
   }
 
 
@@ -540,122 +576,123 @@
 
 
   .card-proj1{
-    width: 450px;
-    height: 300px;
+    width: 350px;
+    height: 345px;
     border-radius: 14px;
     overflow: hidden;
-    display: flex;
-    justify-content: center;
     margin-top: 90px;
     float: left;
+    margin-left: 0px;
   }
 
 
   .card-proj2{
-    width: 450px;
-    height: 300px;
+    width: 350px;
+    height: 345px;
     border-radius: 14px;
     overflow: hidden;
     margin-top: 90px;
-    display: flex;
-    justify-content: center;
     float: right;
+    margin-right: 0px;
   }  
 
   .card-proj3{
-    width: 450px;
-    height: 300px;
+    width: 350px;
+    height: 345px;
     border-radius: 14px;
     overflow: hidden;
-    margin-top: 70px;
-    display: flex;
-    justify-content: center;
+    margin-top: 90px;
     float: left;
+    margin-left: 0px;
   }
 
   .card-proj4{
-    width: 450px;
-    height: 300px;
+    width: 350px;
+    height: 345px;
     border-radius: 14px;
     overflow: hidden;
-    display: flex;
-    justify-content: center;
     margin-top: 90px;
     float: right;
+    margin-right: 0px;
   }
 
   .card-proj5{
-    width: 450px;
-    height: 300px;
+    width: 350px;
+    height: 345px;
     border-radius: 14px;
     overflow: hidden;
-    display: flex;
-    justify-content: center;
     margin-top: 90px;
     float: left;
+    margin-left: 0px;
   }
 
   .card-proj6{
-    width: 450px;
-    height: 300px;
+    width: 350px;
+    height: 345px;
     border-radius: 14px;
     overflow: hidden;
-    display: flex;
-    justify-content: center;
     margin-top: 90px;
     float: right;
+    margin-right: 0px;
   }
 
   .card-proj7{
-    width: 450px;
-    height: 300px;
+    width: 350px;
+    height: 345px;
     border-radius: 14px;
     overflow: hidden;
     margin-top: 90px;
-    display: flex;
-    justify-content: center;
     float: left;
+    margin-left: 0px;
   }
 
   .card-proj8{
-    width: 450px;
-    height: 300px;
+    width: 350px;
+    height: 345px;
     border-radius: 14px;
     overflow: hidden;
     margin-top: 90px;
-    display: flex;
-    justify-content: center;
     float: right;
+    margin-right: 0px;
   }
 
   .card-proj9{
-    width: 450px;
-    height: 300px;
+    width: 350px;
+    height: 345px;
     border-radius: 14px;
     overflow: hidden;
     margin-top: 90px;
-    display: flex;
-    justify-content: center;
     float: left;
+    margin-left: 0px;
   }
 
   .card-proj10{
-    width: 450px;
-    height: 300px;
+    width: 350px;
+    height: 345px;
     border-radius: 14px;
     overflow: hidden;
-    margin-top: 80px;
-    display: flex;
-    justify-content: center;
+    margin-top: 90px;
     float: right;
-
+    margin-right: 0px;
     }
-
     
-/* FOOTER */
-.footer {
-  font-family: 'fonte1';
-  padding: 50px;
+ /* == FOOTER == */
+ .footer{
+  display: inline-block;
+  padding: 45px;
+}
+
+.footer .footer-title{
+  margin-left: 120px;
+}
+
+.footer .footer-links {
+  margin-left: 850px;
+}
+
+.footer .footer-info {
+  margin-right: 210px;
+  margin-top: -24px;
 }
 
     
