@@ -1,29 +1,36 @@
   @media screen and (max-width: 636px){ /*Pequenas telas*/
-      body{
-          overflow-x: hidden;
-      }
-
-      nav.contato{
-          margin-top: -45px;
-          margin-left: 350px;
-          font-size: 10px;
-          width: 135px;
-            }
-
-        nav li a{
-          font-size: 16px;
+    body{
+      overflow-x: hidden;
+    }
+    
+    nav.contato{
+      margin-top: -48px;
+      margin-left: 450px;
+      font-size: 15px;
+      width: 25%;
         }
 
-        .dropdown-menu a{
-          font-size: 15px;
-        }
-        
+    nav li a{
+      font-size: 16px;
+    }
 
-        #open-modal{ /* botão */
-        font-size: 14px;
-        width: 150px;
-        margin-left: 180px;
-        }
+
+    .dropdown-menu a{
+      font-size: 15px;
+    }
+    
+
+    #open-modal{ /* botão */
+    font-size: 15px;
+    width: 15%;
+    margin-top: 25px;
+    margin-left: 320px;
+    }
+
+  .switch_container{
+      margin-left: -250px;
+      font-size: 14px;
+  }
         
         .modal-body a{
           padding: 45px;
@@ -43,21 +50,17 @@
           font-size: 15px;
           font-family: 'fonte1';
           color: rgb(0, 0, 0);
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          margin: auto;
-          margin-top: -490px;
-          margin-left: 1020px;
+          margin-top: -400px;
+          margin-left: 400px;
       }
 
      
-      .card-pro1{
+      .card-proj1{
         width: 350px;
         height: 350px;
         border-radius: 14px;
         overflow: hidden;
-        margin-top: 150px;
+        margin: 141px 168px 88px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -68,8 +71,7 @@
         height: 350px;
         border-radius: 14px;
         overflow: hidden;
-        margin-left: 52px;
-        margin-top: 90px;
+        margin: 141px 168px 88px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -80,7 +82,7 @@
         height: 350px;
         border-radius: 14px;
         overflow: hidden;
-        margin-top: 80px;
+        margin: 141px 168px 88px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -91,8 +93,7 @@
         height: 350px;
         border-radius: 14px;
         overflow: hidden;
-        margin-left: 52px;
-        margin-top: 80px;
+        margin: 141px 168px 88px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -103,7 +104,7 @@
         height: 350px;
         border-radius: 14px;
         overflow: hidden;
-        margin-top: 80px;
+        margin: 141px 168px 88px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -115,7 +116,7 @@
         height: 350px;
         border-radius: 14px;
         overflow: hidden;
-        margin-top: 80px;
+        margin: 141px 168px 88px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -126,7 +127,7 @@
         height: 350px;
         border-radius: 14px;
         overflow: hidden;
-        margin-top: 80px;
+        margin: 141px 168px 88px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -137,8 +138,7 @@
         height: 350px;
         border-radius: 14px;
         overflow: hidden;
-        margin-left: 52px;
-        margin-top: 80px;
+        margin: 141px 168px 88px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -149,7 +149,7 @@
         height: 350px;
         border-radius: 14px;
         overflow: hidden;
-        margin-top: 80px;
+        margin: 141px 168px 88px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -161,12 +161,30 @@
         border-radius: 14px;
         margin-left: 52px;
         overflow: hidden;
-        margin-top: 80px;
+        margin: 141px 168px 88px;
         display: flex;
         align-items: center;
         justify-content: center;
       }
 
+      /* == FOOTER == */
+      .footer{
+        display: inline-block;
+        padding: 65px;
+      }
+
+      .footer .footer-title{
+        margin-right: 325px;
+      }
+
+      .footer .footer-links {
+        margin-left: 300px;
+      }
+
+      .footer .footer-info {
+        margin-right: 210px;
+        margin-top: -24px;
+      }
     }
 
 
