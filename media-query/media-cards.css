@@ -528,17 +528,7 @@
   }
 
 
-
-
-
-
-
-
-
-
-
-
-  @media screen and (min-width: 992px){ /*Desktop e telas grandes*/
+  @media screen and (min-width: 992px) and (max-width: 1357px){ /*Desktop e telas grandes*/
     
     body{
       overflow-x: hidden;
@@ -696,5 +686,171 @@
 }
 
     
+  }
+
+  @media screen and (min-width: 811px) and (max-width: 1440px){ /*Tela 1*/
+    body{
+      overflow-x: hidden;
+  }
+
+    nav.contato{
+      margin-top: -45px;
+      width: 185px;
+        }
+
+    nav li a{
+      font-size: 16px;
+    }
+
+    .dropdown-menu a{
+      font-size: 16px;
+    }
+    
+
+    #open-modal{ /* botão */
+    font-size: 15px;
+    width: 160px;
+    margin-left: 77%;
+    }
+
+
+    .center-projetos P{
+      margin-top: 50px;
+  }
+
+  .center-projetos span{
+      margin-left: 800px;
+      margin-top: -440px;
+  }
+
+  
+.card-proj1, .card-proj2, .card-proj3, .card-proj4,
+.card-proj5, .card-proj6, .card-proj7, .card-proj8, 
+.card-proj9, .card-proj10{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}  
+
+  .card-proj1{
+    width: 480px;
+    height:390px;
+    border-radius: 14px;
+    overflow: hidden;
+    margin-top: 90px;
+    float: left;
+    margin-left: 50px;
+  }
+
+
+  .card-proj2{
+    width: 480px;
+    height:390px;
+    border-radius: 14px;
+    overflow: hidden;
+    margin-top: 90px;
+    float: right;
+    margin-right: 70px;
+  }  
+
+  .card-proj3{
+    width: 480px;
+    height:390px;
+    border-radius: 14px;
+    overflow: hidden;
+    margin-top: 90px;
+    float: left;
+    margin-left: 58px;
+  }
+
+  .card-proj4{
+    width: 480px;
+    height:390px;
+    border-radius: 14px;
+    overflow: hidden;
+    margin-top: 90px;
+    float: right;
+    margin-right: 70px;
+  }
+
+  .card-proj5{
+    width: 480px;
+    height:390px;
+    border-radius: 14px;
+    overflow: hidden;
+    margin-top: 90px;
+    float: left;
+    margin-left: 58px;
+  }
+
+  .card-proj6{
+    width: 480px;
+    height:390px;
+    border-radius: 14px;
+    overflow: hidden;
+    margin-top: 90px;
+    float: right;
+    margin-right: 70px;
+  }
+
+  .card-proj7{
+    width: 480px;
+    height:390px;
+    border-radius: 14px;
+    overflow: hidden;
+    margin-top: 90px;
+    float: left;
+    margin-left: 58px;
+  }
+
+  .card-proj8{
+    width: 480px;
+    height:390px;
+    border-radius: 14px;
+    overflow: hidden;
+    margin-top: 90px;
+    float: right;
+    margin-right: 70px;
+  }
+
+  .card-proj9{
+    width: 480px;
+    height: 390px;
+    border-radius: 14px;
+    overflow: hidden;
+    margin-top: 90px;
+    float: left;
+    margin-left: 58px;
+  }
+
+  .card-proj10{
+    width: 480px;
+    height: 390px;
+    border-radius: 14px;
+    overflow: hidden;
+    margin-top: 90px;
+    float: right;
+    margin-right: 70px;
+    }
+
+   
+ /* == FOOTER == */
+ .footer{
+  display: inline-block;
+  padding: 45px;
+}
+
+.footer .footer-title{
+  margin-left: 120px;
+}
+
+.footer .footer-links {
+  margin-left: 850px;
+}
+
+.footer .footer-info {
+  margin-right: 210px;
+  margin-top: -24px;
+}
   }
 
