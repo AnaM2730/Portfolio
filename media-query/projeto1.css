@@ -1,8 +1,5 @@
 @media screen and (max-width: 636px){ /*Pequenas telas*/
-    body{
-        overflow-y: scroll;
-        overflow-x: hidden;
-    }
+    
     
     .camada2{
         background-image: url(../projetos/img-projetos/annabella-proj1.png);

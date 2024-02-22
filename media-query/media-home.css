@@ -6,7 +6,7 @@
               }
           
           nav.contato{
-              margin-top: -53px;
+              margin-top: -45px;
               margin-left: 406px;
               font-size: 10px;
               width: 35%;
@@ -14,7 +14,7 @@
 
             nav li a{
               font-size: 16px;
-              color: black;
+              color: var(--secondary-color);
             }
 
 
@@ -41,7 +41,8 @@
           .caixa-fundo p{ /* PORTFOLIO */
               margin-top: -5%;
               font-size: 65px;
-              color: black;
+              color: var(--secondary-color);
+              font-family: 'fonte1';
               margin-left: 15px;
           }
 
@@ -58,15 +59,15 @@
               height: 10%;
               width: 85%;
               font-size: 20px;
-              color: black;
+              color: var(--secondary-color);
               margin-top: 10px;
           }
 
-          h2{
+          .skills h2{
             font-size: 25px;
             display: flex;
             justify-content: center;
-            margin-top: 140px;
+            margin-top: 120px;
           }
 
           /* BOTÃO REDE SOCIAL */
@@ -122,13 +123,12 @@
           nav.contato{
             margin-top: -53px;
             margin-left: 520px;
-            font-size: 10px;
             width: 35%;
               }
 
           nav li a{
             font-size: 16px;
-            color: black;
+            color: var(--secondary-color);
           }
 
 
@@ -136,12 +136,18 @@
             font-size: 15px;
           }
           
+          .switch_container{
+            margin-left: -244px;
+            font-size: 14px;
+        }
+    
+    
 
           #open-modal{ /* botão */
           font-size: 15px;
-          width: 35%;
+          width: 15%;
           margin-top: 25px;
-          margin-left: 290px;
+          margin-left: 412px;
           }
           
           /* CAIXA DE FUNDO */
@@ -156,7 +162,8 @@
             margin-top: -5%;
             font-size: 75px;
             position: relative;
-            color: black;
+            font-family: 'fonte1';
+            color: var(--secondary-color);
             margin-left: 35px;
         }
 
@@ -173,15 +180,15 @@
             height: 10%;
             width: 85%;
             font-size: 20px;
-            color: black;
+            color: var(--secondary-color);
             margin-top: 10px;
         }
 
-        h2{
+       .skills h2{
           font-size: 25px;
           display: flex;
           justify-content: center;
-          margin-top: 140px;
+          margin-top: 120px;
         }
 
         /* BOTÃO REDE SOCIAL */
@@ -210,6 +217,21 @@
         position: relative;
         margin-top: -15%;
       }
+
+      /* == FOOTER == */
+      .footer .footer-title{
+        margin-right: 325px;
+      }
+
+      .footer .footer-links {
+        margin-left: 380px;
+      }
+
+      .footer .footer-info {
+        margin-right: 210px;
+        margin-top: -24px;
+      }
+
       }
 
 
@@ -219,79 +241,117 @@
           body{
               overflow-x: hidden;
           }
-        
+          
           nav.contato{
-              margin-top: -50px;
-              margin-left: 60%;
-              font-size: 10px;
-                }
+            margin-top: -53px;
+            margin-left: 520px;
+            width: 35%;
+              }
 
-            nav li a{
-              font-size: 20px;
-            }
-
-            .dropdown-menu a{
-              font-size: 18px;
-            }
-            
-
-            #open-modal{ /* botão */
-              font-size: 18px;
-              width: 18%;
-            }
-
-              /* CAIXA DE FUNDO */
-          .caixa-fundo{
-              background: #D9D9D9;
-              height: 550px;
-              width: 550px;
-              margin-left: 25%; 
-          }
-          .caixa-fundo p{ /* PORTFOLIO */
-              color: white;
-              margin-top: -60px;
-              font-size: 100px;
-              font-family: 'fonte1';
-          }
-
-          .capa img{
-              margin-left: -550px;
-              margin-top: 20px;
-              width: 500px;
-          }
-
-          .right-text p{
-              float: left;
-              margin-left: 10%;
-              font-size: 20px;
-              margin-top: 35px;
+          nav li a{
+            font-size: 16px;
           }
 
 
+          .dropdown-menu a{
+            font-size: 15px;
+          }
+          
+          .switch_container{
+            margin-left: -244px;
+            font-size: 14px;
+        }
+    
+    
 
-          /* BOTÃO REDE SOCIAL */
-          /* BTN - SOCIAL / GITHUB*/
-      .btn-social {
-          width: 45px;
-          height: 45px;
-          margin-left: 85%;
-          margin-top: -190px;
+          #open-modal{ /* botão */
+          font-size: 15px;
+          width: 15%;
+          margin-top: 25px;
+          margin-left: 412px;
+          }
+          
+          /* CAIXA DE FUNDO */
+        .caixa-fundo{
+            background: #686767;
+            height: 420px;
+            width: 450px;
+            margin-left: 8%; 
+            margin-top: 45px;
+        }
+        .caixa-fundo p{ /* PORTFOLIO */
+            margin-top: -5%;
+            font-size: 75px;
+            position: relative;
+            font-family: 'fonte1';
+            margin-left: 35px;
         }
 
-        .btn-social2 {
-          width: 45px;
-          height: 45px;
-          margin-left: 85%;
-          margin-top: -110px;
+        .capa img{
+            margin-left: -450px;
+            margin-top: 158px;
+            position: absolute;
+            width: 55%;
         }
 
-
-        .btn-social3{
-          width: 45px;
-          height: 45px;
-          margin-left: 85%;
-          margin-top: -110px;
+        .right-text p{
+            float: left;
+            margin-left: 10%;
+            height: 10%;
+            width: 85%;
+            font-size: 20px;
+            color: var(--secondary-color);
+            margin-top: 10px;
         }
+
+       .skills h2{
+          font-size: 25px;
+          display: flex;
+          justify-content: center;
+          margin-top: 120px;
+        }
+
+        /* BOTÃO REDE SOCIAL */
+        /* BTN - SOCIAL / GITHUB*/
+    .btn-social {/* gth */
+        width: 35px;
+        height: 35px;
+        margin-left: 80%;
+        margin-top: 58%;
+        position: relative;
+      }
+
+      .btn-social2{ /* insta */
+        width: 35px;
+        height: 35px;
+        margin-left: 80%;
+        position: relative;
+        margin-top: -15%;
+      }
+
+
+      .btn-social3{ /* lk */
+        width: 35px;
+        height: 35px;
+        margin-left: 80%;
+        position: relative;
+        margin-top: -15%;
+      }
+
+      /* == FOOTER == */
+      .footer .footer-title{
+        margin-right: 325px;
+      }
+
+      .footer .footer-links {
+        margin-left: 380px;
+      }
+
+      .footer .footer-info {
+        margin-right: 210px;
+        margin-top: -24px;
+      }
+
       }
 
 
