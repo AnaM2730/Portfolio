@@ -473,10 +473,9 @@
       
 
       #open-modal{ /* botão */
-      font-size: 15px;
-      width: 15%;
-      margin-top: 25px;
-      margin-left: 640px;
+        font-size: 15px;
+        margin-left: 80%;
+        margin-top: 4%;
       }
 
     .switch_container{
